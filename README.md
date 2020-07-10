@@ -1,5 +1,7 @@
 # Wood
 
+https://github.com/duzyn/wood/workflows/Excavator/badge.svg
+
 Run below command in PowerShell to add the bucket:
 
     scoop bucket add wood https://github.com/duzyn/wood
