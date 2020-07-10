@@ -1,6 +1,6 @@
 # Wood
 
-https://github.com/duzyn/wood/workflows/Excavator/badge.svg
+![](https://github.com/duzyn/wood/workflows/Excavator/badge.svg)
 
 Run below command in PowerShell to add the bucket:
 
