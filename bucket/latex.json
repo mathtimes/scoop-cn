@@ -8,7 +8,7 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/win32/miktex/setup/windows-x64/basic-miktex-20.11-x64.exe",
+            "url": "https://mirrors.aliyun.com/CTAN/systems/win32/miktex/setup/windows-x64/basic-miktex-20.11-x64.exe",
             "hash": "a77f8d0052d6be81e71fc53b21320cb691b5a9c33378707d899930efbb350487",
             "bin": [
                 [
@@ -20,7 +20,7 @@
             "env_add_path": "texmfs\\install\\miktex\\bin\\x64"
         },
         "32bit": {
-            "url": "https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/win32/miktex/setup/windows-x86/basic-miktex-20.11.exe",
+            "url": "https://mirrors.aliyun.com/CTAN/systems/win32/miktex/setup/windows-x86/basic-miktex-20.11.exe",
             "hash": "b5e78dcd0691b63eb345ebc40c73a4f14308721a7c0a7e12e97fc282ea682f0f",
             "bin": [
                 [
@@ -47,10 +47,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/win32/miktex/setup/windows-x64/basic-miktex-$version-x64.exe"
+                "url": "https://mirrors.aliyun.com/CTAN/systems/win32/miktex/setup/windows-x64/basic-miktex-$version-x64.exe"
             },
             "32bit": {
-                "url": "https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/win32/miktex/setup/windows-x86/basic-miktex-$version.exe"
+                "url": "https://mirrors.aliyun.com/CTAN/systems/win32/miktex/setup/windows-x86/basic-miktex-$version.exe"
             }
         },
         "hash": {
