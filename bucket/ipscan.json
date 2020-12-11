@@ -8,7 +8,7 @@
         "--arch 32bit"
     ],
     "suggest": {
-        "JRE": "java/adopt8-hotspot-jre"
+        "JRE": "wood/adopt8-hotspot-jre"
     },
     "architecture": {
         "64bit": {
