@@ -1,10 +1,10 @@
 {
-    "version": "0.49",
+    "version": "0.50",
     "description": "Inno Setup Unpacker.",
     "homepage": "http://innounp.sourceforge.net",
     "license": "GPL-3.0-only",
-    "url": "https://raw.sevencdn.com/ScoopInstaller/Binary/master/innounp/innounp049.rar",
-    "hash": "sha1:a3dfd3caf456c301265d9e115e6393059b3f0fad",
+    "url": "https://raw.sevencdn.com/ScoopInstaller/Binary/master/innounp/innounp050.rar",
+    "hash": "10e8d6c7a70bdd815970953dd08127a9125b69b8aaa042386a22b94d2638a720",
     "bin": "innounp.exe",
     "checkver": "Version\\s+([\\d\\.]+)\\s*<br>",
     "autoupdate": {
