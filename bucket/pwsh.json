@@ -1,16 +1,16 @@
 {
-    "version": "7.1.0",
+    "version": "7.0.4",
     "description": "Cross-platform automation and configuration tool/framework, known as Powershell Core, that works well with existing tools and is optimized for dealing with structured data.",
     "homepage": "https://github.com/PowerShell/PowerShell",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/PowerShell/PowerShell/releases/download/v7.1.0/PowerShell-7.1.0-win-x64.zip",
-            "hash": "c86f260f92b31d4e8e30b1ebbeb09e13364fc095ecf1538d9a8cec18d21d5d32"
+            "url": "https://download.fastgit.org/PowerShell/PowerShell/releases/download/v7.0.4/PowerShell-7.0.4-win-x64.zip",
+            "hash": "0c1755bf6e45f63502c6267d90e88279efc2b87559ec4723d8a596a1fb4a9025"
         },
         "32bit": {
-            "url": "https://download.fastgit.org/PowerShell/PowerShell/releases/download/v7.1.0/PowerShell-7.1.0-win-x86.zip",
-            "hash": "3d0f768573317a0f69dab4f924b772ee947828d89cbf6bf5c7242b45a3800fbc"
+            "url": "https://download.fastgit.org/PowerShell/PowerShell/releases/download/v7.0.4/PowerShell-7.0.4-win-x86.zip",
+            "hash": "ee5e54c63bf881ca7893617d8c8e52dfc2b289240de9a097c6bc1d129510c82b"
         }
     },
     "bin": "pwsh.exe",
