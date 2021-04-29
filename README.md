@@ -18,7 +18,7 @@
 
     scoop install wood/<app_name>
     
-## 更新软件库
+## 更新应用库
 
 把以下命令粘贴到 PowerShell 执行:
 

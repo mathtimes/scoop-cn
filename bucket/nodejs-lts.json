@@ -1,18 +1,18 @@
 {
     "homepage": "https://nodejs.org",
     "description": "As an asynchronous event driven JavaScript runtime, Node is designed to build scalable network applications. (Long Term Support)",
-    "version": "14.15.4",
+    "version": "14.16.1",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://npm.taobao.org/mirrors/node/v14.15.4/node-v14.15.4-win-x64.7z",
-            "hash": "1da86f92f158e53ee79469daf5e6a3e3f2e6e7c233bbf4b91ab12e1ca9503444",
-            "extract_dir": "node-v14.15.4-win-x64"
+            "url": "https://npm.taobao.org/mirrors/node/v14.16.1/node-v14.16.1-win-x64.7z",
+            "hash": "3797bbe3c9ff6a0052eb550afcbf2af1ba7374743e54ce89039bbbcd3e988944",
+            "extract_dir": "node-v14.16.1-win-x64"
         },
         "32bit": {
-            "url": "https://npm.taobao.org/mirrors/node/v14.15.4/node-v14.15.4-win-x86.7z",
-            "hash": "e631956bbf65cb046c7d38d0f0a4633755e86df1ff5f37c3610d55f706c1f0c0",
-            "extract_dir": "node-v14.15.4-win-x86"
+            "url": "https://npm.taobao.org/mirrors/node/v14.16.1/node-v14.16.1-win-x86.7z",
+            "hash": "005a8c367608d96eb13a79d78cf28df161ee8aa63766e6d130c7ae3977dd241a",
+            "extract_dir": "node-v14.16.1-win-x86"
         }
     },
     "persist": [

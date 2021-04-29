@@ -1,15 +1,15 @@
 {
     "homepage": "https://www.python.org/",
     "license": "Python-2.0",
-    "version": "3.8.7",
+    "version": "3.8.9",
     "architecture": {
         "64bit": {
-            "url": "https://npm.taobao.org/mirrors/python/3.8.7/python-3.8.7-amd64.exe#/py3.exe",
-            "hash": "md5:325ec7acd0e319963b505aea877a23a4"
+            "url": "https://npm.taobao.org/mirrors/python/3.8.9/python-3.8.9-amd64.exe#/py3.exe",
+            "hash": "md5:4f973848788a5d09a1225f27b18bd305"
         },
         "32bit": {
-            "url": "https://npm.taobao.org/mirrors/python/3.8.7/python-3.8.7.exe#/py3.exe",
-            "hash": "md5:ed99dc2ec9057a60ca3591ccce29e9e4"
+            "url": "https://npm.taobao.org/mirrors/python/3.8.9/python-3.8.9.exe#/py3.exe",
+            "hash": "md5:e3b00b7f4782e50dad4adcf81b103ce6"
         }
     },
     "installer": {
