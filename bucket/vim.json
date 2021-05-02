@@ -2,7 +2,7 @@
     "homepage": "https://www.vim.org",
     "description": "A highly configurable text editor for efficiently creating and changing any kind of text.",
     "license": "Vim",
-    "version": "8.2",
+    "version": "8.2.2824",
     "url": [
         "https://mirrors.ustc.edu.cn/vim/pc/gvim82.exe#/dl.7z",
         "https://raw.sevencdn.com/ScoopInstaller/Main/master/scripts/vim/install-context.reg",
