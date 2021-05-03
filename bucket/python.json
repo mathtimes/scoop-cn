@@ -2,29 +2,29 @@
     "homepage": "https://www.python.org/",
     "description": "A programming language that lets you work quickly and integrate systems more effectively.",
     "license": "Python-2.0",
-    "version": "3.9.4",
+    "version": "3.9.5",
     "notes": "Allow applications and third-party installers to find python by running: \"$dir\\install-pep-514.reg\"",
     "architecture": {
         "64bit": {
             "url": [
-                "https://npm.taobao.org/mirrors/python/3.9.4/python-3.9.4-amd64.exe#/setup.exe",
+                "https://npm.taobao.org/mirrors/python/3.9.5/python-3.9.5-amd64.exe#/setup.exe",
                 "https://raw.sevencdn.com/ScoopInstaller/Main/master/scripts/python/install-pep-514.reg",
                 "https://raw.sevencdn.com/ScoopInstaller/Main/master/scripts/python/uninstall-pep-514.reg"
             ],
             "hash": [
-                "md5:1a1412dd7c18aa0c7c7e55b00a244844",
+                "md5:53a354a15baed952ea9519a7f4d87c3f",
                 "5d9d7a604c057e67973e1d4b3b488ae20a0e5ee5496d03b5cf091410e33e39ed",
                 "d9309423b693ed63aea6b1fbfc0c34f16842cdca22a1b3edef283b87567a53b9"
             ]
         },
         "32bit": {
             "url": [
-                "https://npm.taobao.org/mirrors/python/3.9.4/python-3.9.4.exe#/setup.exe",
+                "https://npm.taobao.org/mirrors/python/3.9.5/python-3.9.5.exe#/setup.exe",
                 "https://raw.sevencdn.com/ScoopInstaller/Main/master/scripts/python/install-pep-514.reg",
                 "https://raw.sevencdn.com/ScoopInstaller/Main/master/scripts/python/uninstall-pep-514.reg"
             ],
             "hash": [
-                "md5:f008d17e6beafed3a86eb0f8d13e1850",
+                "md5:b29b19a94bbe498808e5e12c51625dd8",
                 "5d9d7a604c057e67973e1d4b3b488ae20a0e5ee5496d03b5cf091410e33e39ed",
                 "d9309423b693ed63aea6b1fbfc0c34f16842cdca22a1b3edef283b87567a53b9"
             ]
