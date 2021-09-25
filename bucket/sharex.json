@@ -20,6 +20,6 @@
         "github": "https://github.com/ShareX/ShareX"
     },
     "autoupdate": {
-        "url": "https://download.fastgit.org/ShareX/ShareX/releases/download/v$version/ShareX-portable.zip"
+        "url": "https://download.fastgit.org/ShareX/ShareX/releases/download/v$version/ShareX-$version-portable.zip"
     }
 }

@@ -29,8 +29,7 @@
         ]
     },
     "bin": [
-        "sagemath.ps1",
-        [
+        "sagemath.ps1", [
             "sagemath.ps1",
             "sage"
         ],
@@ -72,7 +71,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://mirrors.tuna.tsinghua.edu.cn/sagemath/win/SageMath-$preReleaseVersion-Installer-v$matchHead.exe"
+                "url": "https://download.fastgit.org/sagemath/sage-windows/releases/download/$version/SageMath-$preReleaseVersion-Installer-v$matchHead.exe"
             }
         }
     }
