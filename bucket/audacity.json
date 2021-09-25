@@ -1,0 +1,38 @@
+{
+    "version": "3.0.3",
+    "description": "An easy-to-use, multi-track audio editor and recorder",
+    "homepage": "https://www.audacityteam.org",
+    "license": "GPL-2.0-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.0.3/audacity-win-3.0.3-64bit.zip",
+            "hash": "272b5671bcf116eae8cf1e7488dfdf7195c377b7f012c7fbf2184f21fd9cd928",
+            "extract_dir": "audacity-win-3.0.3-64bit"
+        }
+    },
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\\Portable Settings\\audacity.cfg\")) {",
+        "    ensure \"$dir\\Portable Settings\" | Out-Null",
+        "    Set-Content \"$dir\\Portable Settings\\audacity.cfg\" '[Update]', 'DefaultUpdatesChecking=0' -Encoding Ascii",
+        "}"
+    ],
+    "bin": "Audacity.exe",
+    "shortcuts": [
+        [
+            "Audacity.exe",
+            "Audacity"
+        ]
+    ],
+    "persist": "Portable Settings",
+    "checkver": {
+        "url": "https://github.com/audacity/audacity"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/audacity/audacity/releases/download/Audacity-$version/audacity-win-$version-64bit.zip",
+                "extract_dir": "audacity-win-$version-64bit"
+            }
+        }
+    }
+}

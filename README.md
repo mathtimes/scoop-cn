@@ -7,7 +7,7 @@
 把以下命令粘贴到 PowerShell 执行:
 
     scoop bucket add wood https://github.com/duzyn/wood
-    
+
 如果上述地址访问很慢，可以使用这个命令（使用了 cnpmjs 的代理）：
 
     scoop bucket add wood https://github.com.cnpmjs.org/duzyn/wood
@@ -17,7 +17,7 @@
 把以下命令粘贴到 PowerShell 执行:
 
     scoop install wood/<app_name>
-    
+
 ## 更新应用库
 
 把以下命令粘贴到 PowerShell 执行:
