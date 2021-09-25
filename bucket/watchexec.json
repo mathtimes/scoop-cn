@@ -11,13 +11,19 @@
         }
     },
     "bin": "watchexec.exe",
-    "checkver": "github",
+    "checkver": {
+        "github": "https://github.com/watchexec/watchexec",
+        "regex": "cli v([\\d.]+)"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/watchexec/watchexec/releases/download/$version/watchexec-$version-x86_64-pc-windows-msvc.zip",
+                "url": "https://download.fastgit.org/watchexec/watchexec/releases/download/cli-v$version/watchexec-$version-x86_64-pc-windows-msvc.zip",
                 "extract_dir": "watchexec-$version-x86_64-pc-windows-msvc"
             }
+        },
+        "hash": {
+            "url": "$baseurl/SHA512SUMS"
         }
     }
 }
