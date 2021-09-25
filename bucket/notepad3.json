@@ -15,18 +15,6 @@
                 "28dd141a7d1e40304c44b376fe076b58dc4f57937c8846ff83a72eb22f3a3801",
                 "aeb2cff91aefeb50d0136e3f0aaa00a131ca90e3ee4aee701544e97983442c2e"
             ]
-        },
-        "32bit": {
-            "url": [
-                "https://download.fastgit.org/rizonesoft/Notepad3/releases/download/RELEASE_5.20.915.1/Notepad3_5.20.915.1_x86.7z",
-                "https://raw.sevencdn.com/lukesampson/scoop-extras/master/scripts/notepad3/replace-windows-notepad.reg",
-                "https://raw.sevencdn.com/lukesampson/scoop-extras/master/scripts/notepad3/restore-windows-notepad.reg"
-            ],
-            "hash": [
-                "2d15111a8e94e976fe0bd3e6d484964e15cd95122e5f294a95d7a8c68a73a733",
-                "28dd141a7d1e40304c44b376fe076b58dc4f57937c8846ff83a72eb22f3a3801",
-                "aeb2cff91aefeb50d0136e3f0aaa00a131ca90e3ee4aee701544e97983442c2e"
-            ]
         }
     },
     "post_install": [
@@ -62,10 +50,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/rizonesoft/Notepad3/releases/download/RELEASE_$version/Notepad3_$version_x64.7z"
-            },
-            "32bit": {
-                "url": "https://download.fastgit.org/rizonesoft/Notepad3/releases/download/RELEASE_$version/Notepad3_$version_x86.7z"
+                "url": "https://download.fastgit.org/rizonesoft/Notepad3/releases/download/RELEASE_$version/Notepad3_$version.zip"
             }
         }
     }

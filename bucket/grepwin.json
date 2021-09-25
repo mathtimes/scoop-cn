@@ -58,10 +58,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/stefankueng/grepWin/releases/download/$version/grepWin-x64-$version_portable.exe#/grepWin.exe"
+                "url": "https://download.fastgit.org/stefankueng/grepWin/releases/download/$version/grepWin-x64-$version_portable.zip#/grepWin.zip"
             },
             "32bit": {
-                "url": "https://download.fastgit.org/stefankueng/grepWin/releases/download/$version/grepWin-$version_portable.exe#/grepWin.exe"
+                "url": "https://download.fastgit.org/stefankueng/grepWin/releases/download/$version/grepWin-$version_portable.zip#/grepWin.zip"
             }
         }
     }
