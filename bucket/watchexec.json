@@ -13,7 +13,7 @@
     "bin": "watchexec.exe",
     "checkver": {
         "github": "https://github.com/watchexec/watchexec",
-        "regex": "cli v([\\d.]+)"
+        "regex": "CLI v([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {
