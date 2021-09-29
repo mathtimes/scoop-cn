@@ -1,13 +1,13 @@
 {
-    "version": "3.0.4",
+    "version": "3.0.5",
     "description": "An easy-to-use, multi-track audio editor and recorder",
     "homepage": "https://www.audacityteam.org",
     "license": "GPL-2.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.0.4/audacity-win-3.0.4-64bit.zip",
-            "hash": "c1d21ee50f609c0bbb3d02c55cbb819dd7a2e4d63630b1326a08c0d7bc2a779c",
-            "extract_dir": "audacity-win-3.0.4-64bit"
+            "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.0.5/audacity-win-3.0.5-64bit.zip",
+            "hash": "9edb7c0806244a8c870b4e087dafd7e7d3deb11dd70e6a8d64da3a8a68538f27",
+            "extract_dir": "audacity-win-3.0.5-64bit"
         }
     },
     "pre_install": [
