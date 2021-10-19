@@ -1,13 +1,13 @@
 {
     "homepage": "https://dev.mysql.com/downloads/mysql/",
     "description": "The world's most popular open-source database, supported by an active community.",
-    "version": "8.0.26",
+    "version": "8.0.27",
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://mirrors.tuna.tsinghua.edu.cn/mysql/downloads/MySQL-8.0/mysql-8.0.26-winx64.zip",
-            "hash": "md5:db32c0669cc809abb465bb56e76c77a1",
-            "extract_dir": "mysql-8.0.26-winx64"
+            "url": "https://mirrors.tuna.tsinghua.edu.cn/mysql/downloads/MySQL-8.0/mysql-8.0.27-winx64.zip",
+            "hash": "md5:9d8e7f9f8835d8b512c5f8e9182d9a6a",
+            "extract_dir": "mysql-8.0.27-winx64"
         }
     },
     "bin": [
