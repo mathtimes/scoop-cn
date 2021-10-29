@@ -1,16 +1,16 @@
 {
-    "version": "2.32.0.windows.2",
+    "version": "2.33.1.windows.1",
     "description": "Distributed version control system",
     "homepage": "https://gitforwindows.org",
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://npm.taobao.org/mirrors/git-for-windows/v2.32.0.windows.2/PortableGit-2.32.0.2-64-bit.7z.exe#/dl.7z",
-            "hash": "c5efec6e470dabfb97696dce5f15c50a1173c14a8ae55d5a4cb144dd4c9cb68a"
+            "url": "https://npm.taobao.org/mirrors/git-for-windows/v2.33.1.windows.1/PortableGit-2.33.1-64-bit.7z.exe#/dl.7z",
+            "hash": "723c879eb447583b893aa3234eae8caaa77d9d3ecf90883271fba98e8b2d99ac"
         },
         "32bit": {
-            "url": "https://npm.taobao.org/mirrors/git-for-windows/v2.32.0.windows.2/PortableGit-2.32.0.2-32-bit.7z.exe#/dl.7z",
-            "hash": "c186d5260025203fb862343bc16ae94722f2d23fb160f083b89b0a50f54b1424"
+            "url": "https://npm.taobao.org/mirrors/git-for-windows/v2.33.1.windows.1/PortableGit-2.33.1-32-bit.7z.exe#/dl.7z",
+            "hash": "fad2f32a3ca6e39cfbf7258c485a5601b0bfb620f44c582c1ba22784dd3faad3"
         }
     },
     "post_install": "git config --global credential.helper manager-core",

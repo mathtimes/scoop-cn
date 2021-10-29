@@ -1,10 +1,10 @@
 {
-    "version": "1.8.1",
+    "version": "1.8.3",
     "description": "Windows Installer (.msi) files content viewer and extractor.",
     "homepage": "https://lessmsi.activescott.com",
     "license": "MIT",
-    "url": "https://download.fastgit.org/activescott/lessmsi/releases/download/v1.8.1/lessmsi-v1.8.1.zip",
-    "hash": "1309c1ba220806ca54c4603e53463c4ab50a9d1dc74d9da7abfe0822f2778012",
+    "url": "https://download.fastgit.org/activescott/lessmsi/releases/download/v1.8.3/lessmsi-v1.8.3.zip",
+    "hash": "1cf8599068e1b137a7dee6cff89fa11fb2e43b71ea382ce8e6a8dba0b45868df",
     "bin": "lessmsi.exe",
     "shortcuts": [
         [

@@ -1,23 +1,29 @@
 {
-    "version": "1.15.3",
+    "version": "1.17.1",
     "description": "Execute commands in response to file modifications",
     "homepage": "https://github.com/watchexec/watchexec",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/watchexec/watchexec/releases/download/1.15.3/watchexec-1.15.3-x86_64-pc-windows-msvc.zip",
-            "hash": "ef9f2d85c0e55bfa119151c8add1d39ff0b03c63bb7ba2887befc991190bab76",
-            "extract_dir": "watchexec-1.15.3-x86_64-pc-windows-msvc"
+            "url": "https://download.fastgit.org/watchexec/watchexec/releases/download/cli-v1.17.1/watchexec-1.17.1-x86_64-pc-windows-msvc.zip",
+            "hash": "sha512:c32671b6e4830550c323f97dd269d3270887e0a4875b2bd03e01186ab115b29cd9d76a9613bcccecbc0336a28e2b539bdb1767b6cf8dbc9f57386111986dbb03",
+            "extract_dir": "watchexec-1.17.1-x86_64-pc-windows-msvc"
         }
     },
     "bin": "watchexec.exe",
-    "checkver": "github",
+    "checkver": {
+        "github": "https://github.com/watchexec/watchexec",
+        "regex": "CLI v([\\d.]+)"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/watchexec/watchexec/releases/download/$version/watchexec-$version-x86_64-pc-windows-msvc.zip",
+                "url": "https://download.fastgit.org/watchexec/watchexec/releases/download/cli-v$version/watchexec-$version-x86_64-pc-windows-msvc.zip",
                 "extract_dir": "watchexec-$version-x86_64-pc-windows-msvc"
             }
+        },
+        "hash": {
+            "url": "$baseurl/SHA512SUMS"
         }
     }
 }
