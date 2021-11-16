@@ -5,7 +5,7 @@
     "license": "GPL-2.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.1.0/audacity-win-3.1.0-64bit.zip",
+            "url": "https://download.fastgit.org/audacity/audacity/releases/download/Audacity-3.1.0/audacity-win-3.1.0-64bit.zip",
             "hash": "1e6c9829bf8252c934e5fbfa70ae0df5e015c8e92d2acaf165d4412df8d4c745",
             "extract_dir": "audacity-win-3.1.0-64bit"
         }
@@ -31,11 +31,11 @@
     "autoupdate": {
         "architecture": {
             "32bit": {
-                "url": "https://github.com/audacity/audacity/releases/download/Audacity-$version/audacity-win-$version-32bit.zip",
+                "url": "https://download.fastgit.org/audacity/audacity/releases/download/Audacity-$version/audacity-win-$version-32bit.zip",
                 "extract_dir": "audacity-win-$version-32bit"
             },
             "64bit": {
-                "url": "https://github.com/audacity/audacity/releases/download/Audacity-$version/audacity-win-$version-64bit.zip",
+                "url": "https://download.fastgit.org/audacity/audacity/releases/download/Audacity-$version/audacity-win-$version-64bit.zip",
                 "extract_dir": "audacity-win-$version-64bit"
             }
         }
