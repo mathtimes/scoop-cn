@@ -7,10 +7,38 @@ jobs:
     name: Excavate
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
-    - name: Excavate
-      uses: Ash258/Scoop-GithubActions@stable
-      env:
-        GITH_EMAIL: davidduzyn@outlook.com
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        SKIP_UPDATED: '1'
+    - uses: actions/checkout@v2
+      with:
+        persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal access token.
+        fetch-depth: 0 # otherwise, there would be errors pushing refs to the destination repository.
+    - name: Create local changes
+      run: |
+        curl -o main-master.zip     https://github.com/ScoopInstaller/Main/archive/refs/heads/master.zip
+        curl -o extras-master.zip   https://github.com/lukesampson/scoop-extras/archive/refs/heads/master.zip
+        curl -o verisons-master.zip https://github.com/ScoopInstaller/Versions/archive/refs/heads/master.zip
+
+        sudo apt-get install -y unzip
+
+        unzip -o main-master.zip
+        unzip -o extras-master.zip
+        unzip -o versions-master.zip
+
+        find . -maxdepth 1 -type 'f' | xargs rm
+        find . -maxdepth 1 -type 'd' | grep -v "bucket" | xargs rmdir
+
+        perl -pi -e 's/https\:\/\/github\.com\/(.+)\/releases\/download/https\:\/\/download\.fastgit\.org\/$1\/releases\/download/g' ./bucket/*.json
+
+        perl -pi -e 's/https\:\/\/miktex\.org\/download\/ctan/https\:\/\/mirrors\.aliyun\.com\/CTAN/g' ./bucket/latex.json
+
+        perl -pi -e 's/https\:\/\/nodejs\.org\/dist/https\:\/\/npm\.taobao\.org\/mirrors\/node/g' ./bucket/nodejs*.json
+
+    - name: Commit files
+      run: |
+        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git commit -m "Add changes" -a
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: ${{ github.ref }}
