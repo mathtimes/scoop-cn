@@ -1,0 +1,39 @@
+{
+    "version": "0.5.5.2",
+    "description": "Reversing tool for PE files",
+    "homepage": "https://hshrzd.wordpress.com/pe-bear/",
+    "license": "Freeware",
+    "suggest": {
+        "vcredist": "vcredist2015"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://download.fastgit.org/hasherezade/pe-bear-releases/releases/download/0.5.5.2/PE-bear_0.5.5.2_x64_win_vs17.zip",
+            "hash": "00ac03b72444de80144ce97ac1622d10b372c0358b1e9cdd0a5a9863b010bc8f"
+        },
+        "32bit": {
+            "url": "https://download.fastgit.org/hasherezade/pe-bear-releases/releases/download/0.5.5.2/PE-bear_0.5.5.2_x86_win_vs17.zip",
+            "hash": "08d8a745ee9a9e89fdca683611dc6d236f40844523e6e70733d392e9c1bd8a53"
+        }
+    },
+    "bin": "PE-bear.exe",
+    "shortcuts": [
+        [
+            "PE-bear.exe",
+            "PE-bear"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/hasherezade/pe-bear-releases"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://download.fastgit.org/hasherezade/pe-bear-releases/releases/download/$version/PE-bear_$version_x64_win_vs17.zip"
+            },
+            "32bit": {
+                "url": "https://download.fastgit.org/hasherezade/pe-bear-releases/releases/download/$version/PE-bear_$version_x86_win_vs17.zip"
+            }
+        }
+    }
+}

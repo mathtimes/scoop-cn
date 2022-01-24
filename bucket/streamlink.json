@@ -1,0 +1,49 @@
+{
+    "version": "3.1.0",
+    "description": "A command-line utility that pipes video streams from various services into a video player.",
+    "homepage": "https://streamlink.github.io/",
+    "license": "BSD-2-Clause",
+    "suggest": {
+        "FFmpeg": [
+            "ffmpeg",
+            "ffmpeg-nightly"
+        ],
+        "VLC Player": "extras/vlc"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://download.fastgit.org/beardypig/streamlink-portable/releases/download/3.1.0/streamlink-portable-3.1.0-py3.6.8-amd64.zip",
+            "hash": "838621c976bd3b0660021e42e9b526bb6a47e2ff1b6f7f2ea3f2e7502e0cc459"
+        },
+        "32bit": {
+            "url": "https://download.fastgit.org/beardypig/streamlink-portable/releases/download/3.1.0/streamlink-portable-3.1.0-py3.6.8-win32.zip",
+            "hash": "2f067d2d63cb8822ac7b95d7734c07ec05050d6d751f8010f2c9ee743ac1a0f3"
+        }
+    },
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\\config\")) {",
+        "    if (Test-Path \"$env:APPDATA\\streamlink\\config\") {",
+        "        info 'Copying existing ''config'' from ''%APPDATA%\\streamlink\\config'''",
+        "        Copy-Item \"$env:APPDATA\\streamlink\\config\" \"$dir\\config\"",
+        "    } else {",
+        "        Copy-Item \"$dir\\config.template\" \"$dir\\config\"",
+        "    }",
+        "}"
+    ],
+    "extract_dir": "streamlink",
+    "bin": "streamlink.bat",
+    "persist": "config",
+    "checkver": {
+        "github": "https://github.com/beardypig/streamlink-portable"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://download.fastgit.org/beardypig/streamlink-portable/releases/download/$version/streamlink-portable-$version-py3.6.8-amd64.zip"
+            },
+            "32bit": {
+                "url": "https://download.fastgit.org/beardypig/streamlink-portable/releases/download/$version/streamlink-portable-$version-py3.6.8-win32.zip"
+            }
+        }
+    }
+}
