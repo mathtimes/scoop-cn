@@ -13,24 +13,23 @@ jobs:
         fetch-depth: 0 # otherwise, there would be errors pushing refs to the destination repository.
     - name: Create local changes
       run: |
-        curl -o main-master.zip     https://github.com/ScoopInstaller/Main/archive/refs/heads/master.zip
-        curl -o extras-master.zip   https://github.com/lukesampson/scoop-extras/archive/refs/heads/master.zip
-        curl -o verisons-master.zip https://github.com/ScoopInstaller/Versions/archive/refs/heads/master.zip
+        rm -rf Main scoop-extras Versions
 
-        sudo apt-get install -y unzip
+        git clone --depth=1  https://github.com/ScoopInstaller/Main
+        git clone --depth=1  https://github.com/lukesampson/scoop-extras
+        git clone --depth=1  https://github.com/ScoopInstaller/Versions
 
-        unzip -o main-master.zip
-        unzip -o extras-master.zip
-        unzip -o versions-master.zip
-
-        find . -maxdepth 1 -type 'f' | xargs rm
-        find . -maxdepth 1 -type 'd' | grep -v "bucket" | xargs rmdir
+        cp -rf Main/bucket/*         ./bucket
+        cp -rf scoop-extras/bucket/* ./bucket
+        cp -rf Versions/bucket/*     ./bucket
 
         perl -pi -e 's/https\:\/\/github\.com\/(.+)\/releases\/download/https\:\/\/download\.fastgit\.org\/$1\/releases\/download/g' ./bucket/*.json
 
         perl -pi -e 's/https\:\/\/miktex\.org\/download\/ctan/https\:\/\/mirrors\.aliyun\.com\/CTAN/g' ./bucket/latex.json
 
         perl -pi -e 's/https\:\/\/nodejs\.org\/dist/https\:\/\/npm\.taobao\.org\/mirrors\/node/g' ./bucket/nodejs*.json
+
+        rm -rf Main scoop-extras Versions
 
     - name: Commit files
       run: |
