@@ -1,7 +1,10 @@
 on:
+  push:
+    branches:    
+      - 'main'
   schedule:
   - cron: '0 * * * *'
-name: Excavator
+
 jobs:
   excavate:
     name: Excavate
@@ -9,16 +12,24 @@ jobs:
     steps:
     - uses: actions/checkout@v2
       with:
-        persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal access token.
-        fetch-depth: 0 # otherwise, there would be errors pushing refs to the destination repository.
-    - name: Create local changes
+        fetch-depth: 1
+    - uses: actions/checkout@v2
+      with:
+        repository: 'ScoopInstaller/Main'
+        fetch-depth: 1
+        path: 'Main'
+    - uses: actions/checkout@v2
+      with:
+        repository: 'lukesampson/scoop-extras'
+        fetch-depth: 1
+        path: 'scoop-extras'
+    - uses: actions/checkout@v2
+      with:
+        repository: 'ScoopInstaller/Versions'
+        fetch-depth: 1
+        path: 'Versions'
+    - name: Update bucket
       run: |
-        rm -rf Main scoop-extras Versions
-
-        git clone --depth=1  https://github.com/ScoopInstaller/Main
-        git clone --depth=1  https://github.com/lukesampson/scoop-extras
-        git clone --depth=1  https://github.com/ScoopInstaller/Versions
-
         cp -rf Main/bucket/*         ./bucket
         cp -rf scoop-extras/bucket/* ./bucket
         cp -rf Versions/bucket/*     ./bucket
@@ -43,13 +54,9 @@ jobs:
 
         rm -rf Main scoop-extras Versions
 
-    - name: Commit files
-      run: |
-        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git config --local user.name "github-actions[bot]"
-        git commit -m "Add changes" -a
-    - name: Push changes
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: ${{ github.ref }}
+        date > generated.txt
+        git config user.name github-actions
+        git config user.email github-actions@github.com
+        git add .
+        git commit -m "generated"
+        git push
