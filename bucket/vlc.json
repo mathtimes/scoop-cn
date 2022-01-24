@@ -5,11 +5,11 @@
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://download.videolan.org/pub/vlc/3.0.16/win64/vlc-3.0.16-win64.7z",
+            "url": "https://mirrors.ustc.edu.cn/videolan-ftp/vlc/3.0.16/win64/vlc-3.0.16-win64.7z",
             "hash": "af609a4b20bbe69b21d075077328dfcd188395a700151aa989c92ec840666570"
         },
         "32bit": {
-            "url": "https://download.videolan.org/pub/vlc/3.0.16/win32/vlc-3.0.16-win32.7z",
+            "url": "https://mirrors.ustc.edu.cn/videolan-ftp/vlc/3.0.16/win32/vlc-3.0.16-win32.7z",
             "hash": "0cefb38c46e3bc440122d29bb4e3f6467b45d82cae4c1670483c73340bac56e3"
         }
     },
@@ -37,10 +37,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.videolan.org/pub/vlc/$version/win64/vlc-$version-win64.7z"
+                "url": "https://mirrors.ustc.edu.cn/videolan-ftp/vlc/$version/win64/vlc-$version-win64.7z"
             },
             "32bit": {
-                "url": "https://download.videolan.org/pub/vlc/$version/win32/vlc-$version-win32.7z"
+                "url": "https://mirrors.ustc.edu.cn/videolan-ftp/vlc/$version/win32/vlc-$version-win32.7z"
             }
         },
         "hash": {
