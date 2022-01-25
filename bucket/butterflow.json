@@ -19,7 +19,7 @@
             }
         },
         "hash": {
-            "url": "https://raw.githubusercontent.com/dthpham/butterflow/master/README.md",
+            "url": "https://raw.fastgit.org/dthpham/butterflow/master/README.md",
             "regex": "$basename\\s+\\* Sha256: $sha256"
         }
     }

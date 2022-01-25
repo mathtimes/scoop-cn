@@ -8,8 +8,8 @@
         "64bit": {
             "url": [
                 "https://www.python.org/ftp/python/3.9.10/python-3.9.10-amd64.exe#/setup.exe",
-                "https://raw.githubusercontent.com/ScoopInstaller/Main/master/scripts/python/install-pep-514.reg",
-                "https://raw.githubusercontent.com/ScoopInstaller/Main/master/scripts/python/uninstall-pep-514.reg"
+                "https://raw.fastgit.org/ScoopInstaller/Main/master/scripts/python/install-pep-514.reg",
+                "https://raw.fastgit.org/ScoopInstaller/Main/master/scripts/python/uninstall-pep-514.reg"
             ],
             "hash": [
                 "md5:747ac35ae667f4ec1ee3b001e9b7dbc6",
@@ -20,8 +20,8 @@
         "32bit": {
             "url": [
                 "https://www.python.org/ftp/python/3.9.10/python-3.9.10.exe#/setup.exe",
-                "https://raw.githubusercontent.com/ScoopInstaller/Main/master/scripts/python/install-pep-514.reg",
-                "https://raw.githubusercontent.com/ScoopInstaller/Main/master/scripts/python/uninstall-pep-514.reg"
+                "https://raw.fastgit.org/ScoopInstaller/Main/master/scripts/python/install-pep-514.reg",
+                "https://raw.fastgit.org/ScoopInstaller/Main/master/scripts/python/uninstall-pep-514.reg"
             ],
             "hash": [
                 "md5:457d648dc8a71b6bc32da30a7805c55b",

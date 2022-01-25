@@ -9,8 +9,8 @@
     },
     "url": [
         "https://ftp.nluug.nl/pub/vim/pc/gvim82.exe#/dl.7z",
-        "https://raw.githubusercontent.com/ScoopInstaller/Main/master/scripts/vim/install-context.reg",
-        "https://raw.githubusercontent.com/ScoopInstaller/Main/master/scripts/vim/uninstall-context.reg"
+        "https://raw.fastgit.org/ScoopInstaller/Main/master/scripts/vim/install-context.reg",
+        "https://raw.fastgit.org/ScoopInstaller/Main/master/scripts/vim/uninstall-context.reg"
     ],
     "hash": [
         "md5:7d6ae2732e27b172f37b2ab097e2c2d4",

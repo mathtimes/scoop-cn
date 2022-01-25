@@ -11,8 +11,8 @@
         "64bit": {
             "url": [
                 "https://7-zip.org/a/7z2107-x64.msi",
-                "https://raw.githubusercontent.com/ScoopInstaller/Main/master/scripts/7-zip/install-context.reg",
-                "https://raw.githubusercontent.com/ScoopInstaller/Main/master/scripts/7-zip/uninstall-context.reg"
+                "https://raw.fastgit.org/ScoopInstaller/Main/master/scripts/7-zip/install-context.reg",
+                "https://raw.fastgit.org/ScoopInstaller/Main/master/scripts/7-zip/uninstall-context.reg"
             ],
             "hash": [
                 "5447c9ac39c48f1bc7c88359b0520396a8c9707b307c107236a93a68e6fd3eb6",
@@ -23,8 +23,8 @@
         "32bit": {
             "url": [
                 "https://7-zip.org/a/7z2107.msi",
-                "https://raw.githubusercontent.com/ScoopInstaller/Main/master/scripts/7-zip/install-context.reg",
-                "https://raw.githubusercontent.com/ScoopInstaller/Main/master/scripts/7-zip/uninstall-context.reg"
+                "https://raw.fastgit.org/ScoopInstaller/Main/master/scripts/7-zip/install-context.reg",
+                "https://raw.fastgit.org/ScoopInstaller/Main/master/scripts/7-zip/uninstall-context.reg"
             ],
             "hash": [
                 "b3ca98a8784c710108bbf56f9355ac6060af770b8459a32d94cc09b73cf0af7e",

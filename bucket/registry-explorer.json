@@ -18,7 +18,7 @@
     ],
     "persist": "Settings",
     "checkver": {
-        "url": "https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/index.md",
+        "url": "https://raw.fastgit.org/EricZimmerman/ericzimmerman.github.io/master/index.md",
         "regex": "Registry Explorer/RECmd \\| \\[([\\d.]+)\\]"
     },
     "autoupdate": {

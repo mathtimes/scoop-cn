@@ -31,7 +31,7 @@
             }
         },
         "hash": {
-            "url": "https://raw.githubusercontent.com/stedolan/jq/jq-$version/sig/v$version/sha256sum.txt"
+            "url": "https://raw.fastgit.org/stedolan/jq/jq-$version/sig/v$version/sha256sum.txt"
         }
     }
 }

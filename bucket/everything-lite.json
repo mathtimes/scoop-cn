@@ -8,8 +8,8 @@
         "64bit": {
             "url": [
                 "https://www.voidtools.com/Everything-1.4.1.1015.x64.Lite.zip",
-                "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/scripts/everything/install-context.reg",
-                "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/scripts/everything/uninstall-context.reg"
+                "https://raw.fastgit.org/ScoopInstaller/Extras/master/scripts/everything/install-context.reg",
+                "https://raw.fastgit.org/ScoopInstaller/Extras/master/scripts/everything/uninstall-context.reg"
             ],
             "hash": [
                 "8eb4ccbb4791f9582c237104e391d85c1682012dd43e44cc8e42bf488dd40483",
@@ -20,8 +20,8 @@
         "32bit": {
             "url": [
                 "https://www.voidtools.com/Everything-1.4.1.1015.x86.Lite.zip",
-                "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/scripts/everything/install-context.reg",
-                "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/scripts/everything/uninstall-context.reg"
+                "https://raw.fastgit.org/ScoopInstaller/Extras/master/scripts/everything/install-context.reg",
+                "https://raw.fastgit.org/ScoopInstaller/Extras/master/scripts/everything/uninstall-context.reg"
             ],
             "hash": [
                 "fe538241d8647e28ae7ddf5df4ff955f5b5cb993b1164363dd0e16efbc80cf01",

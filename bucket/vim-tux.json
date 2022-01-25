@@ -11,8 +11,8 @@
         "64bit": {
             "url": [
                 "https://tuxproject.de/projects/vim/complete-x64.7z",
-                "https://raw.githubusercontent.com/ScoopInstaller/Main/master/scripts/vim/install-context.reg",
-                "https://raw.githubusercontent.com/ScoopInstaller/Main/master/scripts/vim/uninstall-context.reg"
+                "https://raw.fastgit.org/ScoopInstaller/Main/master/scripts/vim/install-context.reg",
+                "https://raw.fastgit.org/ScoopInstaller/Main/master/scripts/vim/uninstall-context.reg"
             ],
             "hash": [
                 "8297441c0ec838906e1897570470f6f22b329f4fdcbfe4f22f7a82ce8dd6c033",
@@ -23,8 +23,8 @@
         "32bit": {
             "url": [
                 "https://tuxproject.de/projects/vim/complete-x86.7z",
-                "https://raw.githubusercontent.com/ScoopInstaller/Main/master/scripts/vim/install-context.reg",
-                "https://raw.githubusercontent.com/ScoopInstaller/Main/master/scripts/vim/uninstall-context.reg"
+                "https://raw.fastgit.org/ScoopInstaller/Main/master/scripts/vim/install-context.reg",
+                "https://raw.fastgit.org/ScoopInstaller/Main/master/scripts/vim/uninstall-context.reg"
             ],
             "hash": [
                 "2cf596d2fc9a3f95326495726263e18e1e5c19a89f06074a7dcfebbf9eb928b3",

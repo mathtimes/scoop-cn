@@ -4,7 +4,7 @@
     "homepage": "https://github.com/mozilla/mozjpeg",
     "license": {
         "identifier": "BSD-3-Clause,IJG,Zlib",
-        "url": "https://raw.githubusercontent.com/mozilla/mozjpeg/master/LICENSE.md"
+        "url": "https://raw.fastgit.org/mozilla/mozjpeg/master/LICENSE.md"
     },
     "architecture": {
         "64bit": {

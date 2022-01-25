@@ -19,7 +19,7 @@
     "autoupdate": {
         "url": "https://download.fastgit.org/chris2511/xca/releases/download/RELEASE.$version/xca-portable-$version.zip",
         "hash": {
-            "url": "https://raw.githubusercontent.com/chris2511/xca/master/misc/binary-hashes.json",
+            "url": "https://raw.fastgit.org/chris2511/xca/master/misc/binary-hashes.json",
             "jsonpath": "$.['$basename']"
         },
         "extract_dir": "xca-portable-$version"

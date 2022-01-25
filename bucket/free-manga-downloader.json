@@ -26,7 +26,7 @@
         "works"
     ],
     "checkver": {
-        "url": "https://raw.githubusercontent.com/fmd-project-team/FMD/master/update",
+        "url": "https://raw.fastgit.org/fmd-project-team/FMD/master/update",
         "regex": "VERSION=([\\d.]+)"
     },
     "autoupdate": {

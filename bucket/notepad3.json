@@ -7,8 +7,8 @@
         "64bit": {
             "url": [
                 "https://download.fastgit.org/rizonesoft/Notepad3/releases/download/RELEASE_5.21.1129.1/Notepad3_5.21.1129.1_x64.zip",
-                "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/scripts/notepad3/replace-windows-notepad.reg",
-                "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/scripts/notepad3/restore-windows-notepad.reg"
+                "https://raw.fastgit.org/ScoopInstaller/Extras/master/scripts/notepad3/replace-windows-notepad.reg",
+                "https://raw.fastgit.org/ScoopInstaller/Extras/master/scripts/notepad3/restore-windows-notepad.reg"
             ],
             "hash": [
                 "c5311c69fc376f94fa14f79cdccc6b2f3557a59ae93ba38a332650b7c2dd41cf",
@@ -19,8 +19,8 @@
         "32bit": {
             "url": [
                 "https://download.fastgit.org/rizonesoft/Notepad3/releases/download/RELEASE_5.21.1129.1/Notepad3_5.21.1129.1_x86.zip",
-                "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/scripts/notepad3/replace-windows-notepad.reg",
-                "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/scripts/notepad3/restore-windows-notepad.reg"
+                "https://raw.fastgit.org/ScoopInstaller/Extras/master/scripts/notepad3/replace-windows-notepad.reg",
+                "https://raw.fastgit.org/ScoopInstaller/Extras/master/scripts/notepad3/restore-windows-notepad.reg"
             ],
             "hash": [
                 "5636df4d0a9595f90598e80353e0db5186354a4dfd54e411cdf39988be459681",

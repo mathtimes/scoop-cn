@@ -18,7 +18,7 @@
     "autoupdate": {
         "url": "https://download.fastgit.org/Electron-Cash/Electron-Cash/releases/download/$version/Electron-Cash-$version-portable.exe#/Electron-Cash.exe",
         "hash": {
-            "url": "https://raw.githubusercontent.com/Electron-Cash/keys-n-hashes/master/sigs-and-sums/$version/win-linux/SHA256.$basename.txt"
+            "url": "https://raw.fastgit.org/Electron-Cash/keys-n-hashes/master/sigs-and-sums/$version/win-linux/SHA256.$basename.txt"
         }
     }
 }

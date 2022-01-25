@@ -41,7 +41,7 @@
             "64bit": {
                 "url": "https://download.fastgit.org/pritunl/pritunl-client-electron/releases/download/$version/Pritunl.exe#/dl.exe",
                 "hash": {
-                    "url": "https://raw.githubusercontent.com/pritunl/pritunl-client-electron/master/SHA256",
+                    "url": "https://raw.fastgit.org/pritunl/pritunl-client-electron/master/SHA256",
                     "regex": "$version[\\r\\n]+$sha256.*?$basename"
                 }
             }
