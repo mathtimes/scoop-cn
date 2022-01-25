@@ -30,6 +30,11 @@ jobs:
         path: 'Versions'
     - uses: actions/checkout@v2
       with:
+        repository: 'scoopinstaller/Java'
+        fetch-depth: 1
+        path: 'Java'
+    - uses: actions/checkout@v2
+      with:
         repository: 'duzyn/scoop'
         fetch-depth: 1
         path: 'scoop'
@@ -38,6 +43,7 @@ jobs:
         cp -rf Main/bucket/*         ./bucket
         cp -rf scoop-extras/bucket/* ./bucket
         cp -rf Versions/bucket/*     ./bucket
+        cp -rf Java/bucket/*         ./bucket
         cp -rf scoop/bucket/*        ./bucket
 
         perl -pi -e 's/github\.com\/(.+)\/releases\/download/download\.fastgit\.org\/$1\/releases\/download/g' ./bucket/*.json
@@ -59,7 +65,7 @@ jobs:
         cp ./bucket/firefox.json ./bucket/firefox-zh-cn.json
         perl -pi -e 's/en-US/zh-CN/g' ./bucket/firefox-zh-cn.json
 
-        rm -rf Main scoop-extras Versions scoop
+        rm -rf Main scoop-extras Versions Java scoop
 
         git config user.name github-actions
         git config user.email github-actions@github.com
