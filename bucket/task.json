@@ -1,7 +1,7 @@
 {
     "version": "3.11.0",
-    "description": "A task runner / build tool that aims to be simpler and easier to use",
-    "homepage": "https://taskfile.org",
+    "description": "A task runner / simpler Make alternative written in Go",
+    "homepage": "https://taskfile.dev/",
     "license": "MIT",
     "architecture": {
         "64bit": {
@@ -15,7 +15,7 @@
     },
     "bin": "task.exe",
     "checkver": {
-        "github": "https://github.com/go-task/task/"
+        "github": "https://github.com/go-task/task"
     },
     "autoupdate": {
         "architecture": {
