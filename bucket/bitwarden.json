@@ -1,16 +1,16 @@
 {
-    "version": "1.30.0",
+    "version": "1.31.3",
     "description": "Password management solutions for individuals, teams, and business organizations",
     "homepage": "https://bitwarden.com",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/bitwarden/desktop/releases/download/v1.30.0/bitwarden-1.30.0-x64.nsis.7z",
-            "hash": "sha512:b0121e09f9b5633bdf93898236f927b4757ac50606fa7756c1f55532f56d872dfe5062401735656d1d58c14f6d70496cfac3949fd4063480c657dbbe8dc19da8"
+            "url": "https://download.fastgit.org/bitwarden/desktop/releases/download/v1.31.3/bitwarden-1.31.3-x64.nsis.7z",
+            "hash": "sha512:02c89ea605d609c8cf35e0ff048619663f61774427f3d98909a8ef1c72e34487b400bbacabae53cb76c4f367ccdd952a84b1dfa2502a3f6e8074061ac73ee199"
         },
         "32bit": {
-            "url": "https://download.fastgit.org/bitwarden/desktop/releases/download/v1.30.0/bitwarden-1.30.0-ia32.nsis.7z",
-            "hash": "sha512:e0db84433fc8a9dea4f7d7c47946d64884dfdff218e60e1f1599c010732338cfbef20a434ee2817011356734423c9e4743830fb4ef81eaa46373dacc24a3ff43"
+            "url": "https://download.fastgit.org/bitwarden/desktop/releases/download/v1.31.3/bitwarden-1.31.3-ia32.nsis.7z",
+            "hash": "sha512:aa6990095cb03661b79dc205a44ca031ec2376ea8d9599e4a2a34fd178727b32c9e18ed2ba5f3b5339acb0944e843f35e2a538eeaeccb40ccb51f5387ed3bdcb"
         }
     },
     "bin": "Bitwarden.exe",

@@ -1,6 +1,6 @@
 {
     "homepage": "https://brave.com",
-    "version": "1.36.87",
+    "version": "1.36.101",
     "description": "Secure, Fast & Private Web Browser with Adblocker (beta release)",
     "license": {
         "identifier": "Freeware,BSD-3-Clause,GPL-3.0-only,...",
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/brave/brave-browser/releases/download/v1.36.87/brave-v1.36.87-win32-x64.zip",
-            "hash": "9ee4ac872c9e2970b0861f456d0dcbfcbf4ebe9fdfb0d910e0592d9fcc65de60"
+            "url": "https://download.fastgit.org/brave/brave-browser/releases/download/v1.36.101/brave-v1.36.101-win32-x64.zip",
+            "hash": "2eb5c47f52514b7defd5b329437c0b44ae1c192493377adbd6902e95a691f46c"
         }
     },
     "bin": [

@@ -1,5 +1,5 @@
 {
-    "version": "99.0a1.20220208070047",
+    "version": "99.0a1.20220222144226",
     "description": "Nightly builds of Firefox: the popular open source web browser.",
     "homepage": "https://www.mozilla.org/en-US/firefox/nightly/",
     "license": "MPL-2.0",
@@ -11,16 +11,23 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://archive.mozilla.org/pub/firefox/nightly/2022/02/2022-02-08-07-00-47-mozilla-central/firefox-99.0a1.en-US.win64.installer.exe#/dl.7z",
-            "hash": "sha512:4a0edf437b3cd5f87bc674e22a226d6de1bc9415f69c6c3da8c07f0be90f382d41519ad4f81060d1d8dee03ccfbfebcc61ffbc2a3711f452e594e85f1283dcca"
+            "url": "https://archive.mozilla.org/pub/firefox/nightly/2022/02/2022-02-22-14-42-26-mozilla-central/firefox-99.0a1.en-US.win64.installer.exe#/dl.7z",
+            "hash": "sha512:b66e92fd9504693ca9289930294635cc3d0125b0b4f4d24943d59bf577d57ae7d51b4d2ca8eb9b429bbb5a1838f3bd8154eeb0f36dc3b9f151e080f9be337f4c"
         },
         "32bit": {
-            "url": "https://archive.mozilla.org/pub/firefox/nightly/2022/02/2022-02-08-07-00-47-mozilla-central/firefox-99.0a1.en-US.win32.installer.exe#/dl.7z",
-            "hash": "sha512:2f02f8a3f1ba258b2b52abb5795bf2f9e94c51a6b1b5d886d3059d8beeba0346cc89f5698235079892b2352bfe2437f1f292935839336a03a6b497bd911da7b5"
+            "url": "https://archive.mozilla.org/pub/firefox/nightly/2022/02/2022-02-22-14-42-26-mozilla-central/firefox-99.0a1.en-US.win32.installer.exe#/dl.7z",
+            "hash": "sha512:4042d2a0e2d831c0467a164b3caf64175ed9c7287d49ad89b08222b3d960c5a33a92bd03aee8cb932473e1d6eb9e6f1f53966b84c2aa6becdd1f46a381da0371"
         }
     },
     "extract_dir": "core",
-    "post_install": "firefox-nightly -CreateProfile \"Scoop-Nightly $dir\\profile\"",
+    "post_install": [
+        "firefox-nightly -CreateProfile \"Scoop-Nightly $persist_dir\\profile\"",
+        "$Addition = \"$persist_dir\\addition\"",
+        "if (Test-Path $Addition) {",
+        "  info 'Copying additional items...'",
+        "  Copy-Item -Path $Addition\\* -Destination $dir -Force -Recurse -ErrorAction SilentlyContinue",
+        "}"
+    ],
     "bin": [
         [
             "firefox.exe",

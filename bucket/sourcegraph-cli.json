@@ -1,12 +1,12 @@
 {
-    "version": "3.36.3",
+    "version": "3.37.0",
     "description": "Command line interface to Sourcegraph",
     "homepage": "https://github.com/sourcegraph/src-cli",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/sourcegraph/src-cli/releases/download/3.36.3/src-cli_3.36.3_windows_amd64.tar.gz",
-            "hash": "ded192719e157e7586c7da797ac788509bfbd5632e61356069080453379be1d6"
+            "url": "https://download.fastgit.org/sourcegraph/src-cli/releases/download/3.37.0/src-cli_3.37.0_windows_amd64.tar.gz",
+            "hash": "51b9f17e26f1f54ad5fb709f3df6358f4b8d9ecc242f358386f573b647c9353c"
         }
     },
     "bin": "src.exe",

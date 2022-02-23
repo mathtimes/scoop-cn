@@ -1,12 +1,12 @@
 {
-    "version": "96.0.3",
+    "version": "97.0.1",
     "description": "A fork of Firefox, focused on privacy, security and freedom.",
     "homepage": "https://librewolf.net/",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://gitlab.com/librewolf-community/browser/windows/uploads/5619a0f68ce8ebafd66bbbe2c655505c/librewolf-96.0.3.en-US.win64.zip",
-            "hash": "d2ec7b9ee450c4e1547595cd297c306f87cfb43d3ac448cce0880d311efd1db4"
+            "url": "https://gitlab.com/librewolf-community/browser/windows/uploads/104340b6af08248415936de2c1c94757/librewolf-97.0.1.en-US.win64.zip",
+            "hash": "5952366f1437ec79fa34a45a918e2db88864d1bd3f67bc9c2f0204e1228cbf05"
         }
     },
     "pre_install": [

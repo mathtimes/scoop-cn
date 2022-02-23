@@ -1,5 +1,5 @@
 {
-    "version": "4.2.5",
+    "version": "5.0.1",
     "description": "Developer tools for working with Google's bazel buildtool.",
     "homepage": "https://github.com/bazelbuild/buildtools",
     "license": "Apache-2.0",
@@ -9,14 +9,14 @@
     "architecture": {
         "64bit": {
             "url": [
-                "https://download.fastgit.org/bazelbuild/buildtools/releases/download/4.2.5/buildifier-windows-amd64.exe#/buildifier.exe",
-                "https://download.fastgit.org/bazelbuild/buildtools/releases/download/4.2.5/buildozer-windows-amd64.exe#/buildozer.exe",
-                "https://download.fastgit.org/bazelbuild/buildtools/releases/download/4.2.5/unused_deps-windows-amd64.exe#/unused_deps.exe"
+                "https://download.fastgit.org/bazelbuild/buildtools/releases/download/5.0.1/buildifier-windows-amd64.exe#/buildifier.exe",
+                "https://download.fastgit.org/bazelbuild/buildtools/releases/download/5.0.1/buildozer-windows-amd64.exe#/buildozer.exe",
+                "https://download.fastgit.org/bazelbuild/buildtools/releases/download/5.0.1/unused_deps-windows-amd64.exe#/unused_deps.exe"
             ],
             "hash": [
-                "4185a40d3154cacbe8b79f570b94e2c6f74fc9e317362b7d028c2e6c94edf9ba",
-                "2a9a7176cbd3b2f0ef989502128efbafd3b156ddabae93b9c979cd4017ffa300",
-                "77b092cd6aaaa1a57da3381bb7dcde3d9e5a8f7e74ff21a2b24ec722c765b9ed"
+                "45e13b2951e4c611d346dacdaf0aafaa484045a3e7300fbc5dd01a896a688177",
+                "d60b505e738b97edd2c066f8d239337a5fb1cf4a300a436668e8f7ec3a1925a3",
+                "20ad2000d245902936056704f4660190238539d2ce4fe7b7d0e8a1990660c6cf"
             ]
         }
     },

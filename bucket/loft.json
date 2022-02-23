@@ -1,16 +1,16 @@
 {
-    "version": "2.0.4",
+    "version": "2.1.4",
     "description": "Namespace & Virtual Cluster Manager for Kubernetes",
     "homepage": "https://github.com/loft-sh/loft",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/loft-sh/loft/releases/download/v2.0.4/loft-windows-amd64.exe#/loft.exe",
-            "hash": "3edbe023073111041b8d8d38db114bd8d3f21e7228477f014c3ea13ac4f9eb5f"
+            "url": "https://download.fastgit.org/loft-sh/loft/releases/download/v2.1.4/loft-windows-amd64.exe#/loft.exe",
+            "hash": "abe63bdd12a9b9f1d72fb3723bada91251c13c93e4cd53842cac06adc000f455"
         },
         "32bit": {
-            "url": "https://download.fastgit.org/loft-sh/loft/releases/download/v2.0.4/loft-windows-386.exe#/loft.exe",
-            "hash": "0af02b4ce5423d1fec24cb6fb7b5576188dda891f192d672a424d044a390f817"
+            "url": "https://download.fastgit.org/loft-sh/loft/releases/download/v2.1.4/loft-windows-386.exe#/loft.exe",
+            "hash": "65e1aed411a672ad0037e41be15630ef3b24ef572b47443a1b1e54930b7223a8"
         }
     },
     "bin": "loft.exe",
