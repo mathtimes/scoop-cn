@@ -8,9 +8,9 @@
 
     scoop bucket add wood https://github.com/duzyn/wood
 
-如果上述地址访问很慢，可以使用这个命令（使用了 cnpmjs 的代理）：
+如果上述地址访问很慢，可以使用这个命令（使用了 FastGit 的代理）：
 
-    scoop bucket add wood https://github.com.cnpmjs.org/duzyn/wood
+    scoop bucket add wood https://hub.fastgit.xyz/duzyn/wood
 
 ## 安装应用
 
