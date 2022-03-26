@@ -33,18 +33,12 @@ jobs:
         repository: 'scoopinstaller/Java'
         fetch-depth: 1
         path: 'Java'
-    - uses: actions/checkout@v2
-      with:
-        repository: 'duzyn/scoop'
-        fetch-depth: 1
-        path: 'scoop'
     - name: Update bucket
       run: |
         cp -rf Main/bucket/*         ./bucket
         cp -rf scoop-extras/bucket/* ./bucket
         cp -rf Versions/bucket/*     ./bucket
         cp -rf Java/bucket/*         ./bucket
-        cp -rf scoop/bucket/*        ./bucket
 
         perl -pi -e 's/github\.com\/(.+)\/releases\/download/download\.fastgit\.org\/$1\/releases\/download/g' ./bucket/*.json
         perl -pi -e 's/raw\.githubusercontent\.com/raw\.fastgit\.org/g' ./bucket/*.json
@@ -61,14 +55,10 @@ jobs:
         # dbeaver
         perl -pi -e 's/download\.dbeaver\.com\/community/download\.fastgit\.org\/dbeaver\/dbeaver\/releases\/download/g' ./bucket/dbeaver.json
 
-        # firefox
-        cp ./bucket/firefox.json ./bucket/firefox-zh-cn.json
-        perl -pi -e 's/en-US/zh-CN/g' ./bucket/firefox-zh-cn.json
-
-        rm -rf Main scoop-extras Versions Java scoop
+        rm -rf Main scoop-extras Versions Java
 
         git config user.name github-actions
         git config user.email github-actions@github.com
         git add .
-        git commit -m "generated"
+        git commit -m "Updated"
         git push
