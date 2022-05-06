@@ -29,7 +29,7 @@
     ],
     "checkver": {
         "url": "https://npm.taobao.org/mirrors/node/latest-v8.x/",
-        "re": "node-v([\\d.]+)-x86.msi"
+        "regex": "node-v([\\d.]+)-x86.msi"
     },
     "autoupdate": {
         "architecture": {

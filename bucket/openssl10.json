@@ -33,7 +33,7 @@
         },
         "hash": {
             "mode": "json",
-            "jp": "$.files.['$basename'].sha256",
+            "jsonpath": "$.files.['$basename'].sha256",
             "url": "https://raw.fastgit.org/slproweb/opensslhashes/master/win32_openssl_hashes.json"
         }
     }
