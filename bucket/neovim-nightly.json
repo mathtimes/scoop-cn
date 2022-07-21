@@ -12,7 +12,7 @@
     "architecture": {
         "64bit": {
             "url": "https://download.fastgit.org/neovim/neovim/releases/download/nightly/nvim-win64.zip",
-            "hash": "a4b2de3c459deb76336168fae9eab2e066f75e2a002a0fcc5563d6cc9a5a7561"
+            "hash": "b4d99d2058363091afd01a8f50f5c3ff449d3ca7cfe9a0b972887847f617c7c1"
         }
     },
     "extract_dir": "nvim-win64",
