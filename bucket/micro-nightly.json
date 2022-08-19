@@ -1,19 +1,19 @@
 {
-    "version": "2.0.11-2022-08-16",
+    "version": "2.0.12-dev.1-2022-08-18",
     "description": "A terminal-based text editor that aims to be easy to use and intuitive, while also taking advantage of the full capabilities of modern terminals.",
     "homepage": "https://micro-editor.github.io/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/zyedidia/micro/releases/download/nightly/micro-2.0.11-win64.zip",
-            "hash": "b3b2332553eed3101b33f2c9891b569d8245804109e3154c5890fcf444faa8c8"
+            "url": "https://download.fastgit.org/zyedidia/micro/releases/download/nightly/micro-2.0.12-dev.1-win64.zip",
+            "hash": "02087bd378ed3b5d8fee64b8066b060fd2f26cc41e043cd8e5777db174574275"
         },
         "32bit": {
-            "url": "https://download.fastgit.org/zyedidia/micro/releases/download/nightly/micro-2.0.11-win64.zip",
-            "hash": "b3b2332553eed3101b33f2c9891b569d8245804109e3154c5890fcf444faa8c8"
+            "url": "https://download.fastgit.org/zyedidia/micro/releases/download/nightly/micro-2.0.12-dev.1-win64.zip",
+            "hash": "02087bd378ed3b5d8fee64b8066b060fd2f26cc41e043cd8e5777db174574275"
         }
     },
-    "extract_dir": "micro-2.0.11",
+    "extract_dir": "micro-2.0.12-dev.1",
     "bin": "micro.exe",
     "checkver": {
         "url": "https://api.github.com/repos/zyedidia/micro/releases/tags/nightly",
