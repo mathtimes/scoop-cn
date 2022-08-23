@@ -44,7 +44,7 @@ jobs:
         perl -pi -e 's/raw\.githubusercontent\.com/raw\.fastgit\.org/g' ./bucket/*.json
         
         # 7zip
-        perl -pi -e 's/www\.7-zip\.org\/a/experiments\-alicdn\.sparanoid\.net\/7z/g' ./bucket/7zip.json
+        perl -pi -e 's/7-zip\.org\/a/experiments\-alicdn\.sparanoid\.net\/7z/g' ./bucket/7zip.json
 
         # latex
         perl -pi -e 's/miktex\.org\/download\/ctan/mirrors\.aliyun\.com\/CTAN/g' ./bucket/latex.json
