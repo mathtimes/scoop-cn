@@ -20,9 +20,9 @@ jobs:
         path: 'Main'
     - uses: actions/checkout@v2
       with:
-        repository: 'lukesampson/scoop-extras'
+        repository: 'ScoopInstaller/Extras'
         fetch-depth: 1
-        path: 'scoop-extras'
+        path: 'Extras'
     - uses: actions/checkout@v2
       with:
         repository: 'ScoopInstaller/Versions'
@@ -30,15 +30,18 @@ jobs:
         path: 'Versions'
     - uses: actions/checkout@v2
       with:
-        repository: 'scoopinstaller/Java'
+        repository: 'ScoopInstaller/Java'
         fetch-depth: 1
         path: 'Java'
     - name: Update bucket
       run: |
-        cp -rf Main/bucket/*         ./bucket
-        cp -rf scoop-extras/bucket/* ./bucket
-        cp -rf Versions/bucket/*     ./bucket
-        cp -rf Java/bucket/*         ./bucket
+        cp -rf Main/bucket/*          ./bucket
+        cp -rf Main/scripts/*         ./scripts
+        cp -rf Extras/bucket/*        ./bucket
+        cp -rf Extras/scripts/*       ./scripts
+        cp -rf Versions/bucket/*      ./bucket
+        cp -rf Versions/scripts/*     ./scripts
+        cp -rf Java/bucket/*          ./bucket
 
         perl -pi -e 's/github\.com\/(.+)\/releases\/download/download\.fastgit\.org\/$1\/releases\/download/g' ./bucket/*.json
         perl -pi -e 's/raw\.githubusercontent\.com/raw\.fastgit\.org/g' ./bucket/*.json
@@ -58,7 +61,7 @@ jobs:
         # dbeaver
         perl -pi -e 's/download\.dbeaver\.com\/community/download\.fastgit\.org\/dbeaver\/dbeaver\/releases\/download/g' ./bucket/dbeaver.json
 
-        rm -rf Main scoop-extras Versions Java
+        rm -rf Main Extras Versions Java
         
         # install.ps1
         curl -o install.ps1 https://raw.fastgit.org/scoopinstaller/install/master/install.ps1
