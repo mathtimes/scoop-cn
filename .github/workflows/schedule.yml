@@ -35,6 +35,7 @@ jobs:
         path: 'Java'
     - name: Update bucket
       run: |
+        mkdir -p bucket scripts
         cp -rf Main/bucket/*          ./bucket
         cp -rf Main/scripts/*         ./scripts
         cp -rf Extras/bucket/*        ./bucket
