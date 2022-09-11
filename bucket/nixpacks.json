@@ -1,5 +1,5 @@
 {
-    "version": "0.4.2",
+    "version": "0.5.2",
     "description": "Generate an OCI compliant image based off app source.",
     "homepage": "https://github.com/railwayapp/nixpacks",
     "license": "MIT",
@@ -8,14 +8,14 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/railwayapp/nixpacks/releases/download/v0.4.2/nixpacks-v0.4.2-x86_64-pc-windows-msvc.zip",
-            "hash": "f18c892ee36267551f1ffc043f9e91abd188a887fb596a8565db1e10ffd51f74",
-            "extract_dir": "nixpacks-v0.4.2-x86_64-pc-windows-msvc"
+            "url": "https://download.fastgit.org/railwayapp/nixpacks/releases/download/v0.5.2/nixpacks-v0.5.2-x86_64-pc-windows-msvc.zip",
+            "hash": "7758bb4e3a0095998fdc673340420e5cad3c95b2ca2be5b864ea44188b0250d5",
+            "extract_dir": "nixpacks-v0.5.2-x86_64-pc-windows-msvc"
         },
         "32bit": {
-            "url": "https://download.fastgit.org/railwayapp/nixpacks/releases/download/v0.4.2/nixpacks-v0.4.2-i686-pc-windows-msvc.zip",
-            "hash": "3b2c72cdc60226418db9820f0af17ec80018d34e65f633a40486784fc616755c",
-            "extract_dir": "nixpacks-v0.4.2-i686-pc-windows-msvc"
+            "url": "https://download.fastgit.org/railwayapp/nixpacks/releases/download/v0.5.2/nixpacks-v0.5.2-i686-pc-windows-msvc.zip",
+            "hash": "74fd0d6ae8d5d150c77c85f52531dd113ae9fe8383809f160003676991f37a2d",
+            "extract_dir": "nixpacks-v0.5.2-i686-pc-windows-msvc"
         }
     },
     "bin": "nixpacks.exe",
