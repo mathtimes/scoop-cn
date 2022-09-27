@@ -1,12 +1,12 @@
 {
-    "version": "3.5.21",
+    "version": "3.5.24",
     "description": "A command line tool for installing and using Jenkins X",
     "homepage": "https://github.com/jenkins-x/jx",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/jenkins-x/jx/releases/download/v3.5.21/jx-windows-amd64.zip",
-            "hash": "565d941d960bc637e48a5506d12f3d3ce6584cca9079d3682e2d145eae81f9b6"
+            "url": "https://download.fastgit.org/jenkins-x/jx/releases/download/v3.5.24/jx-windows-amd64.zip",
+            "hash": "1509891c12752db48951ed22bf8f121ec7d459e4e93bf808677bb81f342e2d8d"
         }
     },
     "pre_install": "Stop-Process -Name 'jx' -ErrorAction 'Ignore' -Verbose",
