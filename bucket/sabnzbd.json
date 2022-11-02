@@ -5,11 +5,11 @@
     "license": "GPL-2.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/sabnzbd/sabnzbd/releases/download/3.6.1/SABnzbd-3.6.1-win64-bin.zip",
+            "url": "https://ghproxy.com/github.com/sabnzbd/sabnzbd/releases/download/3.6.1/SABnzbd-3.6.1-win64-bin.zip",
             "hash": "438393f6b243d71f7f75bbfc8130a1b14df66e2c98cc62d0ab9fb80318453e0b"
         },
         "32bit": {
-            "url": "https://download.fastgit.org/sabnzbd/sabnzbd/releases/download/3.6.1/SABnzbd-3.6.1-win32-bin.zip",
+            "url": "https://ghproxy.com/github.com/sabnzbd/sabnzbd/releases/download/3.6.1/SABnzbd-3.6.1-win32-bin.zip",
             "hash": "b818354a171d40e3ae3ed93e11cc636b4447c27be4bd5cf20ccd2f8d0108959c"
         }
     },
@@ -33,10 +33,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/sabnzbd/sabnzbd/releases/download/$version/SABnzbd-$version-win64-bin.zip"
+                "url": "https://ghproxy.com/github.com/sabnzbd/sabnzbd/releases/download/$version/SABnzbd-$version-win64-bin.zip"
             },
             "32bit": {
-                "url": "https://download.fastgit.org/sabnzbd/sabnzbd/releases/download/$version/SABnzbd-$version-win32-bin.zip"
+                "url": "https://ghproxy.com/github.com/sabnzbd/sabnzbd/releases/download/$version/SABnzbd-$version-win32-bin.zip"
             }
         },
         "extract_dir": "SABnzbd-$version"

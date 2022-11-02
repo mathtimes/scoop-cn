@@ -5,8 +5,8 @@
     "homepage": "https://github.com/libsdl-org/SDL_mixer",
     "license": "Zlib",
     "url": [
-        "https://download.fastgit.org/libsdl-org/SDL_mixer/releases/download/release-2.6.2/SDL2_mixer-devel-2.6.2-VC.zip",
-        "https://download.fastgit.org/libsdl-org/SDL_mixer/releases/download/release-2.6.2/SDL2_mixer-2.6.2.zip"
+        "https://ghproxy.com/github.com/libsdl-org/SDL_mixer/releases/download/release-2.6.2/SDL2_mixer-devel-2.6.2-VC.zip",
+        "https://ghproxy.com/github.com/libsdl-org/SDL_mixer/releases/download/release-2.6.2/SDL2_mixer-2.6.2.zip"
     ],
     "hash": [
         "7f050663ccc7911bb9c57b11e32ca79578b712490186b8645ddbbe4e7d2fe1c9",
@@ -121,8 +121,8 @@
     },
     "autoupdate": {
         "url": [
-            "https://download.fastgit.org/libsdl-org/SDL_mixer/releases/download/release-$version/SDL2_mixer-devel-$version-VC.zip",
-            "https://download.fastgit.org/libsdl-org/SDL_mixer/releases/download/release-$version/SDL2_mixer-$version.zip"
+            "https://ghproxy.com/github.com/libsdl-org/SDL_mixer/releases/download/release-$version/SDL2_mixer-devel-$version-VC.zip",
+            "https://ghproxy.com/github.com/libsdl-org/SDL_mixer/releases/download/release-$version/SDL2_mixer-$version.zip"
         ]
     }
 }

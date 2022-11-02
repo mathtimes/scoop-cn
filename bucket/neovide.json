@@ -8,7 +8,7 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/Kethku/neovide/releases/download/0.10.1/neovide-windows.zip",
+            "url": "https://ghproxy.com/github.com/Kethku/neovide/releases/download/0.10.1/neovide-windows.zip",
             "hash": "944e75545f8fae08ae42fdb0d2073f699c7ed209ec02b2bedf062377c0929456"
         }
     },
@@ -23,7 +23,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/Kethku/neovide/releases/download/$version/neovide-windows.zip"
+                "url": "https://ghproxy.com/github.com/Kethku/neovide/releases/download/$version/neovide-windows.zip"
             }
         }
     }

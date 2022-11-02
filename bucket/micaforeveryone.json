@@ -8,7 +8,7 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/MicaForEveryone/MicaForEveryone/releases/download/v1.2.0.1/MicaForEveryone-x64-Release.zip",
+            "url": "https://ghproxy.com/github.com/MicaForEveryone/MicaForEveryone/releases/download/v1.2.0.1/MicaForEveryone-x64-Release.zip",
             "hash": "8f3d35992e7eda74a4ad18694c0bb34652d6b060e59d1fd2eed0434492398b0e"
         }
     },
@@ -22,7 +22,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/MicaForEveryone/MicaForEveryone/releases/download/v$version/MicaForEveryone-x64-Release.zip"
+                "url": "https://ghproxy.com/github.com/MicaForEveryone/MicaForEveryone/releases/download/v$version/MicaForEveryone-x64-Release.zip"
             }
         }
     }

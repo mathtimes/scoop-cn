@@ -5,15 +5,15 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/twpayne/chezmoi/releases/download/v2.26.0/chezmoi_2.26.0_windows_amd64.zip",
+            "url": "https://ghproxy.com/github.com/twpayne/chezmoi/releases/download/v2.26.0/chezmoi_2.26.0_windows_amd64.zip",
             "hash": "67f99691a52050bc1881ed778ad65075e4e5dcd17c883c55ccebfbbf51a46f86"
         },
         "32bit": {
-            "url": "https://download.fastgit.org/twpayne/chezmoi/releases/download/v2.26.0/chezmoi_2.26.0_windows_i386.zip",
+            "url": "https://ghproxy.com/github.com/twpayne/chezmoi/releases/download/v2.26.0/chezmoi_2.26.0_windows_i386.zip",
             "hash": "d53786b8237ff0c312732b7e4843d7e75607873ea27bf954199a40d251710af4"
         },
         "arm64": {
-            "url": "https://download.fastgit.org/twpayne/chezmoi/releases/download/v2.26.0/chezmoi_2.26.0_windows_arm64.zip",
+            "url": "https://ghproxy.com/github.com/twpayne/chezmoi/releases/download/v2.26.0/chezmoi_2.26.0_windows_arm64.zip",
             "hash": "ac17ca4e29d74362860a50c9c8065da4d3873bc16882dea5b66f9d9e7031a12c"
         }
     },
@@ -24,13 +24,13 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/twpayne/chezmoi/releases/download/v$version/chezmoi_$version_windows_amd64.zip"
+                "url": "https://ghproxy.com/github.com/twpayne/chezmoi/releases/download/v$version/chezmoi_$version_windows_amd64.zip"
             },
             "32bit": {
-                "url": "https://download.fastgit.org/twpayne/chezmoi/releases/download/v$version/chezmoi_$version_windows_i386.zip"
+                "url": "https://ghproxy.com/github.com/twpayne/chezmoi/releases/download/v$version/chezmoi_$version_windows_i386.zip"
             },
             "arm64": {
-                "url": "https://download.fastgit.org/twpayne/chezmoi/releases/download/v$version/chezmoi_$version_windows_arm64.zip"
+                "url": "https://ghproxy.com/github.com/twpayne/chezmoi/releases/download/v$version/chezmoi_$version_windows_arm64.zip"
             }
         },
         "hash": {

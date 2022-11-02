@@ -5,7 +5,7 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/TomWright/dasel/releases/download/v1.27.3/dasel_windows_amd64.exe#/dasel.exe",
+            "url": "https://ghproxy.com/github.com/TomWright/dasel/releases/download/v1.27.3/dasel_windows_amd64.exe#/dasel.exe",
             "hash": "7b95eec37df63102f741bcefbc96e389286b621fe3fc1ee05c7742419f1fe897"
         }
     },
@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/TomWright/dasel/releases/download/v$version/dasel_windows_amd64.exe#/dasel.exe"
+                "url": "https://ghproxy.com/github.com/TomWright/dasel/releases/download/v$version/dasel_windows_amd64.exe#/dasel.exe"
             }
         }
     }

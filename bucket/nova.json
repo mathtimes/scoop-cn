@@ -5,7 +5,7 @@
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/FairwindsOps/nova/releases/download/3.4.0/nova_3.4.0_windows_amd64.tar.gz",
+            "url": "https://ghproxy.com/github.com/FairwindsOps/nova/releases/download/3.4.0/nova_3.4.0_windows_amd64.tar.gz",
             "hash": "b75497fc879769fa1ebaac7605e1878a1157eec13ffa0faf62d0de37e6db1d04"
         }
     },
@@ -16,7 +16,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/FairwindsOps/nova/releases/download/$version/nova_$version_windows_amd64.tar.gz"
+                "url": "https://ghproxy.com/github.com/FairwindsOps/nova/releases/download/$version/nova_$version_windows_amd64.tar.gz"
             }
         },
         "hash": {

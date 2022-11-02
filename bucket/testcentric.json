@@ -13,7 +13,7 @@
             "nunit-extension-vs-project-loader"
         ]
     },
-    "url": "https://download.fastgit.org/TestCentric/testcentric-gui/releases/download/1.6.3/testcentric-gui.1.6.3.nupkg",
+    "url": "https://ghproxy.com/github.com/TestCentric/testcentric-gui/releases/download/1.6.3/testcentric-gui.1.6.3.nupkg",
     "hash": "cd8c919e89528e708f629b9677a411c9366c0a5338acbe3a4ddff55839ac3b80",
     "extract_dir": "tools",
     "post_install": "Set-Content \"$dir\\nunit.scoop.addins\" '../../nunit-extension-*/current/     # find extensions installed under scoop'",
@@ -26,6 +26,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://download.fastgit.org/TestCentric/testcentric-gui/releases/download/$version/testcentric-gui.$version.nupkg"
+        "url": "https://ghproxy.com/github.com/TestCentric/testcentric-gui/releases/download/$version/testcentric-gui.$version.nupkg"
     }
 }

@@ -5,7 +5,7 @@
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/wez/wezterm/releases/download/20220905-102802-7d4b8249/WezTerm-windows-20220905-102802-7d4b8249.zip",
+            "url": "https://ghproxy.com/github.com/wez/wezterm/releases/download/20220905-102802-7d4b8249/WezTerm-windows-20220905-102802-7d4b8249.zip",
             "hash": "86b2db1a44d4a5b262885b299c0e03fe6bdaad2172d1e6a5f69f4c16cbcc305d"
         }
     },
@@ -27,7 +27,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/wez/wezterm/releases/download/$version/WezTerm-windows-$version.zip"
+                "url": "https://ghproxy.com/github.com/wez/wezterm/releases/download/$version/WezTerm-windows-$version.zip"
             }
         },
         "extract_dir": "WezTerm-windows-$version"

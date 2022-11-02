@@ -5,7 +5,7 @@
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/logseq/logseq/releases/download/0.8.10/logseq-win-x64-0.8.10.exe#/dl.7z",
+            "url": "https://ghproxy.com/github.com/logseq/logseq/releases/download/0.8.10/logseq-win-x64-0.8.10.exe#/dl.7z",
             "hash": "670ac503f6b03fc29d66f63e875bf237561afead80d0db49380d20388e021ccd"
         }
     },
@@ -25,7 +25,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/logseq/logseq/releases/download/$version/logseq-win-x64-$version.exe#/dl.7z",
+                "url": "https://ghproxy.com/github.com/logseq/logseq/releases/download/$version/logseq-win-x64-$version.exe#/dl.7z",
                 "hash": {
                     "url": "$baseurl/SHA256SUMS.txt",
                     "regex": "$sha256\\s+Logseq-win-x64"

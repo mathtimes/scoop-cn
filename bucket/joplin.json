@@ -3,7 +3,7 @@
     "description": "A note taking and to-do application with synchronization capabilities",
     "homepage": "https://joplinapp.org",
     "license": "MIT",
-    "url": "https://download.fastgit.org/laurent22/joplin/releases/download/v2.8.8/Joplin-Setup-2.8.8.exe#/dl.7z",
+    "url": "https://ghproxy.com/github.com/laurent22/joplin/releases/download/v2.8.8/Joplin-Setup-2.8.8.exe#/dl.7z",
     "hash": "sha512:a2e4ccfad553802af3401d1a8a334ca1a94de54cc11783dd2103a833d2303bca0d6c6c4bb93ecbc0e38cf93cf4420f7bf7b231603cf0121b0abd201e633386af",
     "architecture": {
         "64bit": {
@@ -25,7 +25,7 @@
         "github": "https://github.com/laurent22/joplin"
     },
     "autoupdate": {
-        "url": "https://download.fastgit.org/laurent22/joplin/releases/download/v$version/Joplin-Setup-$version.exe#/dl.7z",
+        "url": "https://ghproxy.com/github.com/laurent22/joplin/releases/download/v$version/Joplin-Setup-$version.exe#/dl.7z",
         "hash": {
             "url": "$baseurl/latest.yml",
             "regex": "sha512:\\s+$base64"

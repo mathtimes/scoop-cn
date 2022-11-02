@@ -5,7 +5,7 @@
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/bitnami-labs/sealed-secrets/releases/download/v0.19.1/kubeseal-0.19.1-windows-amd64.tar.gz",
+            "url": "https://ghproxy.com/github.com/bitnami-labs/sealed-secrets/releases/download/v0.19.1/kubeseal-0.19.1-windows-amd64.tar.gz",
             "hash": "6ec83627fe27f94681f9ee5700a6c30662fea295c4ea64b2e17550d305dde0e8"
         }
     },
@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/bitnami-labs/sealed-secrets/releases/download/v$version/kubeseal-$version-windows-amd64.tar.gz",
+                "url": "https://ghproxy.com/github.com/bitnami-labs/sealed-secrets/releases/download/v$version/kubeseal-$version-windows-amd64.tar.gz",
                 "hash": {
                     "url": "$baseurl/sealed-secrets_$version_checksums.txt"
                 }

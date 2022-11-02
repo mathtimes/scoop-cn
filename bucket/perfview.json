@@ -5,7 +5,7 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/microsoft/perfview/releases/download/v3.0.5/PerfView.exe",
+            "url": "https://ghproxy.com/github.com/microsoft/perfview/releases/download/v3.0.5/PerfView.exe",
             "hash": "135f400550abaf0a5b0d5d68a5a42c20b5584eb732ba5fc9fb08d2977097d866"
         }
     },
@@ -20,7 +20,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/microsoft/perfview/releases/download/v$version/PerfView.exe"
+                "url": "https://ghproxy.com/github.com/microsoft/perfview/releases/download/v$version/PerfView.exe"
             }
         }
     }

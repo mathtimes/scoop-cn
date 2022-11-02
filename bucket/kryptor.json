@@ -5,7 +5,7 @@
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/samuel-lucas6/Kryptor/releases/download/v3.1.1/kryptor-windows.zip",
+            "url": "https://ghproxy.com/github.com/samuel-lucas6/Kryptor/releases/download/v3.1.1/kryptor-windows.zip",
             "hash": "e5278429c3c52ccf7fb5b8fa35289d505a3266c68cd7d65796b6699111f63815"
         }
     },
@@ -16,7 +16,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/samuel-lucas6/Kryptor/releases/download/v$version/kryptor-windows.zip",
+                "url": "https://ghproxy.com/github.com/samuel-lucas6/Kryptor/releases/download/v$version/kryptor-windows.zip",
                 "hash": {
                     "url": "$url.DIGEST"
                 }

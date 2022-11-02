@@ -5,11 +5,11 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/sass/dart-sass/releases/download/1.55.0/dart-sass-1.55.0-windows-x64.zip",
+            "url": "https://ghproxy.com/github.com/sass/dart-sass/releases/download/1.55.0/dart-sass-1.55.0-windows-x64.zip",
             "hash": "03e9d982100a5fdb5a26ff6398bfe0cfbf6c81622dbc98737c1ab1c72804adc8"
         },
         "32bit": {
-            "url": "https://download.fastgit.org/sass/dart-sass/releases/download/1.55.0/dart-sass-1.55.0-windows-ia32.zip",
+            "url": "https://ghproxy.com/github.com/sass/dart-sass/releases/download/1.55.0/dart-sass-1.55.0-windows-ia32.zip",
             "hash": "6f35022d9e56657c3837a62a868ef82d08491e4a733966b1e3edb10a53efa819"
         }
     },
@@ -27,10 +27,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/sass/dart-sass/releases/download/$version/dart-sass-$version-windows-x64.zip"
+                "url": "https://ghproxy.com/github.com/sass/dart-sass/releases/download/$version/dart-sass-$version-windows-x64.zip"
             },
             "32bit": {
-                "url": "https://download.fastgit.org/sass/dart-sass/releases/download/$version/dart-sass-$version-windows-ia32.zip"
+                "url": "https://ghproxy.com/github.com/sass/dart-sass/releases/download/$version/dart-sass-$version-windows-ia32.zip"
             }
         }
     }

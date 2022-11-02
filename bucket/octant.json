@@ -5,7 +5,7 @@
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/vmware/octant/releases/download/v0.25.1/octant_0.25.1_Windows-64bit.zip",
+            "url": "https://ghproxy.com/github.com/vmware/octant/releases/download/v0.25.1/octant_0.25.1_Windows-64bit.zip",
             "hash": "b1e8f372f64c79ff04d69d19f11773936b67447a3abd5a496fbdfef10b6b6d19",
             "extract_dir": "octant_0.25.1_Windows-64bit"
         }
@@ -15,7 +15,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/vmware/octant/releases/download/v$version/octant_$version_Windows-64bit.zip",
+                "url": "https://ghproxy.com/github.com/vmware/octant/releases/download/v$version/octant_$version_Windows-64bit.zip",
                 "extract_dir": "octant_$version_Windows-64bit"
             }
         },

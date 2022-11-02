@@ -5,7 +5,7 @@
     "license": "CC-BY-SA-3.0",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/eibol/ffmpeg_batch/releases/download/v2.8.2/FFbatch_AV_Converter_Portable_2.8.2_64bit.exe",
+            "url": "https://ghproxy.com/github.com/eibol/ffmpeg_batch/releases/download/v2.8.2/FFbatch_AV_Converter_Portable_2.8.2_64bit.exe",
             "hash": "03016cd4795869f07cd43d15791021d04687cddf50e2c1b1b1f92243ed9126ae"
         }
     },
@@ -29,7 +29,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/eibol/ffmpeg_batch/releases/download/v$version/FFbatch_AV_Converter_Portable_$version_64bit.exe"
+                "url": "https://ghproxy.com/github.com/eibol/ffmpeg_batch/releases/download/v$version/FFbatch_AV_Converter_Portable_$version_64bit.exe"
             }
         }
     }

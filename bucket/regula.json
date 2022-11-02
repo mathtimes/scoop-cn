@@ -5,7 +5,7 @@
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/fugue/regula/releases/download/v2.9.3/regula_2.9.3_Windows_x86_64.zip",
+            "url": "https://ghproxy.com/github.com/fugue/regula/releases/download/v2.9.3/regula_2.9.3_Windows_x86_64.zip",
             "hash": "9654bbb40af415820e93addbf059ff6edc0beeb9bd878c714ca7f8e3c6d546f4"
         }
     },
@@ -16,7 +16,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/fugue/regula/releases/download/v$version/regula_$version_Windows_x86_64.zip"
+                "url": "https://ghproxy.com/github.com/fugue/regula/releases/download/v$version/regula_$version_Windows_x86_64.zip"
             }
         },
         "hash": {

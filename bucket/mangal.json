@@ -5,11 +5,11 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/metafates/mangal/releases/download/v4.0.0/mangal_4.0.0_Windows_x86_64.zip",
+            "url": "https://ghproxy.com/github.com/metafates/mangal/releases/download/v4.0.0/mangal_4.0.0_Windows_x86_64.zip",
             "hash": "6ad8ef56b5cc309310d98028439c077630e60be19c4c1b215c4d241e6d85db04"
         },
         "32bit": {
-            "url": "https://download.fastgit.org/metafates/mangal/releases/download/v4.0.0/mangal_4.0.0_Windows_i386.zip",
+            "url": "https://ghproxy.com/github.com/metafates/mangal/releases/download/v4.0.0/mangal_4.0.0_Windows_i386.zip",
             "hash": "418a4c2703a13ad6139441feee34f1f74a3d0d48bd1e6a64396d7766a5074c1b"
         }
     },
@@ -20,10 +20,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/metafates/mangal/releases/download/v$version/mangal_$version_Windows_x86_64.zip"
+                "url": "https://ghproxy.com/github.com/metafates/mangal/releases/download/v$version/mangal_$version_Windows_x86_64.zip"
             },
             "32bit": {
-                "url": "https://download.fastgit.org/metafates/mangal/releases/download/v$version/mangal_$version_Windows_i386.zip"
+                "url": "https://ghproxy.com/github.com/metafates/mangal/releases/download/v$version/mangal_$version_Windows_i386.zip"
             }
         }
     }

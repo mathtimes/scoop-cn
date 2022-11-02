@@ -5,7 +5,7 @@
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/bitwarden/clients/releases/download/cli-v2022.10.0/bw-windows-2022.10.0.zip",
+            "url": "https://ghproxy.com/github.com/bitwarden/clients/releases/download/cli-v2022.10.0/bw-windows-2022.10.0.zip",
             "hash": "5f8bf5a74a2246c6b2d303f7b54c51ef5fbb8b7af15e406123b83a9179a8f321"
         }
     },
@@ -17,7 +17,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/bitwarden/clients/releases/download/cli-v$version/bw-windows-$version.zip",
+                "url": "https://ghproxy.com/github.com/bitwarden/clients/releases/download/cli-v$version/bw-windows-$version.zip",
                 "hash": {
                     "url": "$baseurl/bw-windows-sha256-$version.txt"
                 }

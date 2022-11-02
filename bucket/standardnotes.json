@@ -5,11 +5,11 @@
     "license": "AGPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/standardnotes/app/releases/download/@standardnotes/desktop@3.23.258/standard-notes-3.23.258-win-x64.exe#/dl.7z",
+            "url": "https://ghproxy.com/github.com/standardnotes/app/releases/download/@standardnotes/desktop@3.23.258/standard-notes-3.23.258-win-x64.exe#/dl.7z",
             "hash": "sha512:d90bffabf395f561ef839a38860f0acbdc88b394a5f4018be3e2b643cf3591cbe9df868b4e20a8b7b5adc8dc65da41f9c644342e486dd024510933a83f2c51bf"
         },
         "32bit": {
-            "url": "https://download.fastgit.org/standardnotes/app/releases/download/@standardnotes/desktop@3.23.258/standard-notes-3.23.258-win-ia32.exe#/dl.7z",
+            "url": "https://ghproxy.com/github.com/standardnotes/app/releases/download/@standardnotes/desktop@3.23.258/standard-notes-3.23.258-win-ia32.exe#/dl.7z",
             "hash": "sha512:cb7381d6a4587897638bd0e5ff5f480c905cbd606468303622ae716300b8e828ed02db26be2e7522557ec8402dd5a16458d36603b64789f859e16440d577a34d"
         }
     },
@@ -28,10 +28,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/standardnotes/app/releases/download/@standardnotes/desktop@$version/standard-notes-$version-win-x64.exe#/dl.7z"
+                "url": "https://ghproxy.com/github.com/standardnotes/app/releases/download/@standardnotes/desktop@$version/standard-notes-$version-win-x64.exe#/dl.7z"
             },
             "32bit": {
-                "url": "https://download.fastgit.org/standardnotes/app/releases/download/@standardnotes/desktop@$version/standard-notes-$version-win-ia32.exe#/dl.7z"
+                "url": "https://ghproxy.com/github.com/standardnotes/app/releases/download/@standardnotes/desktop@$version/standard-notes-$version-win-ia32.exe#/dl.7z"
             }
         },
         "hash": {

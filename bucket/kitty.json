@@ -3,7 +3,7 @@
     "description": "A telnet / SSH client, which is a fork from version 0.73 of PuTTY.",
     "homepage": "https://www.9bis.net/kitty",
     "license": "MIT",
-    "url": "https://download.fastgit.org/cyd01/KiTTY/releases/download/v0.76.0.11/kitty-bin-0.76.0.11.zip",
+    "url": "https://ghproxy.com/github.com/cyd01/KiTTY/releases/download/v0.76.0.11/kitty-bin-0.76.0.11.zip",
     "hash": "7a22b4b6759b121694eaa157d8bced27fe33b05301761e41c977af0d7da02308",
     "pre_install": [
         "if (!(Test-Path \"$persist_dir\\kitty.ini\")) {",
@@ -48,6 +48,6 @@
         "github": "https://github.com/cyd01/KiTTY"
     },
     "autoupdate": {
-        "url": "https://download.fastgit.org/cyd01/KiTTY/releases/download/v$version/kitty-bin-$version.zip"
+        "url": "https://ghproxy.com/github.com/cyd01/KiTTY/releases/download/v$version/kitty-bin-$version.zip"
     }
 }

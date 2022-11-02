@@ -5,7 +5,7 @@
     "license": "GPL-2.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/c0re100/qBittorrent-Enhanced-Edition/releases/download/release-4.4.5.10/qbittorrent_enhanced_4.4.5.10_Qt6_setup.exe#/dl.7z",
+            "url": "https://ghproxy.com/github.com/c0re100/qBittorrent-Enhanced-Edition/releases/download/release-4.4.5.10/qbittorrent_enhanced_4.4.5.10_Qt6_setup.exe#/dl.7z",
             "hash": "fe00d2cb12b2e690e1817d8e075acd97db6a2432e1a9d18ededa01c64130aa79"
         }
     },
@@ -25,7 +25,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/c0re100/qBittorrent-Enhanced-Edition/releases/download/release-$version/qbittorrent_enhanced_$version_Qt6_setup.exe#/dl.7z"
+                "url": "https://ghproxy.com/github.com/c0re100/qBittorrent-Enhanced-Edition/releases/download/release-$version/qbittorrent_enhanced_$version_Qt6_setup.exe#/dl.7z"
             }
         }
     }

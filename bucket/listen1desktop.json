@@ -5,7 +5,7 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/listen1/listen1_desktop/releases/download/v2.26.2/listen1_2.26.2_win.exe#/dl.7z",
+            "url": "https://ghproxy.com/github.com/listen1/listen1_desktop/releases/download/v2.26.2/listen1_2.26.2_win.exe#/dl.7z",
             "hash": "sha512:11dfbc7a7c22a2bb9c25e663e69d3f338a75268b4c38ae211d90c80f0c45aec41a06b5039ef6ad7f0cde6b093b2308030943544fd1d59288133be53320883ade",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
@@ -26,7 +26,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/listen1/listen1_desktop/releases/download/v$version/listen1_$version_win.exe#/dl.7z"
+                "url": "https://ghproxy.com/github.com/listen1/listen1_desktop/releases/download/v$version/listen1_$version_win.exe#/dl.7z"
             }
         },
         "hash": {

@@ -9,7 +9,7 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/mesonbuild/meson/releases/download/0.63.3/meson-0.63.3-64.msi",
+            "url": "https://ghproxy.com/github.com/mesonbuild/meson/releases/download/0.63.3/meson-0.63.3-64.msi",
             "hash": "78b0b64bd8736a69956263085e3a42c27417bc1bd05d64c183d956a1240d4e52"
         }
     },
@@ -21,7 +21,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/mesonbuild/meson/releases/download/$version/meson-$version-64.msi"
+                "url": "https://ghproxy.com/github.com/mesonbuild/meson/releases/download/$version/meson-$version-64.msi"
             }
         }
     }

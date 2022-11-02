@@ -5,7 +5,7 @@
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/hluk/CopyQ/releases/download/v6.3.2/copyq-6.3.2.zip",
+            "url": "https://ghproxy.com/github.com/hluk/CopyQ/releases/download/v6.3.2/copyq-6.3.2.zip",
             "hash": "cbe49e0c440776d55aaa5947f81d1376f158df9de9ccacc1edf78fea79266bec"
         }
     },
@@ -24,7 +24,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/hluk/CopyQ/releases/download/v$version/copyq-$version.zip"
+                "url": "https://ghproxy.com/github.com/hluk/CopyQ/releases/download/v$version/copyq-$version.zip"
             }
         },
         "extract_dir": "copyq-$version"

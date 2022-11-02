@@ -8,7 +8,7 @@
         "",
         "(& volta completions powershell) | Out-String | Invoke-Expression"
     ],
-    "url": "https://download.fastgit.org/volta-cli/volta/releases/download/v1.1.0/volta-1.1.0-windows.zip",
+    "url": "https://ghproxy.com/github.com/volta-cli/volta/releases/download/v1.1.0/volta-1.1.0-windows.zip",
     "hash": "d2cbeecfcc97824bc98a0254c688b70348181f412fd7c3b8ee090dd244dd8ff7",
     "installer": {
         "script": [
@@ -44,6 +44,6 @@
         "github": "https://github.com/volta-cli/volta"
     },
     "autoupdate": {
-        "url": "https://download.fastgit.org/volta-cli/volta/releases/download/v$version/volta-$version-windows.zip"
+        "url": "https://ghproxy.com/github.com/volta-cli/volta/releases/download/v$version/volta-$version-windows.zip"
     }
 }

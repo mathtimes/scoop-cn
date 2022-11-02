@@ -5,7 +5,7 @@
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/gyroflow/gyroflow/releases/download/v1.3.0/Gyroflow-windows64.zip",
+            "url": "https://ghproxy.com/github.com/gyroflow/gyroflow/releases/download/v1.3.0/Gyroflow-windows64.zip",
             "hash": "9c0520f33690528ed5d1c45fb5ea958441d095b173c57716a5b5c935ec3a2bf5"
         }
     },
@@ -21,7 +21,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/gyroflow/gyroflow/releases/download/v$version/Gyroflow-windows64.zip"
+                "url": "https://ghproxy.com/github.com/gyroflow/gyroflow/releases/download/v$version/Gyroflow-windows64.zip"
             }
         }
     }

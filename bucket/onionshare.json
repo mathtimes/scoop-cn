@@ -3,7 +3,7 @@
     "description": "Securely and anonymously send and receive files.",
     "homepage": "https://onionshare.org/",
     "license": "GPL-3.0-only",
-    "url": "https://download.fastgit.org/onionshare/onionshare/releases/download/v2.5/OnionShare-2.5.msi",
+    "url": "https://ghproxy.com/github.com/onionshare/onionshare/releases/download/v2.5/OnionShare-2.5.msi",
     "hash": "db4b49f03ac2b0ba590db1e6965ac9f1e108ed10a1ffb07043a7a581e5975f53",
     "extract_dir": "OnionShare",
     "bin": [
@@ -22,6 +22,6 @@
         "github": "https://github.com/micahflee/onionshare"
     },
     "autoupdate": {
-        "url": "https://download.fastgit.org/onionshare/onionshare/releases/download/v$version/OnionShare-$version.msi"
+        "url": "https://ghproxy.com/github.com/onionshare/onionshare/releases/download/v$version/OnionShare-$version.msi"
     }
 }

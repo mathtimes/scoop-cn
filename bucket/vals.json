@@ -5,11 +5,11 @@
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/variantdev/vals/releases/download/v0.18.0/vals_0.18.0_windows_amd64.tar.gz",
+            "url": "https://ghproxy.com/github.com/variantdev/vals/releases/download/v0.18.0/vals_0.18.0_windows_amd64.tar.gz",
             "hash": "353204cb9c8a9ea9cda0737edcdba7d80b6016f85cda224c97b4e6a7371f3918"
         },
         "32bit": {
-            "url": "https://download.fastgit.org/variantdev/vals/releases/download/v0.18.0/vals_0.18.0_windows_386.tar.gz",
+            "url": "https://ghproxy.com/github.com/variantdev/vals/releases/download/v0.18.0/vals_0.18.0_windows_386.tar.gz",
             "hash": "6f4692779190f17a60744ff346e14d9ca4d818cfec3b744899a6f5e8d75beb7a"
         }
     },
@@ -18,10 +18,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/variantdev/vals/releases/download/v$version/vals_$version_windows_amd64.tar.gz"
+                "url": "https://ghproxy.com/github.com/variantdev/vals/releases/download/v$version/vals_$version_windows_amd64.tar.gz"
             },
             "32bit": {
-                "url": "https://download.fastgit.org/variantdev/vals/releases/download/v$version/vals_$version_windows_386.tar.gz"
+                "url": "https://ghproxy.com/github.com/variantdev/vals/releases/download/v$version/vals_$version_windows_386.tar.gz"
             }
         }
     }

@@ -5,7 +5,7 @@
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/concourse/concourse/releases/download/v6.7.9/fly-6.7.9-windows-amd64.zip",
+            "url": "https://ghproxy.com/github.com/concourse/concourse/releases/download/v6.7.9/fly-6.7.9-windows-amd64.zip",
             "hash": "sha1:897bbd05f6656f68f71dea55baca5df06d99dc6c"
         }
     },
@@ -16,7 +16,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/concourse/concourse/releases/download/v$version/fly-$version-windows-amd64.zip"
+                "url": "https://ghproxy.com/github.com/concourse/concourse/releases/download/v$version/fly-$version-windows-amd64.zip"
             }
         },
         "hash": {

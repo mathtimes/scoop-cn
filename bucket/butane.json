@@ -5,7 +5,7 @@
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/coreos/butane/releases/download/v0.16.0/butane-x86_64-pc-windows-gnu.exe#/butane.exe",
+            "url": "https://ghproxy.com/github.com/coreos/butane/releases/download/v0.16.0/butane-x86_64-pc-windows-gnu.exe#/butane.exe",
             "hash": "3cd615b240a4bef368dbe7ab60084a27e47fdf67b70859d3f6f31f9ea1e460db"
         }
     },
@@ -16,7 +16,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/coreos/butane/releases/download/v$version/butane-x86_64-pc-windows-gnu.exe#/butane.exe"
+                "url": "https://ghproxy.com/github.com/coreos/butane/releases/download/v$version/butane-x86_64-pc-windows-gnu.exe#/butane.exe"
             }
         }
     }

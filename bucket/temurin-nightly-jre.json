@@ -5,11 +5,11 @@
     "license": "GPL-2.0-only WITH Classpath-exception-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/adoptium/temurin20-binaries/releases/download/jdk-2022-10-28-05-19-beta/OpenJDK-jre_x64_windows_hotspot_2022-10-28-03-30.zip",
+            "url": "https://ghproxy.com/github.com/adoptium/temurin20-binaries/releases/download/jdk-2022-10-28-05-19-beta/OpenJDK-jre_x64_windows_hotspot_2022-10-28-03-30.zip",
             "hash": "2b87dec10630d8add1ddaef9ef4f8c951e8cc4cf0be55282aa4a507420d77d26"
         },
         "32bit": {
-            "url": "https://download.fastgit.org/adoptium/temurin20-binaries/releases/download/jdk-2022-10-28-05-19-beta/OpenJDK-jre_x86-32_windows_hotspot_2022-10-28-03-30.zip",
+            "url": "https://ghproxy.com/github.com/adoptium/temurin20-binaries/releases/download/jdk-2022-10-28-05-19-beta/OpenJDK-jre_x86-32_windows_hotspot_2022-10-28-03-30.zip",
             "hash": "b7e04428e3a453052567a2ab215732531f7ee9bd560b0cf8b848835f6a5176f2"
         }
     },

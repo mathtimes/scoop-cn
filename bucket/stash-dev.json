@@ -9,7 +9,7 @@
             "ffmpeg-nightly"
         ]
     },
-    "url": "https://download.fastgit.org/stashapp/stash/releases/download/latest_develop/stash-win.exe",
+    "url": "https://ghproxy.com/github.com/stashapp/stash/releases/download/latest_develop/stash-win.exe",
     "hash": "422af2c8e1bffdf70c1757a4050cd00111793be277e0ac863deedf08ff8a0445",
     "bin": [
         [
@@ -29,6 +29,6 @@
         "regex": "Release v([\\w.-]+)"
     },
     "autoupdate": {
-        "url": "https://download.fastgit.org/stashapp/stash/releases/download/latest_develop/stash-win.exe"
+        "url": "https://ghproxy.com/github.com/stashapp/stash/releases/download/latest_develop/stash-win.exe"
     }
 }

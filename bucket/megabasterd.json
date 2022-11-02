@@ -10,7 +10,7 @@
         ]
     },
     "url": [
-        "https://download.fastgit.org/tonikelope/megabasterd/releases/download/v7.55/MegaBasterd_7.55.jar#/MegaBasterd.jar",
+        "https://ghproxy.com/github.com/tonikelope/megabasterd/releases/download/v7.55/MegaBasterd_7.55.jar#/MegaBasterd.jar",
         "https://raw.fastgit.org/tonikelope/megabasterd/v7.55/src/main/resources/images/pica_roja_big.ico#/MegaBasterd.ico"
     ],
     "hash": [
@@ -29,7 +29,7 @@
     "checkver": "github",
     "autoupdate": {
         "url": [
-            "https://download.fastgit.org/tonikelope/megabasterd/releases/download/v$version/MegaBasterd_$version.jar#/MegaBasterd.jar",
+            "https://ghproxy.com/github.com/tonikelope/megabasterd/releases/download/v$version/MegaBasterd_$version.jar#/MegaBasterd.jar",
             "https://raw.fastgit.org/tonikelope/megabasterd/v$version/src/main/resources/images/pica_roja_big.ico#/MegaBasterd.ico"
         ]
     }

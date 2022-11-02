@@ -5,12 +5,12 @@
     "license": "BSD-3-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/klzgrad/naiveproxy/releases/download/v106.0.5249.91-1/naiveproxy-v106.0.5249.91-1-win-x64.zip",
+            "url": "https://ghproxy.com/github.com/klzgrad/naiveproxy/releases/download/v106.0.5249.91-1/naiveproxy-v106.0.5249.91-1-win-x64.zip",
             "hash": "64681a81443848904a75d0d3930595ebc4b8c9eb0edf2a8c654dc76cd4c77059",
             "extract_dir": "naiveproxy-v106.0.5249.91-1-win-x64"
         },
         "32bit": {
-            "url": "https://download.fastgit.org/klzgrad/naiveproxy/releases/download/v106.0.5249.91-1/naiveproxy-v106.0.5249.91-1-win-x86.zip",
+            "url": "https://ghproxy.com/github.com/klzgrad/naiveproxy/releases/download/v106.0.5249.91-1/naiveproxy-v106.0.5249.91-1-win-x86.zip",
             "hash": "226a3dd4139b7a0aec2472736a572a75b7053f86b0a000a6b91e79a722987d1a",
             "extract_dir": "naiveproxy-v106.0.5249.91-1-win-x86"
         }
@@ -24,11 +24,11 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/klzgrad/naiveproxy/releases/download/v$version/naiveproxy-v$version-win-x64.zip",
+                "url": "https://ghproxy.com/github.com/klzgrad/naiveproxy/releases/download/v$version/naiveproxy-v$version-win-x64.zip",
                 "extract_dir": "naiveproxy-v$version-win-x64"
             },
             "32bit": {
-                "url": "https://download.fastgit.org/klzgrad/naiveproxy/releases/download/v$version/naiveproxy-v$version-win-x86.zip",
+                "url": "https://ghproxy.com/github.com/klzgrad/naiveproxy/releases/download/v$version/naiveproxy-v$version-win-x86.zip",
                 "extract_dir": "naiveproxy-v$version-win-x86"
             }
         }

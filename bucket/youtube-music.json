@@ -5,7 +5,7 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/th-ch/youtube-music/releases/download/v1.18.0/YouTube-Music-1.18.0.exe#/dl.7z",
+            "url": "https://ghproxy.com/github.com/th-ch/youtube-music/releases/download/v1.18.0/YouTube-Music-1.18.0.exe#/dl.7z",
             "hash": "f64aa95b6778a61cf9e50f6f4b8d28fc64fe08980c4ded44b48f8a0420e6622f"
         }
     },
@@ -23,7 +23,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/th-ch/youtube-music/releases/download/v$version/YouTube-Music-$version.exe#/dl.7z"
+                "url": "https://ghproxy.com/github.com/th-ch/youtube-music/releases/download/v$version/YouTube-Music-$version.exe#/dl.7z"
             }
         }
     }

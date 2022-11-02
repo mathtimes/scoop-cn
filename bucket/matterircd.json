@@ -5,11 +5,11 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/42wim/matterircd/releases/download/v0.26.0/matterircd-0.26.0-windows-64bit.exe#/matterircd.exe",
+            "url": "https://ghproxy.com/github.com/42wim/matterircd/releases/download/v0.26.0/matterircd-0.26.0-windows-64bit.exe#/matterircd.exe",
             "hash": "85edbb049d7a26f50b4967bd4c561488ed425fb5fd6eadb8078bb5bef5ea45ab"
         },
         "32bit": {
-            "url": "https://download.fastgit.org/42wim/matterircd/releases/download/v0.26.0/matterircd-0.26.0-windows-32bit.exe#/matterircd.exe",
+            "url": "https://ghproxy.com/github.com/42wim/matterircd/releases/download/v0.26.0/matterircd-0.26.0-windows-32bit.exe#/matterircd.exe",
             "hash": "ae8d1b18a5479edc6c24135d27e650cbdbc941ed2161e582af6ea9e1dbd955ea"
         }
     },
@@ -18,10 +18,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/42wim/matterircd/releases/download/v$version/matterircd-$version-windows-64bit.exe#/matterircd.exe"
+                "url": "https://ghproxy.com/github.com/42wim/matterircd/releases/download/v$version/matterircd-$version-windows-64bit.exe#/matterircd.exe"
             },
             "32bit": {
-                "url": "https://download.fastgit.org/42wim/matterircd/releases/download/v$version/matterircd-$version-windows-32bit.exe#/matterircd.exe"
+                "url": "https://ghproxy.com/github.com/42wim/matterircd/releases/download/v$version/matterircd-$version-windows-32bit.exe#/matterircd.exe"
             }
         },
         "hash": {

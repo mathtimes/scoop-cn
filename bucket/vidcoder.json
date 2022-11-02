@@ -6,7 +6,7 @@
     "notes": "VidCoder Settings are stored in \"%APPDATA%\\VidCoder\\VidCoder.sqlite\"",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/RandomEngy/VidCoder/releases/download/v7.15/VidCoder-7.15-Portable.exe#/dl.7z",
+            "url": "https://ghproxy.com/github.com/RandomEngy/VidCoder/releases/download/v7.15/VidCoder-7.15-Portable.exe#/dl.7z",
             "hash": "b55a832807efcbeb7f2bf36419eac130e351f053a36d3934ffd6b515e65f594e"
         }
     },
@@ -23,7 +23,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/RandomEngy/VidCoder/releases/download/v$version/VidCoder-$version-Portable.exe#/dl.7z"
+                "url": "https://ghproxy.com/github.com/RandomEngy/VidCoder/releases/download/v$version/VidCoder-$version-Portable.exe#/dl.7z"
             }
         }
     }

@@ -5,11 +5,11 @@
     "license": "NCSA",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/llvm/llvm-project/releases/download/llvmorg-15.0.3/LLVM-15.0.3-win64.exe#/dl.7z",
+            "url": "https://ghproxy.com/github.com/llvm/llvm-project/releases/download/llvmorg-15.0.3/LLVM-15.0.3-win64.exe#/dl.7z",
             "hash": "83da5feacb437a541b5572a79f4672d18d976c4b320c48e58a3efd068dcf0810"
         },
         "32bit": {
-            "url": "https://download.fastgit.org/llvm/llvm-project/releases/download/llvmorg-15.0.3/LLVM-15.0.3-win32.exe#/dl.7z",
+            "url": "https://ghproxy.com/github.com/llvm/llvm-project/releases/download/llvmorg-15.0.3/LLVM-15.0.3-win32.exe#/dl.7z",
             "hash": "8c9b1501c9acd3b2d3ee03112696601237119a395c74dd7c3bbcb39578de47fc"
         }
     },
@@ -22,10 +22,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/llvm/llvm-project/releases/download/llvmorg-$version/LLVM-$version-win64.exe#/dl.7z"
+                "url": "https://ghproxy.com/github.com/llvm/llvm-project/releases/download/llvmorg-$version/LLVM-$version-win64.exe#/dl.7z"
             },
             "32bit": {
-                "url": "https://download.fastgit.org/llvm/llvm-project/releases/download/llvmorg-$version/LLVM-$version-win32.exe#/dl.7z"
+                "url": "https://ghproxy.com/github.com/llvm/llvm-project/releases/download/llvmorg-$version/LLVM-$version-win32.exe#/dl.7z"
             }
         }
     }

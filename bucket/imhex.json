@@ -5,7 +5,7 @@
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/WerWolv/ImHex/releases/download/v1.24.3/ImHex-1.24.3-Windows-Portable.zip",
+            "url": "https://ghproxy.com/github.com/WerWolv/ImHex/releases/download/v1.24.3/ImHex-1.24.3-Windows-Portable.zip",
             "hash": "f084fcb19358522aa8eaa969abab2316e64a6ead1f73766f852c958d850294f4"
         }
     },
@@ -21,7 +21,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/WerWolv/ImHex/releases/download/v$version/ImHex-$version-Windows-Portable.zip"
+                "url": "https://ghproxy.com/github.com/WerWolv/ImHex/releases/download/v$version/ImHex-$version-Windows-Portable.zip"
             }
         }
     }

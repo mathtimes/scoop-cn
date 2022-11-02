@@ -5,7 +5,7 @@
     "license": "CC0-1.0",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/casey/just/releases/download/1.7.0/just-1.7.0-x86_64-pc-windows-msvc.zip",
+            "url": "https://ghproxy.com/github.com/casey/just/releases/download/1.7.0/just-1.7.0-x86_64-pc-windows-msvc.zip",
             "hash": "a514ed220c4a320cfe04b6bec97e32e0282dc0a70462b0562c8b79d4c8d58ebc"
         }
     },
@@ -16,7 +16,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/casey/just/releases/download/$version/just-$version-x86_64-pc-windows-msvc.zip"
+                "url": "https://ghproxy.com/github.com/casey/just/releases/download/$version/just-$version-x86_64-pc-windows-msvc.zip"
             }
         }
     }

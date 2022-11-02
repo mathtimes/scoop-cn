@@ -3,7 +3,7 @@
     "description": "A keystroke launcher",
     "homepage": "https://ueli.oliverschwendener.ch",
     "license": "MIT",
-    "url": "https://download.fastgit.org/oliverschwendener/ueli/releases/download/v8.23.1/ueli-8.23.1-win.zip",
+    "url": "https://ghproxy.com/github.com/oliverschwendener/ueli/releases/download/v8.23.1/ueli-8.23.1-win.zip",
     "hash": "bb58f38dfdcb034465d903ba3d33cd5e345d52bf55bf2de893ffca3df73f652c",
     "bin": "ueli.exe",
     "shortcuts": [
@@ -16,6 +16,6 @@
         "github": "https://github.com/oliverschwendener/ueli"
     },
     "autoupdate": {
-        "url": "https://download.fastgit.org/oliverschwendener/ueli/releases/download/v$version/ueli-$version-win.zip"
+        "url": "https://ghproxy.com/github.com/oliverschwendener/ueli/releases/download/v$version/ueli-$version-win.zip"
     }
 }

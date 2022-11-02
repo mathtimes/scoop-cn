@@ -6,7 +6,7 @@
     "depends": "erlang",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/gleam-lang/gleam/releases/download/v0.22.1/gleam-v0.22.1-windows-64bit.zip",
+            "url": "https://ghproxy.com/github.com/gleam-lang/gleam/releases/download/v0.22.1/gleam-v0.22.1-windows-64bit.zip",
             "hash": "ee62bad3c6ddc5fb9dbf7de93cdafcbede0f882d8a9e1fd51d8bce3b3ad15371"
         }
     },
@@ -17,7 +17,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/gleam-lang/gleam/releases/download/v$version/gleam-v$version-windows-64bit.zip"
+                "url": "https://ghproxy.com/github.com/gleam-lang/gleam/releases/download/v$version/gleam-v$version-windows-64bit.zip"
             }
         }
     }

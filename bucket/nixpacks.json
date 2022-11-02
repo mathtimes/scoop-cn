@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/railwayapp/nixpacks/releases/download/v0.11.6/nixpacks-v0.11.6-x86_64-pc-windows-msvc.zip",
+            "url": "https://ghproxy.com/github.com/railwayapp/nixpacks/releases/download/v0.11.6/nixpacks-v0.11.6-x86_64-pc-windows-msvc.zip",
             "hash": "5ebecaac28c21a8b23768c36aae65dc8f28be1c7b8f1389a6972281036b94cac",
             "extract_dir": "nixpacks-v0.11.6-x86_64-pc-windows-msvc"
         },
         "32bit": {
-            "url": "https://download.fastgit.org/railwayapp/nixpacks/releases/download/v0.11.6/nixpacks-v0.11.6-i686-pc-windows-msvc.zip",
+            "url": "https://ghproxy.com/github.com/railwayapp/nixpacks/releases/download/v0.11.6/nixpacks-v0.11.6-i686-pc-windows-msvc.zip",
             "hash": "96f91147c03e070aee592d71d31700b051a3898a76f04d91d8fccb6774567146",
             "extract_dir": "nixpacks-v0.11.6-i686-pc-windows-msvc"
         }
@@ -23,11 +23,11 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/railwayapp/nixpacks/releases/download/v$version/nixpacks-v$version-x86_64-pc-windows-msvc.zip",
+                "url": "https://ghproxy.com/github.com/railwayapp/nixpacks/releases/download/v$version/nixpacks-v$version-x86_64-pc-windows-msvc.zip",
                 "extract_dir": "nixpacks-v$version-x86_64-pc-windows-msvc"
             },
             "32bit": {
-                "url": "https://download.fastgit.org/railwayapp/nixpacks/releases/download/v$version/nixpacks-v$version-i686-pc-windows-msvc.zip",
+                "url": "https://ghproxy.com/github.com/railwayapp/nixpacks/releases/download/v$version/nixpacks-v$version-i686-pc-windows-msvc.zip",
                 "extract_dir": "nixpacks-v$version-i686-pc-windows-msvc"
             }
         }

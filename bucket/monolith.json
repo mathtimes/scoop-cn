@@ -5,7 +5,7 @@
     "license": "Unlicense",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/Y2Z/monolith/releases/download/v2.6.2/monolith.exe",
+            "url": "https://ghproxy.com/github.com/Y2Z/monolith/releases/download/v2.6.2/monolith.exe",
             "hash": "737a56c12365595ef409d2b665fc377d6ca15c7bce0057501a514ff76cb2ce5a"
         }
     },
@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/Y2Z/monolith/releases/download/v$version/monolith.exe"
+                "url": "https://ghproxy.com/github.com/Y2Z/monolith/releases/download/v$version/monolith.exe"
             }
         }
     }

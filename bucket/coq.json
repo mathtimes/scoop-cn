@@ -8,11 +8,11 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/coq/platform/releases/download/2022.04.0/Coq-Platform-release-2022.04.0-version_8.15_2022.04-windows-x86_64_signed.exe#/dl.7z",
+            "url": "https://ghproxy.com/github.com/coq/platform/releases/download/2022.04.0/Coq-Platform-release-2022.04.0-version_8.15_2022.04-windows-x86_64_signed.exe#/dl.7z",
             "hash": "3cc33e94737b912219d0a0492cc4eafdfeac0637669730fca7930901422b8143"
         },
         "32bit": {
-            "url": "https://download.fastgit.org/coq/platform/releases/download/2022.04.0/Coq-Platform-release-2022.04.0-version_8.15_2022.04-windows-i686_signed.exe#/dl.7z",
+            "url": "https://ghproxy.com/github.com/coq/platform/releases/download/2022.04.0/Coq-Platform-release-2022.04.0-version_8.15_2022.04-windows-i686_signed.exe#/dl.7z",
             "hash": "eda6faa6080daffb12e52bda475b18360f9b611972b0bdb8800875928c1b3f09"
         }
     },
@@ -40,10 +40,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/coq/platform/releases/download/$version/Coq-Platform-release-$version-version_$matchCoqver_$majorVersion.$minorVersion-windows-x86_64_signed.exe#/dl.7z"
+                "url": "https://ghproxy.com/github.com/coq/platform/releases/download/$version/Coq-Platform-release-$version-version_$matchCoqver_$majorVersion.$minorVersion-windows-x86_64_signed.exe#/dl.7z"
             },
             "32bit": {
-                "url": "https://download.fastgit.org/coq/platform/releases/download/$version/Coq-Platform-release-$version-version_$matchCoqver_$majorVersion.$minorVersion-windows-i686_signed.exe#/dl.7z"
+                "url": "https://ghproxy.com/github.com/coq/platform/releases/download/$version/Coq-Platform-release-$version-version_$matchCoqver_$majorVersion.$minorVersion-windows-i686_signed.exe#/dl.7z"
             }
         }
     }

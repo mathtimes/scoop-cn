@@ -5,7 +5,7 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/hoppscotch/hopp-cli/releases/download/v0.0.8/hopp-cli_0.0.8_windows_x86_64.tar.gz",
+            "url": "https://ghproxy.com/github.com/hoppscotch/hopp-cli/releases/download/v0.0.8/hopp-cli_0.0.8_windows_x86_64.tar.gz",
             "hash": "17307a8d0fa1b38174807a10218d23dffc0c58c46449912fe472595cc23acfef"
         }
     },
@@ -16,7 +16,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/hoppscotch/hopp-cli/releases/download/v$version/hopp-cli_$version_windows_x86_64.tar.gz"
+                "url": "https://ghproxy.com/github.com/hoppscotch/hopp-cli/releases/download/v$version/hopp-cli_$version_windows_x86_64.tar.gz"
             }
         },
         "hash": {

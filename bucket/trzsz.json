@@ -5,12 +5,12 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/trzsz/trzsz-go/releases/download/v0.1.9/trzsz_0.1.9_windows_x86_64.zip",
+            "url": "https://ghproxy.com/github.com/trzsz/trzsz-go/releases/download/v0.1.9/trzsz_0.1.9_windows_x86_64.zip",
             "hash": "3b3fa20b3024fbbc936e1506c68786920340b84021b3186d819b850c606e9e01",
             "extract_dir": "trzsz_0.1.9_windows_x86_64"
         },
         "32bit": {
-            "url": "https://download.fastgit.org/trzsz/trzsz-go/releases/download/v0.1.9/trzsz_0.1.9_windows_i386.zip",
+            "url": "https://ghproxy.com/github.com/trzsz/trzsz-go/releases/download/v0.1.9/trzsz_0.1.9_windows_i386.zip",
             "hash": "18389127b67a70926d9c1fa5abcebac920d06ab54b8a0409d181258c46536d49",
             "extract_dir": "trzsz_0.1.9_windows_i386"
         }
@@ -26,11 +26,11 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/trzsz/trzsz-go/releases/download/v$version/trzsz_$version_windows_x86_64.zip",
+                "url": "https://ghproxy.com/github.com/trzsz/trzsz-go/releases/download/v$version/trzsz_$version_windows_x86_64.zip",
                 "extract_dir": "trzsz_$version_windows_x86_64"
             },
             "32bit": {
-                "url": "https://download.fastgit.org/trzsz/trzsz-go/releases/download/v$version/trzsz_$version_windows_i386.zip",
+                "url": "https://ghproxy.com/github.com/trzsz/trzsz-go/releases/download/v$version/trzsz_$version_windows_i386.zip",
                 "extract_dir": "trzsz_$version_windows_i386"
             }
         }

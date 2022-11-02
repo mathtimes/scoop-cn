@@ -8,7 +8,7 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/pritunl/pritunl-client-electron/releases/download/1.3.3329.81/Pritunl.exe#/dl.exe",
+            "url": "https://ghproxy.com/github.com/pritunl/pritunl-client-electron/releases/download/1.3.3329.81/Pritunl.exe#/dl.exe",
             "hash": "34ed2473e50f4a76c8ff9391a76b8ddcfac6f4c5d0c83de9d01df435d4d93087"
         }
     },
@@ -39,7 +39,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/pritunl/pritunl-client-electron/releases/download/$version/Pritunl.exe#/dl.exe",
+                "url": "https://ghproxy.com/github.com/pritunl/pritunl-client-electron/releases/download/$version/Pritunl.exe#/dl.exe",
                 "hash": {
                     "url": "https://raw.fastgit.org/pritunl/pritunl-client-electron/master/SHA256",
                     "regex": "$version[\\r\\n]+$sha256.*?$basename"

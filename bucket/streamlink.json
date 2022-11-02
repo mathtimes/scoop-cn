@@ -13,12 +13,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/streamlink/windows-builds/releases/download/5.0.1-1/streamlink-5.0.1-1-py310-x86_64.zip",
+            "url": "https://ghproxy.com/github.com/streamlink/windows-builds/releases/download/5.0.1-1/streamlink-5.0.1-1-py310-x86_64.zip",
             "hash": "69f1a8707eed766a96b57a6f97e9561dfbfd238182bc5c2123d70de78e292aca",
             "extract_dir": "streamlink-5.0.1-1-py310-x86_64"
         },
         "32bit": {
-            "url": "https://download.fastgit.org/streamlink/windows-builds/releases/download/5.0.1-1/streamlink-5.0.1-1-py310-x86.zip",
+            "url": "https://ghproxy.com/github.com/streamlink/windows-builds/releases/download/5.0.1-1/streamlink-5.0.1-1-py310-x86.zip",
             "hash": "691f6979bed6ed1e5a2175ee1a24de1d1e192ee124aa70653eea11924d2495dc",
             "extract_dir": "streamlink-5.0.1-1-py310-x86"
         }
@@ -49,11 +49,11 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/streamlink/windows-builds/releases/download/$version/streamlink-$version-py310-x86_64.zip",
+                "url": "https://ghproxy.com/github.com/streamlink/windows-builds/releases/download/$version/streamlink-$version-py310-x86_64.zip",
                 "extract_dir": "streamlink-$version-py310-x86_64"
             },
             "32bit": {
-                "url": "https://download.fastgit.org/streamlink/windows-builds/releases/download/$version/streamlink-$version-py310-x86.zip",
+                "url": "https://ghproxy.com/github.com/streamlink/windows-builds/releases/download/$version/streamlink-$version-py310-x86.zip",
                 "extract_dir": "streamlink-$version-py310-x86"
             }
         }

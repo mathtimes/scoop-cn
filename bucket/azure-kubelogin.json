@@ -5,7 +5,7 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/Azure/kubelogin/releases/download/v0.0.20/kubelogin-win-amd64.zip",
+            "url": "https://ghproxy.com/github.com/Azure/kubelogin/releases/download/v0.0.20/kubelogin-win-amd64.zip",
             "hash": "7d7cf52dfff626378a82bf214ba07d0ba6b69045cb0524ea67f7fd20c84c1ae3"
         }
     },
@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/Azure/kubelogin/releases/download/v$version/kubelogin-win-amd64.zip"
+                "url": "https://ghproxy.com/github.com/Azure/kubelogin/releases/download/v$version/kubelogin-win-amd64.zip"
             }
         },
         "hash": {

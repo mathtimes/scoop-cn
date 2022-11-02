@@ -5,11 +5,11 @@
     "license": "BSD-3-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/zufuliu/notepad2/releases/download/v4.22.09r4360/Notepad2_en_x64_v4.22.09r4360.zip",
+            "url": "https://ghproxy.com/github.com/zufuliu/notepad2/releases/download/v4.22.09r4360/Notepad2_en_x64_v4.22.09r4360.zip",
             "hash": "83c3bdec4755ae5fd14c212496726e5d2af347421e139aecbfb990a6ba11526a"
         },
         "32bit": {
-            "url": "https://download.fastgit.org/zufuliu/notepad2/releases/download/v4.22.09r4360/Notepad2_en_Win32_v4.22.09r4360.zip",
+            "url": "https://ghproxy.com/github.com/zufuliu/notepad2/releases/download/v4.22.09r4360/Notepad2_en_Win32_v4.22.09r4360.zip",
             "hash": "2e5ce585f789f2dd7fdc27b95f61003ce04fc70b0befaf57f8cd3241e62357fe"
         }
     },
@@ -35,10 +35,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/zufuliu/notepad2/releases/download/v$version/Notepad2_en_x64_v$version.zip"
+                "url": "https://ghproxy.com/github.com/zufuliu/notepad2/releases/download/v$version/Notepad2_en_x64_v$version.zip"
             },
             "32bit": {
-                "url": "https://download.fastgit.org/zufuliu/notepad2/releases/download/v$version/Notepad2_en_Win32_v$version.zip"
+                "url": "https://ghproxy.com/github.com/zufuliu/notepad2/releases/download/v$version/Notepad2_en_Win32_v$version.zip"
             }
         }
     }

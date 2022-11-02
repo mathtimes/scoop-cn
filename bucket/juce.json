@@ -8,7 +8,7 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/juce-framework/JUCE/releases/download/7.0.2/juce-7.0.2-windows.zip",
+            "url": "https://ghproxy.com/github.com/juce-framework/JUCE/releases/download/7.0.2/juce-7.0.2-windows.zip",
             "hash": "9886ac25bcb56df1b1d40298019c7eb96450cec9c6669e1aa310dff2477f8ada"
         }
     },
@@ -26,7 +26,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/juce-framework/JUCE/releases/download/$version/juce-$version-windows.zip"
+                "url": "https://ghproxy.com/github.com/juce-framework/JUCE/releases/download/$version/juce-$version-windows.zip"
             }
         }
     }

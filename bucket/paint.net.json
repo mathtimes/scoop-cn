@@ -9,11 +9,11 @@
     "notes": ".NET 4.7.2 (or above) is required if you are running this on Windows 7",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/paintdotnet/release/releases/download/v4.3.12/paint.net.4.3.12.portable.x64.zip",
+            "url": "https://ghproxy.com/github.com/paintdotnet/release/releases/download/v4.3.12/paint.net.4.3.12.portable.x64.zip",
             "hash": "af58c12b92bc759f8e38c8623e356c8b8a2534809c44058ab76055dfa15de4f8"
         },
         "32bit": {
-            "url": "https://download.fastgit.org/paintdotnet/release/releases/download/v4.3.12/paint.net.4.3.12.portable.x86.zip",
+            "url": "https://ghproxy.com/github.com/paintdotnet/release/releases/download/v4.3.12/paint.net.4.3.12.portable.x86.zip",
             "hash": "23f1ab56c5475a31087e93b9a48ba485c0942a88586f63cf9dc0d1a6823332d4"
         }
     },
@@ -37,10 +37,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/paintdotnet/release/releases/download/v$version/paint.net.$version.portable.x64.zip"
+                "url": "https://ghproxy.com/github.com/paintdotnet/release/releases/download/v$version/paint.net.$version.portable.x64.zip"
             },
             "32bit": {
-                "url": "https://download.fastgit.org/paintdotnet/release/releases/download/v$version/paint.net.$version.portable.x86.zip"
+                "url": "https://ghproxy.com/github.com/paintdotnet/release/releases/download/v$version/paint.net.$version.portable.x86.zip"
             }
         }
     }

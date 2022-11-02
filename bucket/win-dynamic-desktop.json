@@ -5,11 +5,11 @@
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/t1m0thyj/WinDynamicDesktop/releases/download/v5.1.0/WinDynamicDesktop_5.1.0_x64_Portable.exe#/WinDynamicDesktop.exe",
+            "url": "https://ghproxy.com/github.com/t1m0thyj/WinDynamicDesktop/releases/download/v5.1.0/WinDynamicDesktop_5.1.0_x64_Portable.exe#/WinDynamicDesktop.exe",
             "hash": "7a96864fe4efdb9fa4fdd737e142f9ef02155d84b3a8363bb0cc6febf45e8ba9"
         },
         "32bit": {
-            "url": "https://download.fastgit.org/t1m0thyj/WinDynamicDesktop/releases/download/v5.1.0/WinDynamicDesktop_5.1.0_x86_Portable.exe#/WinDynamicDesktop.exe",
+            "url": "https://ghproxy.com/github.com/t1m0thyj/WinDynamicDesktop/releases/download/v5.1.0/WinDynamicDesktop_5.1.0_x86_Portable.exe#/WinDynamicDesktop.exe",
             "hash": "551e8d4f3e4d8f3964bbf3b80a4821c7c17a8f4838f651c54a2aedaf6ea4dd64"
         }
     },
@@ -36,10 +36,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/t1m0thyj/WinDynamicDesktop/releases/download/v$version/WinDynamicDesktop_$version_x64_Portable.exe#/WinDynamicDesktop.exe"
+                "url": "https://ghproxy.com/github.com/t1m0thyj/WinDynamicDesktop/releases/download/v$version/WinDynamicDesktop_$version_x64_Portable.exe#/WinDynamicDesktop.exe"
             },
             "32bit": {
-                "url": "https://download.fastgit.org/t1m0thyj/WinDynamicDesktop/releases/download/v$version/WinDynamicDesktop_$version_x86_Portable.exe#/WinDynamicDesktop.exe"
+                "url": "https://ghproxy.com/github.com/t1m0thyj/WinDynamicDesktop/releases/download/v$version/WinDynamicDesktop_$version_x86_Portable.exe#/WinDynamicDesktop.exe"
             }
         },
         "hash": {

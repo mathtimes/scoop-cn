@@ -5,7 +5,7 @@
     "license": "Apache-2.0|MIT",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/dbrgn/tealdeer/releases/download/v1.6.0/tealdeer-windows-x86_64-msvc.exe#/tldr.exe",
+            "url": "https://ghproxy.com/github.com/dbrgn/tealdeer/releases/download/v1.6.0/tealdeer-windows-x86_64-msvc.exe#/tldr.exe",
             "hash": "05524c36aba7214a2db11e7970f9f50b438e739e87ca15788612f8ecddb1ec83"
         }
     },
@@ -36,7 +36,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/dbrgn/tealdeer/releases/download/v$version/tealdeer-windows-x86_64-msvc.exe#/tldr.exe",
+                "url": "https://ghproxy.com/github.com/dbrgn/tealdeer/releases/download/v$version/tealdeer-windows-x86_64-msvc.exe#/tldr.exe",
                 "hash": {
                     "url": "$url.sha256"
                 }

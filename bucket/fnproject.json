@@ -5,7 +5,7 @@
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/fnproject/cli/releases/download/0.6.22/fn.exe",
+            "url": "https://ghproxy.com/github.com/fnproject/cli/releases/download/0.6.22/fn.exe",
             "hash": "f5bfe588f9f2f6898cdb9bbb6a64bc50346aa84e2a5f14bd0ec65adfbb1a8317"
         }
     },
@@ -16,7 +16,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/fnproject/cli/releases/download/$version/fn.exe"
+                "url": "https://ghproxy.com/github.com/fnproject/cli/releases/download/$version/fn.exe"
             }
         }
     }

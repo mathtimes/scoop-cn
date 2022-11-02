@@ -5,11 +5,11 @@
     "license": "LGPL-2.1-only",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/visualfc/liteide/releases/download/x38.0/liteidex38.0.win64-qt5.15.2.zip",
+            "url": "https://ghproxy.com/github.com/visualfc/liteide/releases/download/x38.0/liteidex38.0.win64-qt5.15.2.zip",
             "hash": "074ab5392f40143760cae7b36b7d7706ef9eed3161bbbcb80b7f03f3a8dfc069"
         },
         "32bit": {
-            "url": "https://download.fastgit.org/visualfc/liteide/releases/download/x38.0/liteidex38.0.win32-qt4.8.5.zip",
+            "url": "https://ghproxy.com/github.com/visualfc/liteide/releases/download/x38.0/liteidex38.0.win32-qt4.8.5.zip",
             "hash": "95024e21b107e67bdc99a30fcf197f6f54cb9773f9937bcb45321536f3029aff"
         }
     },
@@ -29,10 +29,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/visualfc/liteide/releases/download/x$version/liteidex$version.win64-qt$matchQt64bitver.zip"
+                "url": "https://ghproxy.com/github.com/visualfc/liteide/releases/download/x$version/liteidex$version.win64-qt$matchQt64bitver.zip"
             },
             "32bit": {
-                "url": "https://download.fastgit.org/visualfc/liteide/releases/download/x$version/liteidex$version.win32-qt$matchQt32bitver.zip"
+                "url": "https://ghproxy.com/github.com/visualfc/liteide/releases/download/x$version/liteidex$version.win32-qt$matchQt32bitver.zip"
             }
         }
     }

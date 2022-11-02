@@ -5,7 +5,7 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/denoland/deno/releases/download/v1.27.0/deno-x86_64-pc-windows-msvc.zip",
+            "url": "https://ghproxy.com/github.com/denoland/deno/releases/download/v1.27.0/deno-x86_64-pc-windows-msvc.zip",
             "hash": "ff73e2314212ebe5c5dfc91235782d5838092342cd03f6f6f17755c4064cc290"
         }
     },
@@ -16,7 +16,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/denoland/deno/releases/download/v$version/deno-x86_64-pc-windows-msvc.zip"
+                "url": "https://ghproxy.com/github.com/denoland/deno/releases/download/v$version/deno-x86_64-pc-windows-msvc.zip"
             }
         }
     }

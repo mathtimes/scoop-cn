@@ -8,11 +8,11 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/electron/fiddle/releases/download/v0.31.0/electron-fiddle-0.31.0-win32-x64-setup.exe#/dl.7z",
+            "url": "https://ghproxy.com/github.com/electron/fiddle/releases/download/v0.31.0/electron-fiddle-0.31.0-win32-x64-setup.exe#/dl.7z",
             "hash": "2e69bd4c8ceed7366054c28a24aa48a2dd0a89bdf2bc8305fc33efb003a322a7"
         },
         "32bit": {
-            "url": "https://download.fastgit.org/electron/fiddle/releases/download/v0.31.0/electron-fiddle-0.31.0-win32-ia32-setup.exe#/dl.7z",
+            "url": "https://ghproxy.com/github.com/electron/fiddle/releases/download/v0.31.0/electron-fiddle-0.31.0-win32-ia32-setup.exe#/dl.7z",
             "hash": "94142d2b0ec49eaf4789e36006ef5ecebf251e599cd52e08734a1646525ec56f"
         }
     },
@@ -32,10 +32,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/electron/fiddle/releases/download/v$version/electron-fiddle-$version-win32-x64-setup.exe#/dl.7z"
+                "url": "https://ghproxy.com/github.com/electron/fiddle/releases/download/v$version/electron-fiddle-$version-win32-x64-setup.exe#/dl.7z"
             },
             "32bit": {
-                "url": "https://download.fastgit.org/electron/fiddle/releases/download/v$version/electron-fiddle-$version-win32-ia32-setup.exe#/dl.7z"
+                "url": "https://ghproxy.com/github.com/electron/fiddle/releases/download/v$version/electron-fiddle-$version-win32-ia32-setup.exe#/dl.7z"
             }
         }
     }

@@ -5,11 +5,11 @@
     "license": "GPL-2.0-only WITH Classpath-exception-2.0,EPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/ibmruntimes/semeru8-binaries/releases/download/jdk8u345-b01_openj9-0.33.1/ibm-semeru-open-jdk_x64_windows_8u345b01_openj9-0.33.1.zip",
+            "url": "https://ghproxy.com/github.com/ibmruntimes/semeru8-binaries/releases/download/jdk8u345-b01_openj9-0.33.1/ibm-semeru-open-jdk_x64_windows_8u345b01_openj9-0.33.1.zip",
             "hash": "50588d95ea2272811f3385514859961cf1bd2925c4093b231ce3988513589e3c"
         },
         "32bit": {
-            "url": "https://download.fastgit.org/ibmruntimes/semeru8-binaries/releases/download/jdk8u345-b01_openj9-0.33.1/ibm-semeru-open-jdk_x86-32_windows_8u345b01_openj9-0.33.1.zip",
+            "url": "https://ghproxy.com/github.com/ibmruntimes/semeru8-binaries/releases/download/jdk8u345-b01_openj9-0.33.1/ibm-semeru-open-jdk_x86-32_windows_8u345b01_openj9-0.33.1.zip",
             "hash": "b4c2ed4dc2b8cb3e04c08949e75f9795b44ce7b4aeaed9c96e60f34686852a6e"
         }
     },
@@ -26,10 +26,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/ibmruntimes/semeru8-binaries/releases/download/$matchTag/ibm-semeru-open-jdk_x64_windows_$matchMajor$matchUpdate$matchBuild_openj9$matchJvmver.zip"
+                "url": "https://ghproxy.com/github.com/ibmruntimes/semeru8-binaries/releases/download/$matchTag/ibm-semeru-open-jdk_x64_windows_$matchMajor$matchUpdate$matchBuild_openj9$matchJvmver.zip"
             },
             "32bit": {
-                "url": "https://download.fastgit.org/ibmruntimes/semeru8-binaries/releases/download/$matchTag/ibm-semeru-open-jdk_x86-32_windows_$matchMajor$matchUpdate$matchBuild_openj9$matchJvmver.zip"
+                "url": "https://ghproxy.com/github.com/ibmruntimes/semeru8-binaries/releases/download/$matchTag/ibm-semeru-open-jdk_x86-32_windows_$matchMajor$matchUpdate$matchBuild_openj9$matchJvmver.zip"
             }
         },
         "hash": {

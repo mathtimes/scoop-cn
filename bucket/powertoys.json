@@ -6,7 +6,7 @@
     "notes": "To run this application, you must install .Net Core: https://dotnet.microsoft.com/download",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/microsoft/PowerToys/releases/download/v0.63.0/PowerToysSetup-0.63.0-x64.exe",
+            "url": "https://ghproxy.com/github.com/microsoft/PowerToys/releases/download/v0.63.0/PowerToysSetup-0.63.0-x64.exe",
             "hash": "d9e5cae050e6cb54f672c2f13dceb753b6ff1047d7286e0a98baa95df0affff7"
         }
     },
@@ -41,7 +41,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/microsoft/PowerToys/releases/download/v$version/PowerToysSetup-$version-x64.exe",
+                "url": "https://ghproxy.com/github.com/microsoft/PowerToys/releases/download/v$version/PowerToysSetup-$version-x64.exe",
                 "hash": {
                     "url": "https://github.com/microsoft/PowerToys/releases/tag/v$version",
                     "regex": ">$sha256<"

@@ -1,4 +1,4 @@
-# Issue Tracker: https://hub.fastgit.xyz/ScoopInstaller/Install/issues
+# Issue Tracker: https://ghproxy.com/github.com/ScoopInstaller/Install/issues
 # Unlicense License:
 #
 # This is free and unencumbered software released into the public domain.
@@ -53,7 +53,7 @@
 .LINK
     https://scoop.sh
 .LINK
-    https://hub.fastgit.xyz/ScoopInstaller/Scoop/wiki
+    https://ghproxy.com/github.com/ScoopInstaller/Scoop/wiki
 #>
 param(
     [String] $ScoopDir,
@@ -139,7 +139,7 @@ function Test-Prerequisite {
 
     # Detect if RunAsAdministrator, there is no need to run as administrator when installing Scoop.
     if (!$RunAsAdmin -and (Test-IsAdministrator)) {
-        Deny-Install "Running the installer as administrator is disabled by default, see https://hub.fastgit.xyz/ScoopInstaller/Install#for-admin for details."
+        Deny-Install "Running the installer as administrator is disabled by default, see https://ghproxy.com/github.com/ScoopInstaller/Install#for-admin for details."
     }
 
     # Show notification to change execution policy
@@ -251,7 +251,7 @@ function Expand-ZipArchive {
     }
 
     # Workaround to suspend Expand-Archive verbose output,
-    # upstream issue: https://hub.fastgit.xyz/PowerShell/Microsoft.PowerShell.Archive/issues/98
+    # upstream issue: https://ghproxy.com/github.com/PowerShell/Microsoft.PowerShell.Archive/issues/98
     $oldVerbosePreference = $VerbosePreference
     $global:VerbosePreference = 'SilentlyContinue'
     # PowerShell 5+: use Expand-Archive to extract zip files
@@ -572,8 +572,8 @@ $SCOOP_CONFIG_HOME = $env:XDG_CONFIG_HOME, "$env:USERPROFILE\.config" | Select-O
 $SCOOP_CONFIG_FILE = "$SCOOP_CONFIG_HOME\scoop\config.json"
 
 # TODO: Use a specific version of Scoop and the main bucket
-$SCOOP_PACKAGE_REPO = "https://hub.fastgit.xyz/ScoopInstaller/Scoop/archive/master.zip"
-$SCOOP_MAIN_BUCKET_REPO = "https://hub.fastgit.xyz/ScoopInstaller/Main/archive/master.zip"
+$SCOOP_PACKAGE_REPO = "https://ghproxy.com/github.com/ScoopInstaller/Scoop/archive/master.zip"
+$SCOOP_MAIN_BUCKET_REPO = "https://ghproxy.com/github.com/ScoopInstaller/Main/archive/master.zip"
 
 # Quit if anything goes wrong
 $oldErrorActionPreference = $ErrorActionPreference

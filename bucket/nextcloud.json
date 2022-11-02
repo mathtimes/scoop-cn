@@ -8,7 +8,7 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/nextcloud/desktop/releases/download/v3.6.1/Nextcloud-3.6.1-x64.msi",
+            "url": "https://ghproxy.com/github.com/nextcloud/desktop/releases/download/v3.6.1/Nextcloud-3.6.1-x64.msi",
             "hash": "655474f64b74c3d0bebdfa229ed7a2fc5b19b9893bb221af059e792d60ac1160"
         }
     },
@@ -33,7 +33,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/nextcloud/desktop/releases/download/v$version/Nextcloud-$version-x64.msi"
+                "url": "https://ghproxy.com/github.com/nextcloud/desktop/releases/download/v$version/Nextcloud-$version-x64.msi"
             }
         }
     }

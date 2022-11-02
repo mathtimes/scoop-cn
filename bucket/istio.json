@@ -5,7 +5,7 @@
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/istio/istio/releases/download/1.15.3/istio-1.15.3-win.zip",
+            "url": "https://ghproxy.com/github.com/istio/istio/releases/download/1.15.3/istio-1.15.3-win.zip",
             "hash": "f8f77115dbf53facd83f369f58880a92da69298856a3eed1c68aef14f3012830"
         }
     },
@@ -17,7 +17,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/istio/istio/releases/download/$version/istio-$version-win.zip"
+                "url": "https://ghproxy.com/github.com/istio/istio/releases/download/$version/istio-$version-win.zip"
             }
         },
         "hash": {

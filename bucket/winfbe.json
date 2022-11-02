@@ -3,7 +3,7 @@
     "description": "FreeBASIC Editor for Windows",
     "homepage": "https://github.com/PaulSquires/WinFBE",
     "license": "GPL-3.0-or-later",
-    "url": "https://download.fastgit.org/PaulSquires/WinFBE/releases/download/3.0.1/WinFBE_Suite.zip",
+    "url": "https://ghproxy.com/github.com/PaulSquires/WinFBE/releases/download/3.0.1/WinFBE_Suite.zip",
     "hash": "8141a2df18604207fd08dc2d15568af048662e3ca28b1be77cf60508d2769ffb",
     "extract_dir": "WinFBE_Suite",
     "architecture": {
@@ -38,6 +38,6 @@
     },
     "checkver": "github",
     "autoupdate": {
-        "url": "https://download.fastgit.org/PaulSquires/WinFBE/releases/download/$version/WinFBE_Suite.zip"
+        "url": "https://ghproxy.com/github.com/PaulSquires/WinFBE/releases/download/$version/WinFBE_Suite.zip"
     }
 }

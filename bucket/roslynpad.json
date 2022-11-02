@@ -8,7 +8,7 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/aelij/RoslynPad/releases/download/15.1/RoslynPad.zip",
+            "url": "https://ghproxy.com/github.com/aelij/RoslynPad/releases/download/15.1/RoslynPad.zip",
             "hash": "9d2f38a97bfc34b2918439b6265edec5460d9f86346b15d158d1c0f7d9cd3645"
         }
     },
@@ -25,7 +25,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/aelij/RoslynPad/releases/download/$version/RoslynPad.zip"
+                "url": "https://ghproxy.com/github.com/aelij/RoslynPad/releases/download/$version/RoslynPad.zip"
             }
         }
     }

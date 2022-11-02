@@ -5,7 +5,7 @@
     "license": "GPL-2.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/stax76/mpv.net/releases/download/v6.0.2.0/mpv.net-v6.0.2.0.zip",
+            "url": "https://ghproxy.com/github.com/stax76/mpv.net/releases/download/v6.0.2.0/mpv.net-v6.0.2.0.zip",
             "hash": "28891093b9f62eb248c0a1ff462fafbf6692a316477cbe2e5957a7f19ceb7b55"
         }
     },
@@ -21,7 +21,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/stax76/mpv.net/releases/download/v$version/mpv.net-v$version.zip"
+                "url": "https://ghproxy.com/github.com/stax76/mpv.net/releases/download/v$version/mpv.net-v$version.zip"
             }
         }
     }

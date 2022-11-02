@@ -5,11 +5,11 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/mtkennerly/ludusavi/releases/download/v0.14.0/ludusavi-v0.14.0-win64.zip",
+            "url": "https://ghproxy.com/github.com/mtkennerly/ludusavi/releases/download/v0.14.0/ludusavi-v0.14.0-win64.zip",
             "hash": "6d5757ae1338a8cc190efa613eef9e3b6b476fda75427f99e7dda7a21b6f29ff"
         },
         "32bit": {
-            "url": "https://download.fastgit.org/mtkennerly/ludusavi/releases/download/v0.14.0/ludusavi-v0.14.0-win32.zip",
+            "url": "https://ghproxy.com/github.com/mtkennerly/ludusavi/releases/download/v0.14.0/ludusavi-v0.14.0-win32.zip",
             "hash": "7501d033c892f061850bfb2f9cfa838dced8f467beaccf69ed1035806ee93dc5"
         }
     },
@@ -24,10 +24,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/mtkennerly/ludusavi/releases/download/v$version/ludusavi-v$version-win64.zip"
+                "url": "https://ghproxy.com/github.com/mtkennerly/ludusavi/releases/download/v$version/ludusavi-v$version-win64.zip"
             },
             "32bit": {
-                "url": "https://download.fastgit.org/mtkennerly/ludusavi/releases/download/v$version/ludusavi-v$version-win32.zip"
+                "url": "https://ghproxy.com/github.com/mtkennerly/ludusavi/releases/download/v$version/ludusavi-v$version-win32.zip"
             }
         }
     }

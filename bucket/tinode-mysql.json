@@ -7,7 +7,7 @@
     "depends": "mysql",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/tinode/chat/releases/download/v0.20.0/tinode-mysql.windows-amd64.zip",
+            "url": "https://ghproxy.com/github.com/tinode/chat/releases/download/v0.20.0/tinode-mysql.windows-amd64.zip",
             "hash": "9ea99dc61869625c829d71627d455b4c6624c7d91f613dc7617a75740cded033"
         }
     },
@@ -20,7 +20,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/tinode/chat/releases/download/v$version/tinode-mysql.windows-amd64.zip"
+                "url": "https://ghproxy.com/github.com/tinode/chat/releases/download/v$version/tinode-mysql.windows-amd64.zip"
             }
         }
     }

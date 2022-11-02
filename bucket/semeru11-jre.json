@@ -5,7 +5,7 @@
     "license": "GPL-2.0-only WITH Classpath-exception-2.0,EPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.16.1+1_openj9-0.33.1/ibm-semeru-open-jre_x64_windows_11.0.16.1_1_openj9-0.33.1.zip",
+            "url": "https://ghproxy.com/github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.16.1+1_openj9-0.33.1/ibm-semeru-open-jre_x64_windows_11.0.16.1_1_openj9-0.33.1.zip",
             "hash": "68f396df580c9b4a98ff0c53489c20de87b24aa98b5ec239e70ef09ea7986d20"
         }
     },
@@ -22,7 +22,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/ibmruntimes/semeru11-binaries/releases/download/$matchTag/ibm-semeru-open-jre_x64_windows_$matchMajor_$matchBuild$matchPatch_openj9$matchJvmver.zip"
+                "url": "https://ghproxy.com/github.com/ibmruntimes/semeru11-binaries/releases/download/$matchTag/ibm-semeru-open-jre_x64_windows_$matchMajor_$matchBuild$matchPatch_openj9$matchJvmver.zip"
             }
         },
         "hash": {

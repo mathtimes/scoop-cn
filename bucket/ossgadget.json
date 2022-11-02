@@ -5,7 +5,7 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/microsoft/OSSGadget/releases/download/v0.1.357/OSSGadget_win_0.1.357.zip",
+            "url": "https://ghproxy.com/github.com/microsoft/OSSGadget/releases/download/v0.1.357/OSSGadget_win_0.1.357.zip",
             "hash": "edb617a022c042af15bb2bab208b4d182e97c76b5ca046f8a97fc81d3ae3b571",
             "extract_dir": "OSSGadget_win_0.1.357"
         }
@@ -28,9 +28,9 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/microsoft/OSSGadget/releases/download/v$version/OSSGadget_win_$version.zip",
+                "url": "https://ghproxy.com/github.com/microsoft/OSSGadget/releases/download/v$version/OSSGadget_win_$version.zip",
                 "hash": {
-                    "url": "https://download.fastgit.org/microsoft/OSSGadget/releases/download/v$version/HASHES.txt"
+                    "url": "https://ghproxy.com/github.com/microsoft/OSSGadget/releases/download/v$version/HASHES.txt"
                 },
                 "extract_dir": "OSSGadget_win_$version"
             }

@@ -10,7 +10,7 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/kubeshop/monokle/releases/download/v1.12.0/Monokle-win-1.12.0-x64.exe#/dl.7z",
+            "url": "https://ghproxy.com/github.com/kubeshop/monokle/releases/download/v1.12.0/Monokle-win-1.12.0-x64.exe#/dl.7z",
             "hash": "sha512:6ff92da100a2cc23a64d995e12633d009289c9054d58670e0817dee4ea0ecdebcc798c10f70770538b7a260f1cd45703fed829e4cd0d7f9ea8ff416c73e649f2"
         }
     },
@@ -41,7 +41,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/kubeshop/monokle/releases/download/v$version/Monokle-win-$version-x64.exe#/dl.7z",
+                "url": "https://ghproxy.com/github.com/kubeshop/monokle/releases/download/v$version/Monokle-win-$version-x64.exe#/dl.7z",
                 "hash": {
                     "url": "$baseurl/latest.yml",
                     "regex": "sha512:\\s+$base64"

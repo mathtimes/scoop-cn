@@ -5,7 +5,7 @@
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/topgrade-rs/topgrade/releases/download/v10.0.1/topgrade-v10.0.1-x86_64-pc-windows-msvc.zip",
+            "url": "https://ghproxy.com/github.com/topgrade-rs/topgrade/releases/download/v10.0.1/topgrade-v10.0.1-x86_64-pc-windows-msvc.zip",
             "hash": "b5c2fcba806e3b1cea718913af5be9d7232c3a5413eecdad8ecdf52c339cdbcc"
         }
     },
@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/topgrade-rs/topgrade/releases/download/v$version/topgrade-v$version-x86_64-pc-windows-msvc.zip"
+                "url": "https://ghproxy.com/github.com/topgrade-rs/topgrade/releases/download/v$version/topgrade-v$version-x86_64-pc-windows-msvc.zip"
             }
         }
     }

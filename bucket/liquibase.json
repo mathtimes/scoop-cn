@@ -6,7 +6,7 @@
     "suggest": {
         "JRE": "java/openjdk"
     },
-    "url": "https://download.fastgit.org/liquibase/liquibase/releases/download/v4.17.1/liquibase-4.17.1.zip",
+    "url": "https://ghproxy.com/github.com/liquibase/liquibase/releases/download/v4.17.1/liquibase-4.17.1.zip",
     "hash": "1097edb3d091596a843322e767b36bc6e0dbb31dcc3013e310b5d40513edd281",
     "bin": "liquibase.bat",
     "persist": "lib-other",
@@ -14,6 +14,6 @@
         "github": "https://github.com/liquibase/liquibase"
     },
     "autoupdate": {
-        "url": "https://download.fastgit.org/liquibase/liquibase/releases/download/v$version/liquibase-$version.zip"
+        "url": "https://ghproxy.com/github.com/liquibase/liquibase/releases/download/v$version/liquibase-$version.zip"
     }
 }

@@ -5,11 +5,11 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/mutagen-io/mutagen/releases/download/v0.16.0/mutagen_windows_amd64_v0.16.0.zip",
+            "url": "https://ghproxy.com/github.com/mutagen-io/mutagen/releases/download/v0.16.0/mutagen_windows_amd64_v0.16.0.zip",
             "hash": "13d0797b40f067592c96fef0a0ebf912dda6a090166d2839cfba401ab5f4dc2b"
         },
         "32bit": {
-            "url": "https://download.fastgit.org/mutagen-io/mutagen/releases/download/v0.16.0/mutagen_windows_386_v0.16.0.zip",
+            "url": "https://ghproxy.com/github.com/mutagen-io/mutagen/releases/download/v0.16.0/mutagen_windows_386_v0.16.0.zip",
             "hash": "ca16f9ac393e54947cbc1a0ac16e36cb8a71cdb692d2d08b6a7eb18d89bb41c6"
         }
     },
@@ -20,10 +20,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/mutagen-io/mutagen/releases/download/v$version/mutagen_windows_amd64_v$version.zip"
+                "url": "https://ghproxy.com/github.com/mutagen-io/mutagen/releases/download/v$version/mutagen_windows_amd64_v$version.zip"
             },
             "32bit": {
-                "url": "https://download.fastgit.org/mutagen-io/mutagen/releases/download/v$version/mutagen_windows_386_v$version.zip"
+                "url": "https://ghproxy.com/github.com/mutagen-io/mutagen/releases/download/v$version/mutagen_windows_386_v$version.zip"
             }
         }
     }

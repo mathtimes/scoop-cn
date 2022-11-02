@@ -5,7 +5,7 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/xtaci/kcptun/releases/download/v20221015/kcptun-windows-amd64-20221015.tar.gz",
+            "url": "https://ghproxy.com/github.com/xtaci/kcptun/releases/download/v20221015/kcptun-windows-amd64-20221015.tar.gz",
             "hash": "sha1:8d6231fff71daa818fd064ee0e594f1bdc8891d1",
             "bin": [
                 [
@@ -19,7 +19,7 @@
             ]
         },
         "32bit": {
-            "url": "https://download.fastgit.org/xtaci/kcptun/releases/download/v20221015/kcptun-windows-386-20221015.tar.gz",
+            "url": "https://ghproxy.com/github.com/xtaci/kcptun/releases/download/v20221015/kcptun-windows-386-20221015.tar.gz",
             "hash": "sha1:b7afed2eec47fbc7ac268bdb555cced38bafce8f",
             "bin": [
                 [
@@ -37,10 +37,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/xtaci/kcptun/releases/download/v$version/kcptun-windows-amd64-$version.tar.gz"
+                "url": "https://ghproxy.com/github.com/xtaci/kcptun/releases/download/v$version/kcptun-windows-amd64-$version.tar.gz"
             },
             "32bit": {
-                "url": "https://download.fastgit.org/xtaci/kcptun/releases/download/v$version/kcptun-windows-386-$version.tar.gz"
+                "url": "https://ghproxy.com/github.com/xtaci/kcptun/releases/download/v$version/kcptun-windows-386-$version.tar.gz"
             }
         },
         "hash": {

@@ -5,7 +5,7 @@
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/tektoncd/cli/releases/download/v0.27.0/tkn_0.27.0_Windows_x86_64.zip",
+            "url": "https://ghproxy.com/github.com/tektoncd/cli/releases/download/v0.27.0/tkn_0.27.0_Windows_x86_64.zip",
             "hash": "096c8e18315903a327d54fd2f79d4a84f46916cfdf5f4a53af3638891d5b9097"
         }
     },
@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/tektoncd/cli/releases/download/v$version/tkn_$version_Windows_x86_64.zip"
+                "url": "https://ghproxy.com/github.com/tektoncd/cli/releases/download/v$version/tkn_$version_Windows_x86_64.zip"
             }
         },
         "hash": {

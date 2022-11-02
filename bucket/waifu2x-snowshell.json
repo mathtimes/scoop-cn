@@ -14,7 +14,7 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/YukihoAA/waifu2x_snowshell/releases/download/v2.6/waifu2x-snowshell_v2.6.zip",
+            "url": "https://ghproxy.com/github.com/YukihoAA/waifu2x_snowshell/releases/download/v2.6/waifu2x-snowshell_v2.6.zip",
             "hash": "26455d66ae812aed58ccbdb3b68d88451b5a0589e628b43357958ba759107269"
         }
     },
@@ -36,7 +36,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/YukihoAA/waifu2x_snowshell/releases/download/v$version/waifu2x-snowshell_v$version.zip"
+                "url": "https://ghproxy.com/github.com/YukihoAA/waifu2x_snowshell/releases/download/v$version/waifu2x-snowshell_v$version.zip"
             }
         }
     }

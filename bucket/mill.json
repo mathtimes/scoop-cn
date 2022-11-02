@@ -6,13 +6,13 @@
     "suggest": {
         "JDK": "java/openjdk"
     },
-    "url": "https://download.fastgit.org/lihaoyi/mill/releases/download/0.10.8/0.10.8-assembly#/mill.bat",
+    "url": "https://ghproxy.com/github.com/lihaoyi/mill/releases/download/0.10.8/0.10.8-assembly#/mill.bat",
     "hash": "e6625ce5c2d3f71922c41f266c362e2587a5f9f35e0b0af53cccd4fd90a770ad",
     "bin": "mill.bat",
     "checkver": {
         "github": "https://github.com/lihaoyi/mill"
     },
     "autoupdate": {
-        "url": "https://download.fastgit.org/lihaoyi/mill/releases/download/$matchHead/$version-assembly#/mill.bat"
+        "url": "https://ghproxy.com/github.com/lihaoyi/mill/releases/download/$matchHead/$version-assembly#/mill.bat"
     }
 }

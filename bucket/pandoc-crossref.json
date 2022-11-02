@@ -6,7 +6,7 @@
     "depends": "pandoc",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/lierdakil/pandoc-crossref/releases/download/v0.3.13.0b/pandoc-crossref-Windows.7z",
+            "url": "https://ghproxy.com/github.com/lierdakil/pandoc-crossref/releases/download/v0.3.13.0b/pandoc-crossref-Windows.7z",
             "hash": "f741ddf88c5ab4a08af422981143bc850d4660e62ff4419dc4de12f2bc96788d"
         }
     },
@@ -18,7 +18,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/lierdakil/pandoc-crossref/releases/download/v$version/pandoc-crossref-Windows.7z"
+                "url": "https://ghproxy.com/github.com/lierdakil/pandoc-crossref/releases/download/v$version/pandoc-crossref-Windows.7z"
             }
         }
     }

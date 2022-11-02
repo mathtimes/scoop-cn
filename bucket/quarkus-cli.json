@@ -6,7 +6,7 @@
     "suggest": {
         "JDK": "java/openjdk"
     },
-    "url": "https://download.fastgit.org/quarkusio/quarkus/releases/download/2.13.3.Final/quarkus-cli-2.13.3.Final.zip",
+    "url": "https://ghproxy.com/github.com/quarkusio/quarkus/releases/download/2.13.3.Final/quarkus-cli-2.13.3.Final.zip",
     "extract_dir": "quarkus-cli-2.13.3.Final",
     "hash": "a5abac1f1d526222dc5ca46b22660bad8090c6b789719ad6b3f806b370e5bb4e",
     "bin": "bin\\quarkus.bat",
@@ -16,7 +16,7 @@
         "regex": "([\\d+\\.]+)\\.Final"
     },
     "autoupdate": {
-        "url": "https://download.fastgit.org/quarkusio/quarkus/releases/download/$version.Final/quarkus-cli-$version.Final.zip",
+        "url": "https://ghproxy.com/github.com/quarkusio/quarkus/releases/download/$version.Final/quarkus-cli-$version.Final.zip",
         "extract_dir": "quarkus-cli-$version.Final",
         "hash": {
             "url": "$baseurl/checksums_sha256.txt"

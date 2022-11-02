@@ -5,11 +5,11 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/gokcehan/lf/releases/download/r27/lf-windows-amd64.zip",
+            "url": "https://ghproxy.com/github.com/gokcehan/lf/releases/download/r27/lf-windows-amd64.zip",
             "hash": "118d6f2096e35ea7703f2b881a9d724806af8a5575c7f788d723f9797fa20948"
         },
         "32bit": {
-            "url": "https://download.fastgit.org/gokcehan/lf/releases/download/r27/lf-windows-386.zip",
+            "url": "https://ghproxy.com/github.com/gokcehan/lf/releases/download/r27/lf-windows-386.zip",
             "hash": "1c4db943cfbb3201cc44a159fedf61745aea6f255f2a8af8f446df1be18a66cd"
         }
     },
@@ -21,10 +21,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/gokcehan/lf/releases/download/$version/lf-windows-amd64.zip"
+                "url": "https://ghproxy.com/github.com/gokcehan/lf/releases/download/$version/lf-windows-amd64.zip"
             },
             "32bit": {
-                "url": "https://download.fastgit.org/gokcehan/lf/releases/download/$version/lf-windows-386.zip"
+                "url": "https://ghproxy.com/github.com/gokcehan/lf/releases/download/$version/lf-windows-386.zip"
             }
         }
     }

@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/yt-dlp/FFmpeg-Builds/releases/download/autobuild-2022-11-01-15-03/ffmpeg-n5.1.2-4-gf5455889fd-win64-gpl-5.1.zip",
+            "url": "https://ghproxy.com/github.com/yt-dlp/FFmpeg-Builds/releases/download/autobuild-2022-11-01-15-03/ffmpeg-n5.1.2-4-gf5455889fd-win64-gpl-5.1.zip",
             "hash": "e3235e1551edbd139c08a06708f7b9fe813cc5489074694423921597c1e1c866",
             "extract_dir": "ffmpeg-n5.1.2-4-gf5455889fd-win64-gpl-5.1"
         },
         "32bit": {
-            "url": "https://download.fastgit.org/yt-dlp/FFmpeg-Builds/releases/download/autobuild-2022-11-01-15-03/ffmpeg-n5.1.2-4-gf5455889fd-win32-gpl-5.1.zip",
+            "url": "https://ghproxy.com/github.com/yt-dlp/FFmpeg-Builds/releases/download/autobuild-2022-11-01-15-03/ffmpeg-n5.1.2-4-gf5455889fd-win32-gpl-5.1.zip",
             "hash": "1ee029df7b95bb07947a54f9a88bbe4f990eee7791da9f9c979a273688623673",
             "extract_dir": "ffmpeg-n5.1.2-4-gf5455889fd-win32-gpl-5.1"
         }
@@ -47,11 +47,11 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/yt-dlp/FFmpeg-Builds/releases/download/autobuild-$matchBuildtime/$matchFilename64bit.zip",
+                "url": "https://ghproxy.com/github.com/yt-dlp/FFmpeg-Builds/releases/download/autobuild-$matchBuildtime/$matchFilename64bit.zip",
                 "extract_dir": "$matchFilename64bit"
             },
             "32bit": {
-                "url": "https://download.fastgit.org/yt-dlp/FFmpeg-Builds/releases/download/autobuild-$matchBuildtime/$matchFilename32bit.zip",
+                "url": "https://ghproxy.com/github.com/yt-dlp/FFmpeg-Builds/releases/download/autobuild-$matchBuildtime/$matchFilename32bit.zip",
                 "extract_dir": "$matchFilename32bit"
             }
         }

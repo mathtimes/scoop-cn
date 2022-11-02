@@ -6,12 +6,12 @@
     "notes": "To run the server as a Windows Service, check: https://sws.joseluisq.net/features/windows-service",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/joseluisq/static-web-server/releases/download/v2.13.1/static-web-server-v2.13.1-x86_64-pc-windows-msvc.zip",
+            "url": "https://ghproxy.com/github.com/joseluisq/static-web-server/releases/download/v2.13.1/static-web-server-v2.13.1-x86_64-pc-windows-msvc.zip",
             "hash": "dc68e7c0005394141487cce757ba6d078efa0ad9a03752df24dc077d16f7dbdf",
             "extract_dir": "static-web-server-v2.13.1-x86_64-pc-windows-msvc"
         },
         "32bit": {
-            "url": "https://download.fastgit.org/joseluisq/static-web-server/releases/download/v2.13.1/static-web-server-v2.13.1-i686-pc-windows-msvc.zip",
+            "url": "https://ghproxy.com/github.com/joseluisq/static-web-server/releases/download/v2.13.1/static-web-server-v2.13.1-i686-pc-windows-msvc.zip",
             "hash": "7e12e7b04b74d9b9534e04055b6ae9a6f606686b2b415a6413644317c50a47f3",
             "extract_dir": "static-web-server-v2.13.1-i686-pc-windows-msvc"
         }
@@ -23,11 +23,11 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/joseluisq/static-web-server/releases/download/v$version/static-web-server-v$version-x86_64-pc-windows-msvc.zip",
+                "url": "https://ghproxy.com/github.com/joseluisq/static-web-server/releases/download/v$version/static-web-server-v$version-x86_64-pc-windows-msvc.zip",
                 "extract_dir": "static-web-server-v$version-x86_64-pc-windows-msvc"
             },
             "32bit": {
-                "url": "https://download.fastgit.org/joseluisq/static-web-server/releases/download/v$version/static-web-server-v$version-i686-pc-windows-msvc.zip",
+                "url": "https://ghproxy.com/github.com/joseluisq/static-web-server/releases/download/v$version/static-web-server-v$version-i686-pc-windows-msvc.zip",
                 "extract_dir": "static-web-server-v$version-i686-pc-windows-msvc"
             }
         },

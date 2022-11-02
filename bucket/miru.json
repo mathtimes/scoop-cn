@@ -5,7 +5,7 @@
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/ThaUnknown/miru/releases/download/v3.1.21/win-Miru-3.1.21.exe#/dl.7z",
+            "url": "https://ghproxy.com/github.com/ThaUnknown/miru/releases/download/v3.1.21/win-Miru-3.1.21.exe#/dl.7z",
             "hash": "sha512:b67e3ad0dbe81c9e15c4df92d217b206c46b3dc0129ca5c3541e9f41abb50794e16c6d3a33b11c0a7482f512b952a0b7791a61ef908c6cfff7f0b90cc22731a3"
         }
     },
@@ -23,7 +23,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/ThaUnknown/miru/releases/download/v$version/win-Miru-$version.exe#/dl.7z",
+                "url": "https://ghproxy.com/github.com/ThaUnknown/miru/releases/download/v$version/win-Miru-$version.exe#/dl.7z",
                 "hash": {
                     "url": "$baseurl/latest.yml",
                     "regex": "sha512:\\s+$base64"

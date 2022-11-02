@@ -5,7 +5,7 @@
     "license": "AGPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/arduino/arduino-ide/releases/download/2.0.1/arduino-ide_2.0.1_Windows_64bit.zip",
+            "url": "https://ghproxy.com/github.com/arduino/arduino-ide/releases/download/2.0.1/arduino-ide_2.0.1_Windows_64bit.zip",
             "hash": "9516fae993ccaa70344f867283924a11259791ce64c33f9b56e75a6194139835"
         }
     },
@@ -22,7 +22,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/arduino/arduino-ide/releases/download/$version/arduino-ide_$version_Windows_64bit.zip"
+                "url": "https://ghproxy.com/github.com/arduino/arduino-ide/releases/download/$version/arduino-ide_$version_Windows_64bit.zip"
             }
         }
     }

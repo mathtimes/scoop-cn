@@ -5,7 +5,7 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/marp-team/marp-cli/releases/download/v2.2.0/marp-cli-v2.2.0-win.zip",
+            "url": "https://ghproxy.com/github.com/marp-team/marp-cli/releases/download/v2.2.0/marp-cli-v2.2.0-win.zip",
             "hash": "e08d7f4f1f870806b9eab141a0cbea4cf75bff8e259bd98b798135f43d4e76f1"
         }
     },
@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/marp-team/marp-cli/releases/download/v$version/marp-cli-v$version-win.zip"
+                "url": "https://ghproxy.com/github.com/marp-team/marp-cli/releases/download/v$version/marp-cli-v$version-win.zip"
             }
         }
     }

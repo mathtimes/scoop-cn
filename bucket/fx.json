@@ -5,7 +5,7 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/antonmedv/fx/releases/download/24.0.0/fx_windows_amd64.exe",
+            "url": "https://ghproxy.com/github.com/antonmedv/fx/releases/download/24.0.0/fx_windows_amd64.exe",
             "hash": "e663e5fae64f2b14ffdff837289fccb8f5b5f2156cb6012d9269ad87e38d9867"
         }
     },
@@ -15,7 +15,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/antonmedv/fx/releases/download/$version/fx_windows_amd64.exe"
+                "url": "https://ghproxy.com/github.com/antonmedv/fx/releases/download/$version/fx_windows_amd64.exe"
             }
         }
     }

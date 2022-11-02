@@ -5,7 +5,7 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/dprint/dprint/releases/download/0.32.2/dprint-x86_64-pc-windows-msvc.zip",
+            "url": "https://ghproxy.com/github.com/dprint/dprint/releases/download/0.32.2/dprint-x86_64-pc-windows-msvc.zip",
             "hash": "e4c0916438a11b18b1d6a3ce7c4e23f18998648d39247fa0b617c9863dea6d11"
         }
     },
@@ -16,7 +16,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/dprint/dprint/releases/download/$version/dprint-x86_64-pc-windows-msvc.zip"
+                "url": "https://ghproxy.com/github.com/dprint/dprint/releases/download/$version/dprint-x86_64-pc-windows-msvc.zip"
             }
         },
         "hash": {

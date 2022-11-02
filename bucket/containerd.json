@@ -5,7 +5,7 @@
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/containerd/containerd/releases/download/v1.6.9/containerd-1.6.9-windows-amd64.tar.gz",
+            "url": "https://ghproxy.com/github.com/containerd/containerd/releases/download/v1.6.9/containerd-1.6.9-windows-amd64.tar.gz",
             "hash": "76267641e4885b3ac23950a8e1024251c40cb5e5994993286c1e01a494b5be99"
         }
     },
@@ -20,7 +20,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/containerd/containerd/releases/download/v$version/containerd-$version-windows-amd64.tar.gz"
+                "url": "https://ghproxy.com/github.com/containerd/containerd/releases/download/v$version/containerd-$version-windows-amd64.tar.gz"
             }
         },
         "hash": {

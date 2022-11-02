@@ -5,7 +5,7 @@
     "license": "AGPL-3.0",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/massCodeIO/massCode/releases/download/v3.4.1/massCode.Setup.3.4.1.exe#/dl.7z",
+            "url": "https://ghproxy.com/github.com/massCodeIO/massCode/releases/download/v3.4.1/massCode.Setup.3.4.1.exe#/dl.7z",
             "hash": "818ac884564846a9971caf660d66f7a9b0c03fb9453942bc95801dcbd9392929",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
@@ -23,7 +23,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/massCodeIO/massCode/releases/download/v$version/massCode.Setup.$version.exe#/dl.7z"
+                "url": "https://ghproxy.com/github.com/massCodeIO/massCode/releases/download/v$version/massCode.Setup.$version.exe#/dl.7z"
             }
         }
     }

@@ -4,7 +4,7 @@
     "homepage": "https://www.rabbitmq.com",
     "license": "MPL-1.1",
     "depends": "erlang",
-    "url": "https://download.fastgit.org/rabbitmq/rabbitmq-server/releases/download/v3.11.2/rabbitmq-server-windows-3.11.2.zip",
+    "url": "https://ghproxy.com/github.com/rabbitmq/rabbitmq-server/releases/download/v3.11.2/rabbitmq-server-windows-3.11.2.zip",
     "hash": "0789b5a6be63d947d253a7e610d627d5e048d8b659d972a47091e0b1a69da1f0",
     "extract_dir": "rabbitmq_server-3.11.2",
     "bin": [
@@ -27,7 +27,7 @@
         "regex": "> of RabbitMQ is <strong>([\\d.]+)</"
     },
     "autoupdate": {
-        "url": "https://download.fastgit.org/rabbitmq/rabbitmq-server/releases/download/v$version/rabbitmq-server-windows-$version.zip",
+        "url": "https://ghproxy.com/github.com/rabbitmq/rabbitmq-server/releases/download/v$version/rabbitmq-server-windows-$version.zip",
         "extract_dir": "rabbitmq_server-$version"
     }
 }

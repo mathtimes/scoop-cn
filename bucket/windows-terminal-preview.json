@@ -7,7 +7,7 @@
     "suggest": {
         "vcredist": "extras/vcredist2022"
     },
-    "url": "https://download.fastgit.org/microsoft/terminal/releases/download/v1.16.2641.0/Microsoft.WindowsTerminalPreview_Win10_1.16.2641.0_8wekyb3d8bbwe.msixbundle#/dl.7z",
+    "url": "https://ghproxy.com/github.com/microsoft/terminal/releases/download/v1.16.2641.0/Microsoft.WindowsTerminalPreview_Win10_1.16.2641.0_8wekyb3d8bbwe.msixbundle#/dl.7z",
     "hash": "ee53172642ab54204e62d553b6ab37b1ba72288f609f78e1960fae9a89d5e574",
     "architecture": {
         "64bit": {
@@ -57,6 +57,6 @@
         "regex": "/tree/v([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://download.fastgit.org/microsoft/terminal/releases/download/v$version/Microsoft.WindowsTerminalPreview_Win10_$version_8wekyb3d8bbwe.msixbundle#/dl.7z"
+        "url": "https://ghproxy.com/github.com/microsoft/terminal/releases/download/v$version/Microsoft.WindowsTerminalPreview_Win10_$version_8wekyb3d8bbwe.msixbundle#/dl.7z"
     }
 }

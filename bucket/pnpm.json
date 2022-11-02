@@ -5,7 +5,7 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/pnpm/pnpm/releases/download/v7.14.1/pnpm-win-x64.exe#/pnpm.exe",
+            "url": "https://ghproxy.com/github.com/pnpm/pnpm/releases/download/v7.14.1/pnpm-win-x64.exe#/pnpm.exe",
             "hash": "db047fd74c419a53734e01d84bb8dce66825e5ee042884bb9daaa32335d0510d"
         }
     },
@@ -27,6 +27,6 @@
         "regex": "([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://download.fastgit.org/pnpm/pnpm/releases/download/v$version/pnpm-win-x64.exe#/pnpm.exe"
+        "url": "https://ghproxy.com/github.com/pnpm/pnpm/releases/download/v$version/pnpm-win-x64.exe#/pnpm.exe"
     }
 }

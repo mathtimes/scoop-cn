@@ -6,11 +6,11 @@
     "depends": "ffmpeg",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/iawia002/lux/releases/download/v0.15.0/lux_0.15.0_Windows_64-bit.zip",
+            "url": "https://ghproxy.com/github.com/iawia002/lux/releases/download/v0.15.0/lux_0.15.0_Windows_64-bit.zip",
             "hash": "ac061576faecf105701cfed0cc6b28e4cfb7304e3f4488e990397a728e3566a9"
         },
         "32bit": {
-            "url": "https://download.fastgit.org/iawia002/lux/releases/download/v0.15.0/lux_0.15.0_Windows_32-bit.zip",
+            "url": "https://ghproxy.com/github.com/iawia002/lux/releases/download/v0.15.0/lux_0.15.0_Windows_32-bit.zip",
             "hash": "f5854b46bb453531448b5502c2c447fd7de063a6dccee0b23d1f58cc7d37cbd8"
         }
     },
@@ -19,10 +19,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/iawia002/lux/releases/download/v$version/lux_$version_Windows_64-bit.zip"
+                "url": "https://ghproxy.com/github.com/iawia002/lux/releases/download/v$version/lux_$version_Windows_64-bit.zip"
             },
             "32bit": {
-                "url": "https://download.fastgit.org/iawia002/lux/releases/download/v$version/lux_$version_Windows_32-bit.zip"
+                "url": "https://ghproxy.com/github.com/iawia002/lux/releases/download/v$version/lux_$version_Windows_32-bit.zip"
             }
         },
         "hash": {

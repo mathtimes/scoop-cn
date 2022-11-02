@@ -3,7 +3,7 @@
     "version": "23.0.0-dev-20221031_2007",
     "homepage": "https://www.graalvm.org/",
     "license": "GPL-2.0",
-    "url": "https://download.fastgit.org/graalvm/graalvm-ce-dev-builds/releases/download/23.0.0-dev-20221031_2007/graalvm-ce-java19-windows-amd64-dev.zip",
+    "url": "https://ghproxy.com/github.com/graalvm/graalvm-ce-dev-builds/releases/download/23.0.0-dev-20221031_2007/graalvm-ce-java19-windows-amd64-dev.zip",
     "hash": "fdce9fabb2cc5e0eb6eb17afaff35bd194a84222de963fd7cc32dda9ca97a58e",
     "extract_dir": "graalvm-ce-java19-23.0.0-dev",
     "env_add_path": "bin",
@@ -18,7 +18,7 @@
         "reverse": true
     },
     "autoupdate": {
-        "url": "https://download.fastgit.org/graalvm/graalvm-ce-dev-builds/releases/download/$version/graalvm-ce-java$matchJava-windows-amd64-dev.zip",
+        "url": "https://ghproxy.com/github.com/graalvm/graalvm-ce-dev-builds/releases/download/$version/graalvm-ce-java$matchJava-windows-amd64-dev.zip",
         "extract_dir": "graalvm-ce-java$matchJava-$matchRelease-dev"
     }
 }

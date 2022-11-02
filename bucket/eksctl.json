@@ -5,7 +5,7 @@
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/weaveworks/eksctl/releases/download/v0.116.0/eksctl_Windows_amd64.zip",
+            "url": "https://ghproxy.com/github.com/weaveworks/eksctl/releases/download/v0.116.0/eksctl_Windows_amd64.zip",
             "hash": "d9e79a044bb7026450e63f719f6fbb98ead6c4aa9b761fb6e3838f18418e93d3"
         }
     },
@@ -16,7 +16,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/weaveworks/eksctl/releases/download/v$version/eksctl_Windows_amd64.zip"
+                "url": "https://ghproxy.com/github.com/weaveworks/eksctl/releases/download/v$version/eksctl_Windows_amd64.zip"
             }
         },
         "hash": {

@@ -5,11 +5,11 @@
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/gruntwork-io/git-xargs/releases/download/v0.1.1/git-xargs_windows_amd64.exe#/git-xargs.exe",
+            "url": "https://ghproxy.com/github.com/gruntwork-io/git-xargs/releases/download/v0.1.1/git-xargs_windows_amd64.exe#/git-xargs.exe",
             "hash": "bc401c41782109464a069111e96eef5dfef40e1ef5a5714647605002705c89f7"
         },
         "32bit": {
-            "url": "https://download.fastgit.org/gruntwork-io/git-xargs/releases/download/v0.1.1/git-xargs_windows_386.exe#/git-xargs.exe",
+            "url": "https://ghproxy.com/github.com/gruntwork-io/git-xargs/releases/download/v0.1.1/git-xargs_windows_386.exe#/git-xargs.exe",
             "hash": "45c97ecb4ecfc950b832e16f6aff74b3146dbf5c3f17f2bfcc1fbdd704af3d0e"
         }
     },
@@ -18,10 +18,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/gruntwork-io/git-xargs/releases/download/v$version/git-xargs_windows_amd64.exe#/git-xargs.exe"
+                "url": "https://ghproxy.com/github.com/gruntwork-io/git-xargs/releases/download/v$version/git-xargs_windows_amd64.exe#/git-xargs.exe"
             },
             "32bit": {
-                "url": "https://download.fastgit.org/gruntwork-io/git-xargs/releases/download/v$version/git-xargs_windows_386.exe#/git-xargs.exe"
+                "url": "https://ghproxy.com/github.com/gruntwork-io/git-xargs/releases/download/v$version/git-xargs_windows_386.exe#/git-xargs.exe"
             }
         },
         "hash": {

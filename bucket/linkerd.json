@@ -5,7 +5,7 @@
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/linkerd/linkerd2/releases/download/stable-2.12.2/linkerd2-cli-stable-2.12.2-windows.exe#/linkerd.exe",
+            "url": "https://ghproxy.com/github.com/linkerd/linkerd2/releases/download/stable-2.12.2/linkerd2-cli-stable-2.12.2-windows.exe#/linkerd.exe",
             "hash": "54da755aa5d9f1a8c9928742ca14257d5d099442fd40aab1879ffa53384dbd2b"
         }
     },
@@ -17,7 +17,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/linkerd/linkerd2/releases/download/stable-$version/linkerd2-cli-stable-$version-windows.exe#/linkerd.exe"
+                "url": "https://ghproxy.com/github.com/linkerd/linkerd2/releases/download/stable-$version/linkerd2-cli-stable-$version-windows.exe#/linkerd.exe"
             }
         },
         "hash": {

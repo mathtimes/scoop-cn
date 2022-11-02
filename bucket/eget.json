@@ -5,12 +5,12 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/zyedidia/eget/releases/download/v1.2.1/eget-1.2.1-windows_amd64.zip",
+            "url": "https://ghproxy.com/github.com/zyedidia/eget/releases/download/v1.2.1/eget-1.2.1-windows_amd64.zip",
             "hash": "f942331ccc5f755792fe424e58c13cb53da60116ff6deaa7128cc40c6758ab17",
             "extract_dir": "eget-1.2.1-windows_amd64"
         },
         "32bit": {
-            "url": "https://download.fastgit.org/zyedidia/eget/releases/download/v1.2.1/eget-1.2.1-windows_386.zip",
+            "url": "https://ghproxy.com/github.com/zyedidia/eget/releases/download/v1.2.1/eget-1.2.1-windows_386.zip",
             "hash": "c946190ffda9067503731392a3adddd3eade1041b4482345fd06a9e06e745a37",
             "extract_dir": "eget-1.2.1-windows_386"
         }
@@ -20,11 +20,11 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/zyedidia/eget/releases/download/v$version/eget-$version-windows_amd64.zip",
+                "url": "https://ghproxy.com/github.com/zyedidia/eget/releases/download/v$version/eget-$version-windows_amd64.zip",
                 "extract_dir": "eget-$version-windows_amd64"
             },
             "32bit": {
-                "url": "https://download.fastgit.org/zyedidia/eget/releases/download/v$version/eget-$version-windows_386.zip",
+                "url": "https://ghproxy.com/github.com/zyedidia/eget/releases/download/v$version/eget-$version-windows_386.zip",
                 "extract_dir": "eget-$version-windows_386"
             }
         }

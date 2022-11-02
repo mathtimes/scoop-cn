@@ -5,7 +5,7 @@
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/helix-editor/helix/releases/download/22.08.1/helix-22.08.1-x86_64-windows.zip",
+            "url": "https://ghproxy.com/github.com/helix-editor/helix/releases/download/22.08.1/helix-22.08.1-x86_64-windows.zip",
             "hash": "ae2e1f534d2267b0de8cd53f6389dcce740d3f392c282e03768ba67db3f6003a",
             "extract_dir": "helix-22.08.1-x86_64-windows"
         }
@@ -23,7 +23,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/helix-editor/helix/releases/download/$version/helix-$version-x86_64-windows.zip",
+                "url": "https://ghproxy.com/github.com/helix-editor/helix/releases/download/$version/helix-$version-x86_64-windows.zip",
                 "extract_dir": "helix-$version-x86_64-windows"
             }
         }

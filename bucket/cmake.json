@@ -5,12 +5,12 @@
     "license": "BSD-3-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/Kitware/CMake/releases/download/v3.24.3/cmake-3.24.3-windows-x86_64.zip",
+            "url": "https://ghproxy.com/github.com/Kitware/CMake/releases/download/v3.24.3/cmake-3.24.3-windows-x86_64.zip",
             "hash": "86c605507e4175d1e1cd2fd9098d6a5b6bf6ff7f885f4b75ddfc9ac3dc1d4452",
             "extract_dir": "cmake-3.24.3-windows-x86_64"
         },
         "32bit": {
-            "url": "https://download.fastgit.org/Kitware/CMake/releases/download/v3.24.3/cmake-3.24.3-windows-i386.zip",
+            "url": "https://ghproxy.com/github.com/Kitware/CMake/releases/download/v3.24.3/cmake-3.24.3-windows-i386.zip",
             "hash": "f5a1a1314e539f04a5466a8b5e11d831507a9c2fc233f6dc976b6e304bd1e2ae",
             "extract_dir": "cmake-3.24.3-windows-i386"
         }
@@ -35,11 +35,11 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/Kitware/CMake/releases/download/v$version/cmake-$version-windows-x86_64.zip",
+                "url": "https://ghproxy.com/github.com/Kitware/CMake/releases/download/v$version/cmake-$version-windows-x86_64.zip",
                 "extract_dir": "cmake-$version-windows-x86_64"
             },
             "32bit": {
-                "url": "https://download.fastgit.org/Kitware/CMake/releases/download/v$version/cmake-$version-windows-i386.zip",
+                "url": "https://ghproxy.com/github.com/Kitware/CMake/releases/download/v$version/cmake-$version-windows-i386.zip",
                 "extract_dir": "cmake-$version-windows-i386"
             }
         },

@@ -9,7 +9,7 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/BornToBeRoot/NETworkManager/releases/download/2022.10.31.0/NETworkManager_2022.10.31.0_Portable.zip",
+            "url": "https://ghproxy.com/github.com/BornToBeRoot/NETworkManager/releases/download/2022.10.31.0/NETworkManager_2022.10.31.0_Portable.zip",
             "hash": "7b5822191c1d8eb0de8f223aa1ac581cfeb4ed726f652a3a8a7d0941a51be68f"
         }
     },
@@ -31,7 +31,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/BornToBeRoot/NETworkManager/releases/download/$version/NETworkManager_$version_Portable.zip",
+                "url": "https://ghproxy.com/github.com/BornToBeRoot/NETworkManager/releases/download/$version/NETworkManager_$version_Portable.zip",
                 "hash": {
                     "url": "https://github.com/BornToBeRoot/NETworkManager/releases/tag/$version",
                     "find": "(?sm)$basename.*?>$sha256</"

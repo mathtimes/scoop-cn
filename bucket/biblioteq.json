@@ -6,7 +6,7 @@
     "suggest": {
         "vcredist": "extras/vcredist2022"
     },
-    "url": "https://download.fastgit.org/textbrowser/biblioteq/releases/download/2022.09.15/BiblioteQ.zip",
+    "url": "https://ghproxy.com/github.com/textbrowser/biblioteq/releases/download/2022.09.15/BiblioteQ.zip",
     "hash": "18685a6296b0c9cd5fc2357fd6789297cc45e834610d797d29ce01c21a4c2eba",
     "extract_dir": "BiblioteQ",
     "pre_install": "Remove-Item \"$dir\\vc_red*\"",
@@ -21,6 +21,6 @@
         "github": "https://github.com/textbrowser/biblioteq"
     },
     "autoupdate": {
-        "url": "https://download.fastgit.org/textbrowser/biblioteq/releases/download/$version/BiblioteQ.zip"
+        "url": "https://ghproxy.com/github.com/textbrowser/biblioteq/releases/download/$version/BiblioteQ.zip"
     }
 }

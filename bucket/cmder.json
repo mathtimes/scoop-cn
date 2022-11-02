@@ -3,7 +3,7 @@
     "description": "Portable console emulator for Windows. (Mini version)",
     "homepage": "https://cmder.app",
     "license": "MIT",
-    "url": "https://download.fastgit.org/cmderdev/cmder/releases/download/v1.3.20/cmder_mini.zip",
+    "url": "https://ghproxy.com/github.com/cmderdev/cmder/releases/download/v1.3.20/cmder_mini.zip",
     "hash": "9b5d1d1f1fce6bd908f59ffa7485354aba86085e4ded8a1b14614c0977687014",
     "pre_install": [
         "if (!(Test-Path \"$persist_dir\\vendor\\conemu-maximus5\\ConEmu.xml\")) {",
@@ -31,7 +31,7 @@
         "github": "https://github.com/cmderdev/cmder"
     },
     "autoupdate": {
-        "url": "https://download.fastgit.org/cmderdev/cmder/releases/download/v$version/cmder_mini.zip",
+        "url": "https://ghproxy.com/github.com/cmderdev/cmder/releases/download/v$version/cmder_mini.zip",
         "hash": {
             "url": "$baseurl/hashes.txt",
             "regex": "$basename\\s+$sha256"

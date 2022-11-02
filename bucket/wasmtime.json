@@ -5,7 +5,7 @@
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/bytecodealliance/wasmtime/releases/download/v2.0.1/wasmtime-v2.0.1-x86_64-windows.zip",
+            "url": "https://ghproxy.com/github.com/bytecodealliance/wasmtime/releases/download/v2.0.1/wasmtime-v2.0.1-x86_64-windows.zip",
             "hash": "535c68b66a40410d5a1df282c77a9c9a707404b7a4f03037d1703b26a8ef99f2",
             "extract_dir": "wasmtime-v2.0.1-x86_64-windows"
         }
@@ -17,7 +17,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/bytecodealliance/wasmtime/releases/download/v$version/wasmtime-v$version-x86_64-windows.zip",
+                "url": "https://ghproxy.com/github.com/bytecodealliance/wasmtime/releases/download/v$version/wasmtime-v$version-x86_64-windows.zip",
                 "extract_dir": "wasmtime-v$version-x86_64-windows"
             }
         }

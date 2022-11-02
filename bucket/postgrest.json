@@ -8,7 +8,7 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/PostgREST/postgrest/releases/download/v10.1.0/postgrest-v10.1.0-windows-x64.zip",
+            "url": "https://ghproxy.com/github.com/PostgREST/postgrest/releases/download/v10.1.0/postgrest-v10.1.0-windows-x64.zip",
             "hash": "34dc3ce05b33f89765a22729ff314db481ce10b58d5dc1300a45681ed5b92ac0",
             "extract_dir": "artifacts\\postgrest-windows-x64"
         }
@@ -20,7 +20,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/PostgREST/postgrest/releases/download/v$version/postgrest-v$version-windows-x64.zip",
+                "url": "https://ghproxy.com/github.com/PostgREST/postgrest/releases/download/v$version/postgrest-v$version-windows-x64.zip",
                 "extract_dir": "artifacts\\postgrest-windows-x64"
             }
         }

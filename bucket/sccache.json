@@ -5,7 +5,7 @@
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/mozilla/sccache/releases/download/v0.3.0/sccache-v0.3.0-x86_64-pc-windows-msvc.tar.gz",
+            "url": "https://ghproxy.com/github.com/mozilla/sccache/releases/download/v0.3.0/sccache-v0.3.0-x86_64-pc-windows-msvc.tar.gz",
             "hash": "f25e927584d79d0d5ad489e04ef01b058dad47ef2c1633a13d4c69dfb83ba2be",
             "extract_dir": "sccache-v0.3.0-x86_64-pc-windows-msvc"
         }
@@ -15,7 +15,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/mozilla/sccache/releases/download/v$version/sccache-v$version-x86_64-pc-windows-msvc.tar.gz",
+                "url": "https://ghproxy.com/github.com/mozilla/sccache/releases/download/v$version/sccache-v$version-x86_64-pc-windows-msvc.tar.gz",
                 "extract_dir": "sccache-v$version-x86_64-pc-windows-msvc"
             }
         },

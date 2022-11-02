@@ -5,11 +5,11 @@
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/SeleniumHQ/selenium/releases/download/selenium-4.5.0/IEDriverServer_x64_4.5.0.zip",
+            "url": "https://ghproxy.com/github.com/SeleniumHQ/selenium/releases/download/selenium-4.5.0/IEDriverServer_x64_4.5.0.zip",
             "hash": "4bb6847a6db59ec482f4e620d5b69e3364388dd598f35d28a4937764f900ba22"
         },
         "32bit": {
-            "url": "https://download.fastgit.org/SeleniumHQ/selenium/releases/download/selenium-4.5.0/IEDriverServer_Win32_4.5.0.zip",
+            "url": "https://ghproxy.com/github.com/SeleniumHQ/selenium/releases/download/selenium-4.5.0/IEDriverServer_Win32_4.5.0.zip",
             "hash": "5286a34c880330a4ea201dc29d368b1c8b216222fc387e758ba36a82a5cc6c2c"
         }
     },
@@ -21,10 +21,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/SeleniumHQ/selenium/releases/download/selenium-$version/IEDriverServer_x64_$version.zip"
+                "url": "https://ghproxy.com/github.com/SeleniumHQ/selenium/releases/download/selenium-$version/IEDriverServer_x64_$version.zip"
             },
             "32bit": {
-                "url": "https://download.fastgit.org/SeleniumHQ/selenium/releases/download/selenium-$version/IEDriverServer_Win32_$version.zip"
+                "url": "https://ghproxy.com/github.com/SeleniumHQ/selenium/releases/download/selenium-$version/IEDriverServer_Win32_$version.zip"
             }
         }
     }

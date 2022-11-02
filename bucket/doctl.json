@@ -5,11 +5,11 @@
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/digitalocean/doctl/releases/download/v1.84.1/doctl-1.84.1-windows-amd64.zip",
+            "url": "https://ghproxy.com/github.com/digitalocean/doctl/releases/download/v1.84.1/doctl-1.84.1-windows-amd64.zip",
             "hash": "466ab71ba9cb5946703d92f60310f21c497f408ac2c4aeeda155be460a07f5e6"
         },
         "32bit": {
-            "url": "https://download.fastgit.org/digitalocean/doctl/releases/download/v1.84.1/doctl-1.84.1-windows-386.zip",
+            "url": "https://ghproxy.com/github.com/digitalocean/doctl/releases/download/v1.84.1/doctl-1.84.1-windows-386.zip",
             "hash": "e7fb6dd72a15ef84410de4bbc29a2a013d97676b409d912f6706eded5ae572f2"
         }
     },
@@ -18,10 +18,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/digitalocean/doctl/releases/download/v$version/doctl-$version-windows-amd64.zip"
+                "url": "https://ghproxy.com/github.com/digitalocean/doctl/releases/download/v$version/doctl-$version-windows-amd64.zip"
             },
             "32bit": {
-                "url": "https://download.fastgit.org/digitalocean/doctl/releases/download/v$version/doctl-$version-windows-386.zip"
+                "url": "https://ghproxy.com/github.com/digitalocean/doctl/releases/download/v$version/doctl-$version-windows-386.zip"
             }
         },
         "hash": {

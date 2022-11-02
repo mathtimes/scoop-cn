@@ -5,7 +5,7 @@
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/simonmichael/hledger/releases/download/1.27.1/hledger-windows-x64.zip",
+            "url": "https://ghproxy.com/github.com/simonmichael/hledger/releases/download/1.27.1/hledger-windows-x64.zip",
             "hash": "2467ebdb60c89a6877b735ec34db05d8bf95bf051d38dd4394860bf9efc79f90"
         }
     },
@@ -19,7 +19,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/simonmichael/hledger/releases/download/$version/hledger-windows-x64.zip"
+                "url": "https://ghproxy.com/github.com/simonmichael/hledger/releases/download/$version/hledger-windows-x64.zip"
             }
         }
     }

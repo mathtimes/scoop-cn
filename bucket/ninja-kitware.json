@@ -5,7 +5,7 @@
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/Kitware/ninja/releases/download/v1.10.2.g51db2.kitware.jobserver-1/ninja-1.10.2.g51db2.kitware.jobserver-1_x86_64-pc-windows-msvc.zip",
+            "url": "https://ghproxy.com/github.com/Kitware/ninja/releases/download/v1.10.2.g51db2.kitware.jobserver-1/ninja-1.10.2.g51db2.kitware.jobserver-1_x86_64-pc-windows-msvc.zip",
             "hash": "6695ef68138f6c34713e48bb1a44ea7627e868fbc658424cc81e7c08f934da92",
             "extract_dir": "ninja-1.10.2.g51db2.kitware.jobserver-1_x86_64-pc-windows-msvc"
         }
@@ -18,7 +18,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/Kitware/ninja/releases/download/v$version/ninja-$version_x86_64-pc-windows-msvc.zip",
+                "url": "https://ghproxy.com/github.com/Kitware/ninja/releases/download/v$version/ninja-$version_x86_64-pc-windows-msvc.zip",
                 "extract_dir": "ninja-$version_x86_64-pc-windows-msvc"
             }
         }

@@ -5,7 +5,7 @@
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/obsproject/obs-studio/releases/download/28.1.0-rc1/OBS-Studio-28.1-rc1-Full-x64.zip",
+            "url": "https://ghproxy.com/github.com/obsproject/obs-studio/releases/download/28.1.0-rc1/OBS-Studio-28.1-rc1-Full-x64.zip",
             "hash": "fba1233b94554a0b05f91429b62bb091bb76f521ab1ff56e4fad5b1e4a04632a",
             "shortcuts": [
                 [
@@ -28,7 +28,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/obsproject/obs-studio/releases/download/$match1/OBS-Studio-$match2-Full-x64.zip"
+                "url": "https://ghproxy.com/github.com/obsproject/obs-studio/releases/download/$match1/OBS-Studio-$match2-Full-x64.zip"
             }
         }
     }

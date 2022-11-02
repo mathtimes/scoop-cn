@@ -5,7 +5,7 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/xmichelo/Beeftext/releases/download/v14.0/Beeftext-14.0-PortableEdition.zip",
+            "url": "https://ghproxy.com/github.com/xmichelo/Beeftext/releases/download/v14.0/Beeftext-14.0-PortableEdition.zip",
             "hash": "58f6a7ed9ec374023780061bf0a1dc33746c240dd0dbd690bfebd70752625053"
         }
     },
@@ -23,7 +23,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/xmichelo/Beeftext/releases/download/v$version/Beeftext-$version-PortableEdition.zip"
+                "url": "https://ghproxy.com/github.com/xmichelo/Beeftext/releases/download/v$version/Beeftext-$version-PortableEdition.zip"
             }
         }
     }

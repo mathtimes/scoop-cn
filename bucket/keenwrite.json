@@ -8,7 +8,7 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/DaveJarvis/keenwrite/releases/download/2.9.7/keenwrite.exe#/dl.7z",
+            "url": "https://ghproxy.com/github.com/DaveJarvis/keenwrite/releases/download/2.9.7/keenwrite.exe#/dl.7z",
             "hash": "79bb26586a47f7798ae967ba6abad0722eb856d8f8b8b57b947366ccf5ebf383"
         }
     },
@@ -29,7 +29,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/DaveJarvis/keenwrite/releases/download/$version/keenwrite.exe#/dl.7z"
+                "url": "https://ghproxy.com/github.com/DaveJarvis/keenwrite/releases/download/$version/keenwrite.exe#/dl.7z"
             }
         }
     }

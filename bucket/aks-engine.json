@@ -5,7 +5,7 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/Azure/aks-engine/releases/download/v0.72.0/aks-engine-v0.72.0-windows-amd64.zip",
+            "url": "https://ghproxy.com/github.com/Azure/aks-engine/releases/download/v0.72.0/aks-engine-v0.72.0-windows-amd64.zip",
             "hash": "c1f97e3e5ee96755a4071d87185b0afd9d832b2339c94e621b03aaf103fbfed7",
             "extract_dir": "aks-engine-v0.72.0-windows-amd64"
         }
@@ -15,7 +15,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/Azure/aks-engine/releases/download/v$version/aks-engine-v$version-windows-amd64.zip",
+                "url": "https://ghproxy.com/github.com/Azure/aks-engine/releases/download/v$version/aks-engine-v$version-windows-amd64.zip",
                 "extract_dir": "aks-engine-v$version-windows-amd64"
             }
         }

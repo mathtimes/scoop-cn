@@ -5,7 +5,7 @@
     "license": "GPL-2.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/mifi/lossless-cut/releases/download/v3.47.1/LosslessCut-win-x64.7z",
+            "url": "https://ghproxy.com/github.com/mifi/lossless-cut/releases/download/v3.47.1/LosslessCut-win-x64.7z",
             "hash": "4be3450f943369992f1fb0ca106cc16e099a2ee790fd47c0a972c749abbfcd66"
         }
     },
@@ -20,7 +20,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/mifi/lossless-cut/releases/download/v$version/LosslessCut-win-x64.7z"
+                "url": "https://ghproxy.com/github.com/mifi/lossless-cut/releases/download/v$version/LosslessCut-win-x64.7z"
             }
         }
     }

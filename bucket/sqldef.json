@@ -6,9 +6,9 @@
     "architecture": {
         "64bit": {
             "url": [
-                "https://download.fastgit.org/k0kubun/sqldef/releases/download/v0.13.17/mssqldef_windows_amd64.zip",
-                "https://download.fastgit.org/k0kubun/sqldef/releases/download/v0.13.17/mysqldef_windows_amd64.zip",
-                "https://download.fastgit.org/k0kubun/sqldef/releases/download/v0.13.17/sqlite3def_windows_amd64.zip"
+                "https://ghproxy.com/github.com/k0kubun/sqldef/releases/download/v0.13.17/mssqldef_windows_amd64.zip",
+                "https://ghproxy.com/github.com/k0kubun/sqldef/releases/download/v0.13.17/mysqldef_windows_amd64.zip",
+                "https://ghproxy.com/github.com/k0kubun/sqldef/releases/download/v0.13.17/sqlite3def_windows_amd64.zip"
             ],
             "hash": [
                 "7cda3d5aa048561ecad16c53ae6f42f7d9e6971d405ccb3d586c464ab902b99a",
@@ -18,9 +18,9 @@
         },
         "32bit": {
             "url": [
-                "https://download.fastgit.org/k0kubun/sqldef/releases/download/v0.13.17/mssqldef_windows_386.zip",
-                "https://download.fastgit.org/k0kubun/sqldef/releases/download/v0.13.17/mysqldef_windows_386.zip",
-                "https://download.fastgit.org/k0kubun/sqldef/releases/download/v0.13.17/sqlite3def_windows_386.zip"
+                "https://ghproxy.com/github.com/k0kubun/sqldef/releases/download/v0.13.17/mssqldef_windows_386.zip",
+                "https://ghproxy.com/github.com/k0kubun/sqldef/releases/download/v0.13.17/mysqldef_windows_386.zip",
+                "https://ghproxy.com/github.com/k0kubun/sqldef/releases/download/v0.13.17/sqlite3def_windows_386.zip"
             ],
             "hash": [
                 "bf4576597ede1febc055d5615ea6fa8851ec13fb91974e9a6cdcd47f46937310",
@@ -39,16 +39,16 @@
         "architecture": {
             "64bit": {
                 "url": [
-                    "https://download.fastgit.org/k0kubun/sqldef/releases/download/v$version/mssqldef_windows_amd64.zip",
-                    "https://download.fastgit.org/k0kubun/sqldef/releases/download/v$version/mysqldef_windows_amd64.zip",
-                    "https://download.fastgit.org/k0kubun/sqldef/releases/download/v$version/sqlite3def_windows_amd64.zip"
+                    "https://ghproxy.com/github.com/k0kubun/sqldef/releases/download/v$version/mssqldef_windows_amd64.zip",
+                    "https://ghproxy.com/github.com/k0kubun/sqldef/releases/download/v$version/mysqldef_windows_amd64.zip",
+                    "https://ghproxy.com/github.com/k0kubun/sqldef/releases/download/v$version/sqlite3def_windows_amd64.zip"
                 ]
             },
             "32bit": {
                 "url": [
-                    "https://download.fastgit.org/k0kubun/sqldef/releases/download/v$version/mssqldef_windows_386.zip",
-                    "https://download.fastgit.org/k0kubun/sqldef/releases/download/v$version/mysqldef_windows_386.zip",
-                    "https://download.fastgit.org/k0kubun/sqldef/releases/download/v$version/sqlite3def_windows_386.zip"
+                    "https://ghproxy.com/github.com/k0kubun/sqldef/releases/download/v$version/mssqldef_windows_386.zip",
+                    "https://ghproxy.com/github.com/k0kubun/sqldef/releases/download/v$version/mysqldef_windows_386.zip",
+                    "https://ghproxy.com/github.com/k0kubun/sqldef/releases/download/v$version/sqlite3def_windows_386.zip"
                 ]
             }
         }

@@ -5,11 +5,11 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/horsicq/DIE-engine/releases/download/3.06/die_win64_portable_3.06.zip",
+            "url": "https://ghproxy.com/github.com/horsicq/DIE-engine/releases/download/3.06/die_win64_portable_3.06.zip",
             "hash": "f1f075145a7b5ee8556dbf8a66c4e64e6b7eff71bcfeaed669f8f8471862fac9"
         },
         "32bit": {
-            "url": "https://download.fastgit.org/horsicq/DIE-engine/releases/download/3.06/die_win32_portable_3.06.zip",
+            "url": "https://ghproxy.com/github.com/horsicq/DIE-engine/releases/download/3.06/die_win32_portable_3.06.zip",
             "hash": "e1481992ba3ebdb52e36b82bee870e6f105648a906758de9a4a3fc75e0df4bee"
         }
     },
@@ -39,10 +39,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/horsicq/DIE-engine/releases/download/$version/die_win64_portable_$version.zip"
+                "url": "https://ghproxy.com/github.com/horsicq/DIE-engine/releases/download/$version/die_win64_portable_$version.zip"
             },
             "32bit": {
-                "url": "https://download.fastgit.org/horsicq/DIE-engine/releases/download/$version/die_win32_portable_$version.zip"
+                "url": "https://ghproxy.com/github.com/horsicq/DIE-engine/releases/download/$version/die_win32_portable_$version.zip"
             }
         }
     }

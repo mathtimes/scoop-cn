@@ -5,7 +5,7 @@
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/jenkins-x/jx/releases/download/v3.10.3/jx-windows-amd64.zip",
+            "url": "https://ghproxy.com/github.com/jenkins-x/jx/releases/download/v3.10.3/jx-windows-amd64.zip",
             "hash": "e929f71352477fe3d87688c00d943321c312454d5cb1aeaabe1e19c5f100c791"
         }
     },
@@ -15,7 +15,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/jenkins-x/jx/releases/download/v$version/jx-windows-amd64.zip"
+                "url": "https://ghproxy.com/github.com/jenkins-x/jx/releases/download/v$version/jx-windows-amd64.zip"
             }
         },
         "hash": {

@@ -5,7 +5,7 @@
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/JohnnyMorganz/StyLua/releases/download/v0.15.2/stylua-win64.zip",
+            "url": "https://ghproxy.com/github.com/JohnnyMorganz/StyLua/releases/download/v0.15.2/stylua-win64.zip",
             "hash": "56709167875fe7a50566428747c4c8d16ec423abb9bca18148bce1a5108c867d"
         }
     },
@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/JohnnyMorganz/StyLua/releases/download/v$version/stylua-win64.zip"
+                "url": "https://ghproxy.com/github.com/JohnnyMorganz/StyLua/releases/download/v$version/stylua-win64.zip"
             }
         }
     }

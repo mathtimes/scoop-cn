@@ -5,7 +5,7 @@
     "license": "GPL-2.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/Belphemur/SoundSwitch/releases/download/v6.4.2/SoundSwitch_v6.4.2.0_Release_Installer.exe",
+            "url": "https://ghproxy.com/github.com/Belphemur/SoundSwitch/releases/download/v6.4.2/SoundSwitch_v6.4.2.0_Release_Installer.exe",
             "hash": "063d0c1e1539fd49edcf726fb4eb7e97291960149d9fdeb24d752a73af19d600"
         }
     },
@@ -23,7 +23,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/Belphemur/SoundSwitch/releases/download/v$version/SoundSwitch_v$match2_Release_Installer.exe"
+                "url": "https://ghproxy.com/github.com/Belphemur/SoundSwitch/releases/download/v$version/SoundSwitch_v$match2_Release_Installer.exe"
             }
         }
     }

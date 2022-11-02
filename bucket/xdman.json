@@ -14,7 +14,7 @@
         "'sudo $dir\\3rd-party-tools-setup.ps1'"
     ],
     "url": [
-        "https://download.fastgit.org/subhra74/xdm/releases/download/7.2.11/xdman.jar",
+        "https://ghproxy.com/github.com/subhra74/xdm/releases/download/7.2.11/xdman.jar",
         "https://raw.fastgit.org/ScoopInstaller/Extras/master/scripts/xdman/3rd-party-tools-setup.ps1"
     ],
     "hash": [
@@ -33,6 +33,6 @@
         "github": "https://github.com/subhra74/xdm"
     },
     "autoupdate": {
-        "url": "https://download.fastgit.org/subhra74/xdm/releases/download/$version/xdman.jar"
+        "url": "https://ghproxy.com/github.com/subhra74/xdm/releases/download/$version/xdman.jar"
     }
 }

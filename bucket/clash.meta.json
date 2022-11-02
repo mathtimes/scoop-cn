@@ -5,11 +5,11 @@
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/MetaCubeX/Clash.Meta/releases/download/v1.13.1/Clash.Meta-windows-amd64-v1.13.1.zip",
+            "url": "https://ghproxy.com/github.com/MetaCubeX/Clash.Meta/releases/download/v1.13.1/Clash.Meta-windows-amd64-v1.13.1.zip",
             "hash": "5f4685f243a8c75794f5ce2d137ae7c5607a6070f20ff8edf575f7de7c870fbe"
         },
         "32bit": {
-            "url": "https://download.fastgit.org/MetaCubeX/Clash.Meta/releases/download/v1.13.1/Clash.Meta-windows-386-v1.13.1.zip",
+            "url": "https://ghproxy.com/github.com/MetaCubeX/Clash.Meta/releases/download/v1.13.1/Clash.Meta-windows-386-v1.13.1.zip",
             "hash": "d5074d14cb27c09fdc0ada64e4b77cd5e2149098eeddf40075335449d445d199"
         }
     },
@@ -25,10 +25,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/MetaCubeX/Clash.Meta/releases/download/v$version/Clash.Meta-windows-amd64-v$version.zip"
+                "url": "https://ghproxy.com/github.com/MetaCubeX/Clash.Meta/releases/download/v$version/Clash.Meta-windows-amd64-v$version.zip"
             },
             "32bit": {
-                "url": "https://download.fastgit.org/MetaCubeX/Clash.Meta/releases/download/v$version/Clash.Meta-windows-386-v$version.zip"
+                "url": "https://ghproxy.com/github.com/MetaCubeX/Clash.Meta/releases/download/v$version/Clash.Meta-windows-386-v$version.zip"
             }
         }
     }

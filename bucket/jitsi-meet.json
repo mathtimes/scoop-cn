@@ -3,7 +3,7 @@
     "description": "Secure, Simple and Scalable Video Conferences.",
     "homepage": "https://jitsi.org/meet",
     "license": "Apache-2.0",
-    "url": "https://download.fastgit.org/jitsi/jitsi-meet-electron/releases/download/v2022.10.1/jitsi-meet.exe#/dl.7z",
+    "url": "https://ghproxy.com/github.com/jitsi/jitsi-meet-electron/releases/download/v2022.10.1/jitsi-meet.exe#/dl.7z",
     "hash": "sha512:c2bdb1b358725aa1b28d38c22c63de68fcf348daaabb12e26fb3ac27d752ccc98b680a8ff1f96feaffeb691580ec2dab05a00f17d5232b3171ada0e8f3b90797",
     "architecture": {
         "64bit": {
@@ -25,7 +25,7 @@
         "github": "https://github.com/jitsi/jitsi-meet-electron"
     },
     "autoupdate": {
-        "url": "https://download.fastgit.org/jitsi/jitsi-meet-electron/releases/download/v$version/jitsi-meet.exe#/dl.7z",
+        "url": "https://ghproxy.com/github.com/jitsi/jitsi-meet-electron/releases/download/v$version/jitsi-meet.exe#/dl.7z",
         "hash": {
             "url": "$baseurl/latest.yml",
             "regex": "sha512:\\s+$base64"

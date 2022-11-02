@@ -5,7 +5,7 @@
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/streetwriters/notesnook/releases/download/v2.2.3/notesnook_win_x64.exe#/dl.7z",
+            "url": "https://ghproxy.com/github.com/streetwriters/notesnook/releases/download/v2.2.3/notesnook_win_x64.exe#/dl.7z",
             "hash": "sha512:8d8a651045793bf99dc272b239b4ce247b68020af3e9062dec21450c39be3161676e17a1c0368d0f6c91a6902ade898e968579d8cb973ba9327a6eec3b3e5848"
         }
     },
@@ -25,7 +25,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/streetwriters/notesnook/releases/download/v$version/notesnook_win_x64.exe#/dl.7z"
+                "url": "https://ghproxy.com/github.com/streetwriters/notesnook/releases/download/v$version/notesnook_win_x64.exe#/dl.7z"
             }
         },
         "hash": {

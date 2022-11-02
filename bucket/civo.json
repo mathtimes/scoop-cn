@@ -5,7 +5,7 @@
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/civo/cli/releases/download/v1.0.41/civo-1.0.41-windows-amd64.zip",
+            "url": "https://ghproxy.com/github.com/civo/cli/releases/download/v1.0.41/civo-1.0.41-windows-amd64.zip",
             "hash": "2e4f7a0d5b89757611eb729518aa021c7c89667ccb934d1a6902fb1c0153358c"
         }
     },
@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/civo/cli/releases/download/v$version/civo-$version-windows-amd64.zip"
+                "url": "https://ghproxy.com/github.com/civo/cli/releases/download/v$version/civo-$version-windows-amd64.zip"
             }
         },
         "hash": {

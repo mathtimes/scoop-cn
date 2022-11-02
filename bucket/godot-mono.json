@@ -5,11 +5,11 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/godotengine/godot/releases/download/3.5.1-stable/Godot_v3.5.1-stable_mono_win64.zip",
+            "url": "https://ghproxy.com/github.com/godotengine/godot/releases/download/3.5.1-stable/Godot_v3.5.1-stable_mono_win64.zip",
             "hash": "8d7a1be56523b2a34465d0df1380bcfefc8c4ba67a1fb3ec8a5459446a31d51f"
         },
         "32bit": {
-            "url": "https://download.fastgit.org/godotengine/godot/releases/download/3.5.1-stable/Godot_v3.5.1-stable_mono_win32.zip",
+            "url": "https://ghproxy.com/github.com/godotengine/godot/releases/download/3.5.1-stable/Godot_v3.5.1-stable_mono_win32.zip",
             "hash": "eb2e4ecf802bf28c5cbf355df0b89ceb7a54b8623896f9b0ab3cd64220306278"
         }
     },
@@ -32,10 +32,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/godotengine/godot/releases/download/$version-stable/Godot_v$version-stable_mono_win64.zip"
+                "url": "https://ghproxy.com/github.com/godotengine/godot/releases/download/$version-stable/Godot_v$version-stable_mono_win64.zip"
             },
             "32bit": {
-                "url": "https://download.fastgit.org/godotengine/godot/releases/download/$version-stable/Godot_v$version-stable_mono_win32.zip"
+                "url": "https://ghproxy.com/github.com/godotengine/godot/releases/download/$version-stable/Godot_v$version-stable_mono_win32.zip"
             }
         }
     }

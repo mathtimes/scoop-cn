@@ -3,7 +3,7 @@
     "description": "DynamoRIO is a runtime code manipulation system that supports code transformations on any part of a program, while it executes.",
     "homepage": "https://dynamorio.org",
     "license": "BSD-3-Clause-Clear",
-    "url": "https://download.fastgit.org/DynamoRIO/dynamorio/releases/download/cronbuild-9.0.19293/DynamoRIO-Windows-9.0.19293.zip",
+    "url": "https://ghproxy.com/github.com/DynamoRIO/dynamorio/releases/download/cronbuild-9.0.19293/DynamoRIO-Windows-9.0.19293.zip",
     "hash": "9845d06be87ecb508e753afd3507ac9da1a9767b03c2535ef1eb5095e57aeae5",
     "extract_dir": "DynamoRIO-Windows-9.0.19293",
     "architecture": {
@@ -53,7 +53,7 @@
         "regex": "tag/cronbuild-([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://download.fastgit.org/DynamoRIO/dynamorio/releases/download/cronbuild-$version/DynamoRIO-Windows-$version.zip",
+        "url": "https://ghproxy.com/github.com/DynamoRIO/dynamorio/releases/download/cronbuild-$version/DynamoRIO-Windows-$version.zip",
         "extract_dir": "DynamoRIO-Windows-$version"
     }
 }

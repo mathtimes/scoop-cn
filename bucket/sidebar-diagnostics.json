@@ -5,7 +5,7 @@
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/ArcadeRenegade/SidebarDiagnostics/releases/download/v3.6.2/Standalone.zip",
+            "url": "https://ghproxy.com/github.com/ArcadeRenegade/SidebarDiagnostics/releases/download/v3.6.2/Standalone.zip",
             "hash": "773B6B1AADF524C4A33501BD628FA82CA874095B06463B9148EB28D697A4292D"
         }
     },
@@ -19,7 +19,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/ArcadeRenegade/SidebarDiagnostics/releases/download/v$version/Standalone.zip"
+                "url": "https://ghproxy.com/github.com/ArcadeRenegade/SidebarDiagnostics/releases/download/v$version/Standalone.zip"
             }
         }
     }

@@ -10,7 +10,7 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/bazelbuild/bazel/releases/download/5.3.2/bazel-5.3.2-windows-x86_64.zip",
+            "url": "https://ghproxy.com/github.com/bazelbuild/bazel/releases/download/5.3.2/bazel-5.3.2-windows-x86_64.zip",
             "hash": "163ac2abd8ad3669451f8f6f6a0ff0c6b207404d638a7a0e0799e96801ff74fd"
         }
     },
@@ -24,7 +24,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/bazelbuild/bazel/releases/download/$version/bazel-$version-windows-x86_64.zip"
+                "url": "https://ghproxy.com/github.com/bazelbuild/bazel/releases/download/$version/bazel-$version-windows-x86_64.zip"
             }
         },
         "hash": {

@@ -5,12 +5,12 @@
     "license": "GPL-2.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/upx/upx/releases/download/v4.0.0/upx-4.0.0-win64.zip",
+            "url": "https://ghproxy.com/github.com/upx/upx/releases/download/v4.0.0/upx-4.0.0-win64.zip",
             "hash": "a0fe01d06dadc5ca551e531ba684bf5f39269170af8dcfdc161e45caf077c4ef",
             "extract_dir": "upx-4.0.0-win64"
         },
         "32bit": {
-            "url": "https://download.fastgit.org/upx/upx/releases/download/v4.0.0/upx-4.0.0-win32.zip",
+            "url": "https://ghproxy.com/github.com/upx/upx/releases/download/v4.0.0/upx-4.0.0-win32.zip",
             "hash": "6ab81fcb9f4491742b05dc470d872ceab9e0bd589b328bba895fcf080b594db4",
             "extract_dir": "upx-4.0.0-win32"
         }
@@ -22,11 +22,11 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/upx/upx/releases/download/v$version/upx-$version-win64.zip",
+                "url": "https://ghproxy.com/github.com/upx/upx/releases/download/v$version/upx-$version-win64.zip",
                 "extract_dir": "upx-$version-win64"
             },
             "32bit": {
-                "url": "https://download.fastgit.org/upx/upx/releases/download/v$version/upx-$version-win32.zip",
+                "url": "https://ghproxy.com/github.com/upx/upx/releases/download/v$version/upx-$version-win32.zip",
                 "extract_dir": "upx-$version-win32"
             }
         }

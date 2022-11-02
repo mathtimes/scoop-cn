@@ -10,7 +10,7 @@
         ]
     },
     "url": [
-        "https://download.fastgit.org/logisim-evolution/logisim-evolution/releases/download/v3.8.0/logisim-evolution-3.8.0-all.jar#/logisim-evolution.jar",
+        "https://ghproxy.com/github.com/logisim-evolution/logisim-evolution/releases/download/v3.8.0/logisim-evolution-3.8.0-all.jar#/logisim-evolution.jar",
         "https://raw.fastgit.org/logisim-evolution/logisim-evolution/v3.8.0/support/jpackage/windows/Logisim-evolution.ico#/logisim-evolution.ico"
     ],
     "hash": [
@@ -29,7 +29,7 @@
     "checkver": "github",
     "autoupdate": {
         "url": [
-            "https://download.fastgit.org/logisim-evolution/logisim-evolution/releases/download/v$version/logisim-evolution-$version-all.jar#/logisim-evolution.jar",
+            "https://ghproxy.com/github.com/logisim-evolution/logisim-evolution/releases/download/v$version/logisim-evolution-$version-all.jar#/logisim-evolution.jar",
             "https://raw.fastgit.org/logisim-evolution/logisim-evolution/v$version/support/jpackage/windows/Logisim-evolution.ico#/logisim-evolution.ico"
         ]
     }

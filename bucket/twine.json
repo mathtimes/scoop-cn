@@ -3,7 +3,7 @@
     "description": "Interactive, nonlinear story creator",
     "homepage": "https://twinery.org",
     "license": "GPL-3.0-only",
-    "url": "https://download.fastgit.org/klembot/twinejs/releases/download/2.3.16/twine_2.3.16_win.exe#/dl.7z",
+    "url": "https://ghproxy.com/github.com/klembot/twinejs/releases/download/2.3.16/twine_2.3.16_win.exe#/dl.7z",
     "hash": "5d9369acf3243a6ef28545cc54ee938bdf322ae79eb78014cd8b47c0d9e67bd5",
     "architecture": {
         "64bit": {
@@ -29,6 +29,6 @@
         "github": "https://github.com/klembot/twinejs"
     },
     "autoupdate": {
-        "url": "https://download.fastgit.org/klembot/twinejs/releases/download/$version/twine_$version_win.exe#/dl.7z"
+        "url": "https://ghproxy.com/github.com/klembot/twinejs/releases/download/$version/twine_$version_win.exe#/dl.7z"
     }
 }

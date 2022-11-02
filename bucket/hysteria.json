@@ -5,11 +5,11 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/HyNetwork/hysteria/releases/download/v1.2.2/hysteria-windows-amd64.exe#/hysteria.exe",
+            "url": "https://ghproxy.com/github.com/HyNetwork/hysteria/releases/download/v1.2.2/hysteria-windows-amd64.exe#/hysteria.exe",
             "hash": "797cc0d62e6406bafe9940a30e108c09c50f1c22c5768ceef3e2bf575b0c4db9"
         },
         "32bit": {
-            "url": "https://download.fastgit.org/HyNetwork/hysteria/releases/download/v1.2.2/hysteria-windows-386.exe#/hysteria.exe",
+            "url": "https://ghproxy.com/github.com/HyNetwork/hysteria/releases/download/v1.2.2/hysteria-windows-386.exe#/hysteria.exe",
             "hash": "589fe7b9c16219b2069637dcb384d834752fb66a2cc313d7a87a4076f36637c7"
         }
     },
@@ -18,10 +18,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/HyNetwork/hysteria/releases/download/v$version/hysteria-windows-amd64.exe#/hysteria.exe"
+                "url": "https://ghproxy.com/github.com/HyNetwork/hysteria/releases/download/v$version/hysteria-windows-amd64.exe#/hysteria.exe"
             },
             "32bit": {
-                "url": "https://download.fastgit.org/HyNetwork/hysteria/releases/download/v$version/hysteria-windows-386.exe#/hysteria.exe"
+                "url": "https://ghproxy.com/github.com/HyNetwork/hysteria/releases/download/v$version/hysteria-windows-386.exe#/hysteria.exe"
             }
         },
         "hash": {

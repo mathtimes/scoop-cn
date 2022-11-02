@@ -5,7 +5,7 @@
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/TranslucentTB/TranslucentTB/releases/download/2021.5/TranslucentTB.appinstaller",
+            "url": "https://ghproxy.com/github.com/TranslucentTB/TranslucentTB/releases/download/2021.5/TranslucentTB.appinstaller",
             "hash": "68f73fda03f421612223c0f9fc616067c5b3b16e09c37ab4e7ad73ca0bbcd87b"
         }
     },
@@ -22,6 +22,6 @@
     },
     "checkver": "github",
     "autoupdate": {
-        "url": "https://download.fastgit.org/TranslucentTB/TranslucentTB/releases/download/$version/TranslucentTB.appinstaller"
+        "url": "https://ghproxy.com/github.com/TranslucentTB/TranslucentTB/releases/download/$version/TranslucentTB.appinstaller"
     }
 }

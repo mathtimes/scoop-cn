@@ -5,7 +5,7 @@
     "license": "Unlicense",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/skeeto/w64devkit/releases/download/v1.16.1/w64devkit-1.16.1.zip",
+            "url": "https://ghproxy.com/github.com/skeeto/w64devkit/releases/download/v1.16.1/w64devkit-1.16.1.zip",
             "hash": "1d06a60513b700e90a161bb35bec5b7d0d007dac36090af2e851bdc1ce2ad68e"
         }
     },
@@ -20,6 +20,6 @@
     "env_add_path": "bin",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://download.fastgit.org/skeeto/w64devkit/releases/download/v$version/w64devkit-$version.zip"
+        "url": "https://ghproxy.com/github.com/skeeto/w64devkit/releases/download/v$version/w64devkit-$version.zip"
     }
 }

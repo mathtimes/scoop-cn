@@ -5,7 +5,7 @@
     "license": "GPL-2.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/savonet/liquidsoap/releases/download/v2.1.2/liquidsoap-2.1.2-win64.zip",
+            "url": "https://ghproxy.com/github.com/savonet/liquidsoap/releases/download/v2.1.2/liquidsoap-2.1.2-win64.zip",
             "hash": "7efbcd1cbf1263b7d333e0cade0a2695d7f71ff87a40864f54bd129736ce2ce9",
             "extract_dir": "liquidsoap-2.1.2-win64"
         }
@@ -17,7 +17,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/savonet/liquidsoap/releases/download/v$version/liquidsoap-$version-win64.zip",
+                "url": "https://ghproxy.com/github.com/savonet/liquidsoap/releases/download/v$version/liquidsoap-$version-win64.zip",
                 "extract_dir": "liquidsoap-$version-win64"
             }
         }

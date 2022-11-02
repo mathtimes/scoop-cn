@@ -8,11 +8,11 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/Martchus/syncthingtray/releases/download/v1.2.4/syncthingtray-1.2.4-x86_64-w64-mingw32.exe.zip",
+            "url": "https://ghproxy.com/github.com/Martchus/syncthingtray/releases/download/v1.2.4/syncthingtray-1.2.4-x86_64-w64-mingw32.exe.zip",
             "hash": "2397acdeb3687b5d81be477e2ffa154f54da4cec2b31102eef98aaa36dfef387"
         },
         "32bit": {
-            "url": "https://download.fastgit.org/Martchus/syncthingtray/releases/download/v1.2.4/syncthingtray-1.2.4-i686-w64-mingw32.exe.zip",
+            "url": "https://ghproxy.com/github.com/Martchus/syncthingtray/releases/download/v1.2.4/syncthingtray-1.2.4-i686-w64-mingw32.exe.zip",
             "hash": "9ea119ce709d4c45c4d2860771e82f5bae30beec5e56716009733cff9233667b"
         }
     },
@@ -28,10 +28,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/Martchus/syncthingtray/releases/download/v$version/syncthingtray-$version-x86_64-w64-mingw32.exe.zip"
+                "url": "https://ghproxy.com/github.com/Martchus/syncthingtray/releases/download/v$version/syncthingtray-$version-x86_64-w64-mingw32.exe.zip"
             },
             "32bit": {
-                "url": "https://download.fastgit.org/Martchus/syncthingtray/releases/download/v$version/syncthingtray-$version-i686-w64-mingw32.exe.zip"
+                "url": "https://ghproxy.com/github.com/Martchus/syncthingtray/releases/download/v$version/syncthingtray-$version-i686-w64-mingw32.exe.zip"
             }
         }
     }

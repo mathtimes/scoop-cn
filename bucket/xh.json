@@ -5,7 +5,7 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/ducaale/xh/releases/download/v0.16.1/xh-v0.16.1-x86_64-pc-windows-msvc.zip",
+            "url": "https://ghproxy.com/github.com/ducaale/xh/releases/download/v0.16.1/xh-v0.16.1-x86_64-pc-windows-msvc.zip",
             "hash": "7ec41e263e20ec620bb164166e08fbdffecdc59514e842e5ba497415e1bc6879",
             "extract_dir": "xh-v0.16.1-x86_64-pc-windows-msvc"
         }
@@ -19,7 +19,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/ducaale/xh/releases/download/v$version/xh-v$version-x86_64-pc-windows-msvc.zip",
+                "url": "https://ghproxy.com/github.com/ducaale/xh/releases/download/v$version/xh-v$version-x86_64-pc-windows-msvc.zip",
                 "extract_dir": "xh-v$version-x86_64-pc-windows-msvc"
             }
         }

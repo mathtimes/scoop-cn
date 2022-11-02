@@ -5,11 +5,11 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/gotify/server/releases/download/v2.1.7/gotify-windows-amd64.exe.zip",
+            "url": "https://ghproxy.com/github.com/gotify/server/releases/download/v2.1.7/gotify-windows-amd64.exe.zip",
             "hash": "23804511ee394395012bc77586d0124673cc26fd8dbb3ec0dc38f786a1d8a90e"
         },
         "32bit": {
-            "url": "https://download.fastgit.org/gotify/server/releases/download/v2.1.7/gotify-windows-386.exe.zip",
+            "url": "https://ghproxy.com/github.com/gotify/server/releases/download/v2.1.7/gotify-windows-386.exe.zip",
             "hash": "eb9ef27cfe737ba6c955ff9660071ec88d35616b4f5dcdb8d175ed34c4d9543a"
         }
     },
@@ -21,10 +21,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/gotify/server/releases/download/v$version/gotify-windows-amd64.exe.zip"
+                "url": "https://ghproxy.com/github.com/gotify/server/releases/download/v$version/gotify-windows-amd64.exe.zip"
             },
             "32bit": {
-                "url": "https://download.fastgit.org/gotify/server/releases/download/v$version/gotify-windows-386.exe.zip"
+                "url": "https://ghproxy.com/github.com/gotify/server/releases/download/v$version/gotify-windows-386.exe.zip"
             }
         }
     }

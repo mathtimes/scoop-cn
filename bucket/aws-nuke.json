@@ -5,7 +5,7 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/rebuy-de/aws-nuke/releases/download/v2.20.0/aws-nuke-v2.20.0-windows-amd64.zip",
+            "url": "https://ghproxy.com/github.com/rebuy-de/aws-nuke/releases/download/v2.20.0/aws-nuke-v2.20.0-windows-amd64.zip",
             "hash": "8337f29b59439823f9d863f99c916ee10839f0f21fa4ec028f3ca386143b4013"
         }
     },
@@ -15,7 +15,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/rebuy-de/aws-nuke/releases/download/v$version/aws-nuke-v$version-windows-amd64.zip"
+                "url": "https://ghproxy.com/github.com/rebuy-de/aws-nuke/releases/download/v$version/aws-nuke-v$version-windows-amd64.zip"
             }
         }
     }

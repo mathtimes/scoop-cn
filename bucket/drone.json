@@ -5,7 +5,7 @@
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/drone/drone-cli/releases/download/v1.6.1/drone_windows_amd64.tar.gz",
+            "url": "https://ghproxy.com/github.com/drone/drone-cli/releases/download/v1.6.1/drone_windows_amd64.tar.gz",
             "hash": "e6c0fedd8f77ff0cd2d0fdc2bd75bc7ff20a98a99593d705012bb50d41276478"
         }
     },
@@ -17,7 +17,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/drone/drone-cli/releases/download/v$version/drone_windows_amd64.tar.gz"
+                "url": "https://ghproxy.com/github.com/drone/drone-cli/releases/download/v$version/drone_windows_amd64.tar.gz"
             }
         },
         "hash": {

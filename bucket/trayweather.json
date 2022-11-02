@@ -5,7 +5,7 @@
     "license": "GPL-3.0",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/FelixdelasPozas/TrayWeather/releases/download/1.26.1/TrayWeather_v1.26.1_Setup.exe",
+            "url": "https://ghproxy.com/github.com/FelixdelasPozas/TrayWeather/releases/download/1.26.1/TrayWeather_v1.26.1_Setup.exe",
             "hash": "e1e30ba529f560a40dd185588d510093788eaf93ee8b88150ec9dace4e6a82fa"
         }
     },
@@ -20,7 +20,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/FelixdelasPozas/TrayWeather/releases/download/$version/TrayWeather_v$version_Setup.exe"
+                "url": "https://ghproxy.com/github.com/FelixdelasPozas/TrayWeather/releases/download/$version/TrayWeather_v$version_Setup.exe"
             }
         }
     }
