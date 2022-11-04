@@ -28,7 +28,7 @@
             }
         },
         "hash": {
-            "url": "https://raw.fastgit.org/stedolan/jq/jq-$version/sig/v$version/checksums.txt"
+            "url": "https://ghproxy.com/raw.githubusercontent.com/stedolan/jq/jq-$version/sig/v$version/checksums.txt"
         }
     }
 }

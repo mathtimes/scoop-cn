@@ -9,7 +9,7 @@
     "url": "https://download.sysinternals.com/files/SysinternalsSuite.zip",
     "hash": "291e6741d6e5b9895a007c398b849667673b1c8f8cd0e3b8571fbb015008cf53",
     "checkver": {
-        "url": "https://raw.fastgit.org/MicrosoftDocs/sysinternals/main/sysinternals/downloads/sysinternals-suite.md",
+        "url": "https://ghproxy.com/raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/sysinternals-suite.md",
         "regex": "ms\\.date: (\\d+)/(\\d+)/(\\d+)",
         "replace": "${3}.${1}.${2}"
     },

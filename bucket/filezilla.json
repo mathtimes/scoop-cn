@@ -6,11 +6,11 @@
     "license": "GPL-2.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://raw.fastgit.org/ScoopInstaller/Binary/master/filezilla/FileZilla_3.60.2_win64.zip",
+            "url": "https://ghproxy.com/raw.githubusercontent.com/ScoopInstaller/Binary/master/filezilla/FileZilla_3.60.2_win64.zip",
             "hash": "d6dd439e2aae2f950ee4c2a12cca3b20f3fa290b21db631c04fdd441846087d8"
         },
         "32bit": {
-            "url": "https://raw.fastgit.org/ScoopInstaller/Binary/master/filezilla/FileZilla_3.60.2_win32.zip",
+            "url": "https://ghproxy.com/raw.githubusercontent.com/ScoopInstaller/Binary/master/filezilla/FileZilla_3.60.2_win32.zip",
             "hash": "47b26d8eb1fc4c90c7f92d284bdf78701810cd3593bfabedeb0ef28cce7ccd3d"
         }
     },

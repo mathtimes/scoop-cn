@@ -5,11 +5,11 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://raw.fastgit.org/NoMoreFood/putty-cac/0.77u2/binaries/puttycac-64bit-0.77u2.zip",
+            "url": "https://ghproxy.com/raw.githubusercontent.com/NoMoreFood/putty-cac/0.77u2/binaries/puttycac-64bit-0.77u2.zip",
             "hash": "bf451f06fd5bf6208fbd5decb7f9d89c2e7a806f3501634ce6ad6b0983bc1065"
         },
         "32bit": {
-            "url": "https://raw.fastgit.org/NoMoreFood/putty-cac/0.77u2/binaries/puttycac-0.77u2.zip",
+            "url": "https://ghproxy.com/raw.githubusercontent.com/NoMoreFood/putty-cac/0.77u2/binaries/puttycac-0.77u2.zip",
             "hash": "59fdf55b3498d549a4f793cf3005456db8edd2914a22f54760477e38ac0e9b07"
         }
     },
@@ -51,10 +51,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://raw.fastgit.org/NoMoreFood/putty-cac/$version/binaries/puttycac-64bit-$version.zip"
+                "url": "https://ghproxy.com/raw.githubusercontent.com/NoMoreFood/putty-cac/$version/binaries/puttycac-64bit-$version.zip"
             },
             "32bit": {
-                "url": "https://raw.fastgit.org/NoMoreFood/putty-cac/$version/binaries/puttycac-$version.zip"
+                "url": "https://ghproxy.com/raw.githubusercontent.com/NoMoreFood/putty-cac/$version/binaries/puttycac-$version.zip"
             }
         },
         "hash": {

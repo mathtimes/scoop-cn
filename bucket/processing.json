@@ -4,7 +4,7 @@
     "homepage": "https://processing.org/",
     "license": {
         "identifier": "GPL-2.0-or-later,LGPL-2.0-or-later,IPL-1.0",
-        "url": "https://raw.fastgit.org/processing/processing/master/license.txt"
+        "url": "https://ghproxy.com/raw.githubusercontent.com/processing/processing/master/license.txt"
     },
     "architecture": {
         "64bit": {

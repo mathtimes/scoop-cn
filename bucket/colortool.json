@@ -8,7 +8,7 @@
     "bin": "colortool.exe",
     "persist": "schemes",
     "checkver": {
-        "url": "https://raw.fastgit.org/microsoft/terminal/main/src/tools/ColorTool/README.md",
+        "url": "https://ghproxy.com/raw.githubusercontent.com/microsoft/terminal/main/src/tools/ColorTool/README.md",
         "regex": "releases/tag/([\\d.]+)"
     },
     "autoupdate": {

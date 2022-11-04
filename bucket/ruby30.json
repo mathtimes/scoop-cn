@@ -30,7 +30,7 @@
     },
     "persist": "gems",
     "checkver": {
-        "url": "https://raw.fastgit.org/oneclick/rubyinstaller.org-website/master/_data/downloads.yaml",
+        "url": "https://ghproxy.com/raw.githubusercontent.com/oneclick/rubyinstaller.org-website/master/_data/downloads.yaml",
         "regex": "Ruby (3\\.0[\\d.-]+)"
     },
     "autoupdate": {
@@ -45,7 +45,7 @@
             }
         },
         "hash": {
-            "url": "https://raw.fastgit.org/oneclick/rubyinstaller.org-website/master/_data/downloads.yaml",
+            "url": "https://ghproxy.com/raw.githubusercontent.com/oneclick/rubyinstaller.org-website/master/_data/downloads.yaml",
             "regex": "(?sm)$basename[^.].*?$sha256"
         }
     }
