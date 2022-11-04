@@ -45,7 +45,7 @@ jobs:
         cp -rf Java/bucket/*          ./bucket
 
         perl -pi -e 's/github\.com\/(.+)\/releases\/download/ghproxy\.com\/github\.com\/$1\/releases\/download/g' ./bucket/*.json
-        perl -pi -e 's/raw\.githubusercontent\.com/raw\.fastgit\.org/g' ./bucket/*.json
+        perl -pi -e 's/raw\.githubusercontent\.com/ghproxy\.com\/raw\.githubusercontent\.com/g' ./bucket/*.json
         
         # 7zip
         perl -pi -e 's/7-zip\.org\/a/experiments\-alicdn\.sparanoid\.net\/7z/g' ./bucket/7zip.json
@@ -60,7 +60,7 @@ jobs:
         perl -pi -e 's/download\.videolan\.org\/pub/mirrors\.ustc\.edu\.cn\/videolan\-ftp/g' ./bucket/vlc.json
 
         # dbeaver
-        perl -pi -e 's/download\.dbeaver\.com\/community/download\.fastgit\.org\/dbeaver\/dbeaver\/releases\/download/g' ./bucket/dbeaver.json
+        perl -pi -e 's/download\.dbeaver\.com\/community/ghproxy\.com\/github\.com\/dbeaver\/dbeaver\/releases\/download/g' ./bucket/dbeaver.json
 
         rm -rf Main Extras Versions Java
         
