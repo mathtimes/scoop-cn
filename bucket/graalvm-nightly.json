@@ -1,11 +1,11 @@
 {
     "description": "High-performance, embeddable, polyglot Virtual Machine for JVM-langs (Java, Scala, Kotlin), JavaScript/NodeJS, Python, Ruby, R, and LLVM-langs (C, C++, Rust)",
-    "version": "22.3.0-dev-20220915_2039",
+    "version": "23.0.0-dev-20221103_2324",
     "homepage": "https://www.graalvm.org/",
     "license": "GPL-2.0",
-    "url": "https://download.fastgit.org/graalvm/graalvm-ce-dev-builds/releases/download/22.3.0-dev-20220915_2039/graalvm-ce-java19-windows-amd64-dev.zip",
-    "hash": "caa82402e26a0b701329f180c55b3279a8628cd32e073f4b7d25bca527bbd452",
-    "extract_dir": "graalvm-ce-java19-22.3.0-dev",
+    "url": "https://ghproxy.com/github.com/graalvm/graalvm-ce-dev-builds/releases/download/23.0.0-dev-20221103_2324/graalvm-ce-java19-windows-amd64-dev.zip",
+    "hash": "4769af22709e85140ddbe9811c370d44ea55123c8a74b0456baebbcd3886849c",
+    "extract_dir": "graalvm-ce-java19-23.0.0-dev",
     "env_add_path": "bin",
     "env_set": {
         "JAVA_HOME": "$dir",
@@ -18,7 +18,7 @@
         "reverse": true
     },
     "autoupdate": {
-        "url": "https://download.fastgit.org/graalvm/graalvm-ce-dev-builds/releases/download/$version/graalvm-ce-java$matchJava-windows-amd64-dev.zip",
+        "url": "https://ghproxy.com/github.com/graalvm/graalvm-ce-dev-builds/releases/download/$version/graalvm-ce-java$matchJava-windows-amd64-dev.zip",
         "extract_dir": "graalvm-ce-java$matchJava-$matchRelease-dev"
     }
 }

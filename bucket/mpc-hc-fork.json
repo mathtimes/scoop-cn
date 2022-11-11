@@ -5,7 +5,7 @@
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/clsid2/mpc-hc/releases/download/1.9.23/MPC-HC.1.9.23.x64.zip",
+            "url": "https://ghproxy.com/github.com/clsid2/mpc-hc/releases/download/1.9.23/MPC-HC.1.9.23.x64.zip",
             "hash": "b6104a364c466a3aeee4becbccf00448fd88d728e905a68f19088a59527cacad",
             "bin": [
                 [
@@ -21,7 +21,7 @@
             ]
         },
         "32bit": {
-            "url": "https://download.fastgit.org/clsid2/mpc-hc/releases/download/1.9.23/MPC-HC.1.9.23.x86.zip",
+            "url": "https://ghproxy.com/github.com/clsid2/mpc-hc/releases/download/1.9.23/MPC-HC.1.9.23.x86.zip",
             "hash": "7b6b0df90e14dbc8a1bf031e698052ac573f032a1f418dcc75bc9d1056f2f199",
             "bin": "mpc-hc.exe",
             "shortcuts": [
@@ -49,10 +49,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/clsid2/mpc-hc/releases/download/$matchTag/MPC-HC.$version.x64.zip"
+                "url": "https://ghproxy.com/github.com/clsid2/mpc-hc/releases/download/$matchTag/MPC-HC.$version.x64.zip"
             },
             "32bit": {
-                "url": "https://download.fastgit.org/clsid2/mpc-hc/releases/download/$matchTag/MPC-HC.$version.x86.zip"
+                "url": "https://ghproxy.com/github.com/clsid2/mpc-hc/releases/download/$matchTag/MPC-HC.$version.x86.zip"
             }
         }
     }

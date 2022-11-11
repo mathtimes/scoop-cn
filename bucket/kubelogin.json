@@ -5,7 +5,7 @@
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/int128/kubelogin/releases/download/v1.25.3/kubelogin_windows_amd64.zip",
+            "url": "https://ghproxy.com/github.com/int128/kubelogin/releases/download/v1.25.3/kubelogin_windows_amd64.zip",
             "hash": "0398922fb50411119fe110ebb4e0e15d8725890ce764b3996b0563c5478c4148"
         }
     },
@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/int128/kubelogin/releases/download/v$version/kubelogin_windows_amd64.zip"
+                "url": "https://ghproxy.com/github.com/int128/kubelogin/releases/download/v$version/kubelogin_windows_amd64.zip"
             }
         },
         "hash": {

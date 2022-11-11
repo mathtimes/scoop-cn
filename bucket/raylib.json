@@ -5,11 +5,11 @@
     "license": "Zlib",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/raysan5/raylib/releases/download/4.2.0/raylib-4.2.0_win64_msvc16.zip",
+            "url": "https://ghproxy.com/github.com/raysan5/raylib/releases/download/4.2.0/raylib-4.2.0_win64_msvc16.zip",
             "hash": "1ce85e412f9a49da35e3167fb6c3d1cca8db90a20eb9cc61b13c82761d087922"
         },
         "32bit": {
-            "url": "https://download.fastgit.org/raysan5/raylib/releases/download/4.2.0/raylib-4.2.0_win32_msvc16.zip",
+            "url": "https://ghproxy.com/github.com/raysan5/raylib/releases/download/4.2.0/raylib-4.2.0_win32_msvc16.zip",
             "hash": "4a6687ce27cfd90bcbaed7f6f642b49bab253bad4fc7b12d85f78e0421d00c29"
         }
     },
@@ -18,7 +18,7 @@
         "Move-Item \"$dir\\raylib-*\\*\" \"$dir\" && Remove-Item \"$dir\\raylib-*\"",
         "# Configure pkg-config file with the library data.",
         "# Download raylib pkg-config file",
-        "Invoke-WebRequest -Uri https://raw.fastgit.org/raysan5/raylib/$version/raylib.pc.in -OutFile $dir\\raylib.pc.in",
+        "Invoke-WebRequest -Uri https://ghproxy.com/raw.githubusercontent.com/raysan5/raylib/$version/raylib.pc.in -OutFile $dir\\raylib.pc.in",
         "# Create helper variables:",
         "$pc_in = \"$dir\\raylib.pc.in\"",
         "$pc_out = \"$dir\\lib\\pkgconfig\\raylib.pc\"",
@@ -86,10 +86,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/raysan5/raylib/releases/download/$version/raylib-$version_win64_msvc16.zip"
+                "url": "https://ghproxy.com/github.com/raysan5/raylib/releases/download/$version/raylib-$version_win64_msvc16.zip"
             },
             "32bit": {
-                "url": "https://download.fastgit.org/raysan5/raylib/releases/download/$version/raylib-$version_win32_msvc16.zip"
+                "url": "https://ghproxy.com/github.com/raysan5/raylib/releases/download/$version/raylib-$version_win32_msvc16.zip"
             }
         }
     }

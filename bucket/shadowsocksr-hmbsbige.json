@@ -6,7 +6,7 @@
     "suggest": {
         "dotnet-desktop-runtime": "dotnet-desktop-runtime"
     },
-    "url": "https://download.fastgit.org/HMBSbige/ShadowsocksR-Windows/releases/download/6.0.4/ShadowsocksR-6.0.4.7z",
+    "url": "https://ghproxy.com/github.com/HMBSbige/ShadowsocksR-Windows/releases/download/6.0.4/ShadowsocksR-6.0.4.7z",
     "hash": "9fc92088fe4241564bdb3bca973d35f968d2d7acb3146f1902dc3e84c8f533f8",
     "extract_dir": "ShadowsocksR",
     "bin": "ShadowsocksR.exe",
@@ -38,7 +38,7 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://download.fastgit.org/HMBSbige/ShadowsocksR-Windows/releases/download/$version/ShadowsocksR-$version.7z",
+        "url": "https://ghproxy.com/github.com/HMBSbige/ShadowsocksR-Windows/releases/download/$version/ShadowsocksR-$version.7z",
         "hash": {
             "url": "https://github.com/HMBSbige/ShadowsocksR-Windows/releases",
             "regex": "(?sm)$basename.*?$sha256"

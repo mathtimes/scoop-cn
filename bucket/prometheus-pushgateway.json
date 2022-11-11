@@ -5,12 +5,12 @@
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/prometheus/pushgateway/releases/download/v1.4.3/pushgateway-1.4.3.windows-amd64.tar.gz",
+            "url": "https://ghproxy.com/github.com/prometheus/pushgateway/releases/download/v1.4.3/pushgateway-1.4.3.windows-amd64.tar.gz",
             "hash": "0b092a633ee58d47ac34fa4ee344b070282fedc3e3682b7f3dd6c563489a8333",
             "extract_dir": "pushgateway-1.4.3.windows-amd64"
         },
         "32bit": {
-            "url": "https://download.fastgit.org/prometheus/pushgateway/releases/download/v1.4.3/pushgateway-1.4.3.windows-386.tar.gz",
+            "url": "https://ghproxy.com/github.com/prometheus/pushgateway/releases/download/v1.4.3/pushgateway-1.4.3.windows-386.tar.gz",
             "hash": "99dd67c61c379c6660ebc583ae47071496912c5235a2ff03b1d120848c647f35",
             "extract_dir": "pushgateway-1.4.3.windows-386"
         }
@@ -20,11 +20,11 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/prometheus/pushgateway/releases/download/v$version/pushgateway-$version.windows-amd64.tar.gz",
+                "url": "https://ghproxy.com/github.com/prometheus/pushgateway/releases/download/v$version/pushgateway-$version.windows-amd64.tar.gz",
                 "extract_dir": "pushgateway-$version.windows-amd64"
             },
             "32bit": {
-                "url": "https://download.fastgit.org/prometheus/pushgateway/releases/download/v$version/pushgateway-$version.windows-386.tar.gz",
+                "url": "https://ghproxy.com/github.com/prometheus/pushgateway/releases/download/v$version/pushgateway-$version.windows-386.tar.gz",
                 "extract_dir": "pushgateway-$version.windows-386"
             }
         },

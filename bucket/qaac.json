@@ -6,7 +6,7 @@
         "identifier": "Public Domain,...",
         "url": "https://github.com/nu774/qaac/blob/master/COPYING"
     },
-    "url": "https://download.fastgit.org/nu774/qaac/releases/download/v2.76/qaac_2.76.zip",
+    "url": "https://ghproxy.com/github.com/nu774/qaac/releases/download/v2.76/qaac_2.76.zip",
     "hash": "b3372b13b069a0a4f898846c0974da4feaa1c1bc0f6d91de56f29995437fd3f8",
     "notes": [
         "To fix 'ERROR: CoreAudioToolbox.dll: The specified module could not be found.',",
@@ -38,7 +38,7 @@
         "github": "https://github.com/nu774/qaac"
     },
     "autoupdate": {
-        "url": "https://download.fastgit.org/nu774/qaac/releases/download/v$version/qaac_$version.zip",
+        "url": "https://ghproxy.com/github.com/nu774/qaac/releases/download/v$version/qaac_$version.zip",
         "architecture": {
             "64bit": {
                 "extract_dir": "qaac_$version\\x64"

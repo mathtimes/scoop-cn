@@ -3,7 +3,7 @@
     "description": "Hosts management & switching",
     "homepage": "https://oldj.github.io/SwitchHosts/",
     "license": "MIT",
-    "url": "https://download.fastgit.org/oldj/SwitchHosts/releases/download/v4.1.1/SwitchHosts_installer_4.1.1.6077.exe#/dl.7z",
+    "url": "https://ghproxy.com/github.com/oldj/SwitchHosts/releases/download/v4.1.1/SwitchHosts_installer_4.1.1.6077.exe#/dl.7z",
     "hash": "a67a17e02512c891f723b1d958c4c7c2d7a894ebca0b2df10bcb7a5ecaf62c18",
     "architecture": {
         "64bit": {
@@ -25,6 +25,6 @@
         "regex": "SwitchHosts_installer_([\\d.]+)\\.exe"
     },
     "autoupdate": {
-        "url": "https://download.fastgit.org/oldj/SwitchHosts/releases/download/v$matchHead/SwitchHosts_installer_$version.exe#/dl.7z"
+        "url": "https://ghproxy.com/github.com/oldj/SwitchHosts/releases/download/v$matchHead/SwitchHosts_installer_$version.exe#/dl.7z"
     }
 }

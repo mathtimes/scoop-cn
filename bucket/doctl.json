@@ -1,16 +1,16 @@
 {
-    "version": "1.79.0",
+    "version": "1.85.0",
     "description": "A command line tool for DigitalOcean services",
     "homepage": "https://github.com/digitalocean/doctl",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/digitalocean/doctl/releases/download/v1.79.0/doctl-1.79.0-windows-amd64.zip",
-            "hash": "1a4f1ce7757f7f7db44052de60b83bd866c3a17514e27f49ff6ae0c4748ad058"
+            "url": "https://ghproxy.com/github.com/digitalocean/doctl/releases/download/v1.85.0/doctl-1.85.0-windows-amd64.zip",
+            "hash": "827245194afc1e177f9ab33e7db0f2df4c9e5654ab5e82e9703c34a1c9039846"
         },
         "32bit": {
-            "url": "https://download.fastgit.org/digitalocean/doctl/releases/download/v1.79.0/doctl-1.79.0-windows-386.zip",
-            "hash": "87d98b4ba8cddfc05833cfd6ebf2bbfcb1e2c2b9e5ffa380d9eb18c15ad3fb60"
+            "url": "https://ghproxy.com/github.com/digitalocean/doctl/releases/download/v1.85.0/doctl-1.85.0-windows-386.zip",
+            "hash": "b444086d1d9d5a3514289e851afda1204fa78d0db4023b30e14d35a0e3efeffe"
         }
     },
     "bin": "doctl.exe",
@@ -18,10 +18,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/digitalocean/doctl/releases/download/v$version/doctl-$version-windows-amd64.zip"
+                "url": "https://ghproxy.com/github.com/digitalocean/doctl/releases/download/v$version/doctl-$version-windows-amd64.zip"
             },
             "32bit": {
-                "url": "https://download.fastgit.org/digitalocean/doctl/releases/download/v$version/doctl-$version-windows-386.zip"
+                "url": "https://ghproxy.com/github.com/digitalocean/doctl/releases/download/v$version/doctl-$version-windows-386.zip"
             }
         },
         "hash": {

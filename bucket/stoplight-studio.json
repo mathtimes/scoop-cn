@@ -9,7 +9,7 @@
     "suggest": {
         "Prism": "stoplight-prism"
     },
-    "url": "https://download.fastgit.org/stoplightio/studio/releases/download/v2.8.1-stable.7959.git-777e356/stoplight-studio-win.exe#/dl.7z",
+    "url": "https://ghproxy.com/github.com/stoplightio/studio/releases/download/v2.8.1-stable.7959.git-777e356/stoplight-studio-win.exe#/dl.7z",
     "hash": "sha512:034abff1b3d4309967a5e76c601f9724983ecdaa3730b1af770dda45970504e6be54c65df6fa280f462433a7ebcaf253e2cc151ad1df2eb7cdc86dba51436826",
     "architecture": {
         "64bit": {
@@ -31,7 +31,7 @@
         "regex": "tag/v([\\w.-]+)"
     },
     "autoupdate": {
-        "url": "https://download.fastgit.org/stoplightio/studio/releases/download/v$version/stoplight-studio-win.exe#/dl.7z",
+        "url": "https://ghproxy.com/github.com/stoplightio/studio/releases/download/v$version/stoplight-studio-win.exe#/dl.7z",
         "hash": {
             "url": "$baseurl/latest.yml",
             "regex": "sha512:\\s+$base64"

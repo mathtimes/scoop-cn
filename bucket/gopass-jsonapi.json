@@ -1,13 +1,13 @@
 {
-    "version": "1.14.6",
+    "version": "1.14.9",
     "description": "Gopass Browser Bindings",
     "homepage": "https://www.gopass.pw/",
     "license": "MIT",
     "depends": "gopass",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/gopasspw/gopass-jsonapi/releases/download/v1.14.6/gopass-jsonapi-1.14.6-windows-amd64.zip",
-            "hash": "2f37f3061dfe2704dc0f4688948bad5d64d7335fb0b800d149fb85509ed9b0f4"
+            "url": "https://ghproxy.com/github.com/gopasspw/gopass-jsonapi/releases/download/v1.14.9/gopass-jsonapi-1.14.9-windows-amd64.zip",
+            "hash": "52b6398e9869857911aa51ddb15ec97e829b922ac933ed4f091edc0871cde3cd"
         }
     },
     "bin": "gopass-jsonapi.exe",
@@ -17,7 +17,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/gopasspw/gopass-jsonapi/releases/download/v$version/gopass-jsonapi-$version-windows-amd64.zip"
+                "url": "https://ghproxy.com/github.com/gopasspw/gopass-jsonapi/releases/download/v$version/gopass-jsonapi-$version-windows-amd64.zip"
             }
         },
         "hash": {

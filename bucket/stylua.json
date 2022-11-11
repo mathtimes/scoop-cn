@@ -1,12 +1,12 @@
 {
-    "version": "0.14.3",
+    "version": "0.15.2",
     "description": "An opinionated Lua code formatter",
     "homepage": "https://github.com/JohnnyMorganz/StyLua",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/JohnnyMorganz/StyLua/releases/download/v0.14.3/stylua-win64.zip",
-            "hash": "a1ec1479518702683cbd2433090b7800efe4e9e118cc653cff485cc4f4debd47"
+            "url": "https://ghproxy.com/github.com/JohnnyMorganz/StyLua/releases/download/v0.15.2/stylua-win64.zip",
+            "hash": "56709167875fe7a50566428747c4c8d16ec423abb9bca18148bce1a5108c867d"
         }
     },
     "bin": "stylua.exe",
@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/JohnnyMorganz/StyLua/releases/download/v$version/stylua-win64.zip"
+                "url": "https://ghproxy.com/github.com/JohnnyMorganz/StyLua/releases/download/v$version/stylua-win64.zip"
             }
         }
     }

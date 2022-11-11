@@ -1,14 +1,15 @@
 {
-    "version": "2.7.1",
+    "version": "2.8.0",
     "description": "Opens required browser based on configuration",
     "homepage": "https://www.aloneguid.uk/projects/bt/",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://www.aloneguid.uk/projects/bt/bin/bt-2.7.1.zip",
-            "hash": "f3469fd44ada7ee3baa51f0f814290ae7d10e93a6c70bbac9dfa7169ea9a14fb"
+            "url": "https://www.aloneguid.uk/projects/bt/bin/bt-2.8.0.zip",
+            "hash": "8ceb3fb064c60c99d83462ae015c9dfae3b764e8cf2bb44c0680d98584a9a9d8"
         }
     },
+    "pre_install": "if (!(Test-Path \"$persist_dir\\bt.ini\")) { New-Item \"$dir\\bt.ini\" -ItemType File | Out-Null }",
     "bin": "bt.exe",
     "shortcuts": [
         [
@@ -16,6 +17,7 @@
             "Browser Tamer"
         ]
     ],
+    "persist": "bt.ini",
     "checkver": {
         "url": "https://www.aloneguid.uk/projects/bt/bin/latest.txt",
         "regex": "([\\d.]+)"

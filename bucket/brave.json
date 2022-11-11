@@ -1,5 +1,5 @@
 {
-    "version": "1.43.93",
+    "version": "1.45.123",
     "description": "Secure, Fast & Private Web Browser with Adblocker",
     "homepage": "https://brave.com",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/brave/brave-browser/releases/download/v1.43.93/brave-v1.43.93-win32-x64.zip",
-            "hash": "b5ef7cde0281a5fad51a43e52aedd710cce607a305b05e700badd4c15bb3d35f"
+            "url": "https://ghproxy.com/github.com/brave/brave-browser/releases/download/v1.45.123/brave-v1.45.123-win32-x64.zip",
+            "hash": "e7d0972517ffef4428904bb212813415c6cf39ba9e5d6a51e97f454345a31e69"
         },
         "32bit": {
-            "url": "https://download.fastgit.org/brave/brave-browser/releases/download/v1.43.93/brave-v1.43.93-win32-ia32.zip",
-            "hash": "d63688df9702ea1415cb1c6bb77fee98af6e24630b37c429bcbda7891fd12d13"
+            "url": "https://ghproxy.com/github.com/brave/brave-browser/releases/download/v1.45.123/brave-v1.45.123-win32-ia32.zip",
+            "hash": "3b27f51a5292664971b86022cbe1fb92258ccf3666f578bf4cc20cb3a3a2e3ca"
         }
     },
     "bin": [
@@ -58,10 +58,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/brave/brave-browser/releases/download/v$version/brave-v$version-win32-x64.zip"
+                "url": "https://ghproxy.com/github.com/brave/brave-browser/releases/download/v$version/brave-v$version-win32-x64.zip"
             },
             "32bit": {
-                "url": "https://download.fastgit.org/brave/brave-browser/releases/download/v$version/brave-v$version-win32-ia32.zip"
+                "url": "https://ghproxy.com/github.com/brave/brave-browser/releases/download/v$version/brave-v$version-win32-ia32.zip"
             }
         },
         "hash": {

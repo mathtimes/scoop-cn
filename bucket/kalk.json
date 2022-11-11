@@ -5,7 +5,7 @@
     "license": "BSD-2-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/xoofx/kalk/releases/download/0.6.0/kalk.0.6.0.win-x64.zip",
+            "url": "https://ghproxy.com/github.com/xoofx/kalk/releases/download/0.6.0/kalk.0.6.0.win-x64.zip",
             "hash": "c6d8e8f8f7783a733c80c4c2c54bb2d7f8ce71f01f63ee1857fc1566314ce949"
         }
     },
@@ -16,7 +16,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/xoofx/kalk/releases/download/$version/kalk.$version.win-x64.zip"
+                "url": "https://ghproxy.com/github.com/xoofx/kalk/releases/download/$version/kalk.$version.win-x64.zip"
             }
         }
     }

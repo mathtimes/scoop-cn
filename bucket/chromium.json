@@ -1,17 +1,17 @@
 {
     "##": "Check chromium.woolyss.com for different versions of Chromium releases.",
-    "version": "105.0.5195.127-r1027018",
+    "version": "107.0.5304.107-r1047731",
     "description": "Browser aiming for safer, faster, and more stable way for all users to experience the web.",
     "homepage": "https://www.chromium.org",
     "license": "BSD-3-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/Hibbiki/chromium-win64/releases/download/v105.0.5195.127-r1027018/chrome.sync.7z",
-            "hash": "06aba28cf33d6086c5a6c14d1c471e3d820878dff1af474de1a1950c8d032fc4"
+            "url": "https://ghproxy.com/github.com/Hibbiki/chromium-win64/releases/download/v107.0.5304.107-r1047731/chrome.sync.7z",
+            "hash": "sha1:e8b3becfaab4007a6445d9f42055093d3eff51a1"
         },
         "32bit": {
-            "url": "https://download.fastgit.org/Hibbiki/chromium-win32/releases/download/v105.0.5195.127-r1027018/chrome.sync.7z",
-            "hash": "4cab7f455d60434740f850a0f9b260876f82da080c9c57a539ccd75e6a44f05c"
+            "url": "https://ghproxy.com/github.com/Hibbiki/chromium-win32/releases/download/v107.0.5304.107-r1047731/chrome.sync.7z",
+            "hash": "sha1:e0de42632361b6e9d005cbe40ebdbe4d94a8743f"
         }
     },
     "extract_dir": "Chrome-bin",
@@ -44,14 +44,14 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/Hibbiki/chromium-win64/releases/download/v$version/chrome.sync.7z",
+                "url": "https://ghproxy.com/github.com/Hibbiki/chromium-win64/releases/download/v$version/chrome.sync.7z",
                 "hash": {
                     "url": "https://github.com/Hibbiki/chromium-win64/releases/tag/v$version",
                     "regex": "$sha1 \\.\\./out/x64/chrome.sync.7z"
                 }
             },
             "32bit": {
-                "url": "https://download.fastgit.org/Hibbiki/chromium-win32/releases/download/v$version/chrome.sync.7z",
+                "url": "https://ghproxy.com/github.com/Hibbiki/chromium-win32/releases/download/v$version/chrome.sync.7z",
                 "hash": {
                     "url": "https://github.com/Hibbiki/chromium-win32/releases/tag/v$version",
                     "regex": "$sha1 \\.\\./out/x86/chrome.sync.7z"

@@ -1,5 +1,5 @@
 {
-    "version": "2.10.5",
+    "version": "2.11.2",
     "description": "Source code security analyzer from GitHub",
     "homepage": "https://github.com/github/codeql-cli-binaries",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/github/codeql-cli-binaries/releases/download/v2.10.5/codeql-win64.zip",
-            "hash": "50bcd9dead4c2b2dfb85da16ace864461f9a5d913c2cea96a8b9a9a8472c48ed",
+            "url": "https://ghproxy.com/github.com/github/codeql-cli-binaries/releases/download/v2.11.2/codeql-win64.zip",
+            "hash": "aa886ffdf7ef5c0471ed5eeee115a5114a0f292da81ad15025d4889b1ff0fd41",
             "extract_dir": "codeql"
         }
     },
@@ -18,7 +18,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/github/codeql-cli-binaries/releases/download/v$version/codeql-win64.zip"
+                "url": "https://ghproxy.com/github.com/github/codeql-cli-binaries/releases/download/v$version/codeql-win64.zip"
             }
         }
     }

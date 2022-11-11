@@ -1,5 +1,5 @@
 {
-    "version": "1.0.46",
+    "version": "1.0.52",
     "description": "Unofficial Telegram Desktop with some enhancements.",
     "homepage": "https://64gr.am",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/TDesktop-x64/tdesktop/releases/download/v1.0.46/64Gram_1.0.46_x64.zip",
-            "hash": "6a1fbbb548ed1c83d7eeea44cf46bd2edb448eab311c754474c258cab41a4b5d"
+            "url": "https://ghproxy.com/github.com/TDesktop-x64/tdesktop/releases/download/v1.0.52/64Gram_1.0.52_x64.zip",
+            "hash": "8919c7f7cc62cd4790ff79bf2262b4bdf2a83b0bd75d6e7ac48e5200f470824b"
         },
         "32bit": {
-            "url": "https://download.fastgit.org/TDesktop-x64/tdesktop/releases/download/v1.0.46/64Gram_1.0.46_x86.zip",
-            "hash": "699351b0c65fd2dc2066afeb838025ced6a845dc289b293a9f616375548ce0c2"
+            "url": "https://ghproxy.com/github.com/TDesktop-x64/tdesktop/releases/download/v1.0.52/64Gram_1.0.52_x86.zip",
+            "hash": "a138d1841a06f634d86cad972659177035e0e4fd185aa7070ac6b3f50b43fe1c"
         }
     },
     "pre_install": "if (Test-Path \"$persist_dir\\log.txt\") { Copy-Item \"$persist_dir\\log.txt\" \"$dir\\\" }",
@@ -37,10 +37,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/TDesktop-x64/tdesktop/releases/download/v$version/64Gram_$version_x64.zip"
+                "url": "https://ghproxy.com/github.com/TDesktop-x64/tdesktop/releases/download/v$version/64Gram_$version_x64.zip"
             },
             "32bit": {
-                "url": "https://download.fastgit.org/TDesktop-x64/tdesktop/releases/download/v$version/64Gram_$version_x86.zip"
+                "url": "https://ghproxy.com/github.com/TDesktop-x64/tdesktop/releases/download/v$version/64Gram_$version_x86.zip"
             }
         }
     }

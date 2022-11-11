@@ -1,5 +1,5 @@
 {
-    "version": "9.16.32",
+    "version": "9.16.34",
     "description": "Versatile, classic, complete name server software.",
     "homepage": "https://www.isc.org/bind/",
     "license": "MPL-2.0",
@@ -9,8 +9,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://downloads.isc.org/isc/bind9/9.16.32/BIND9.16.32.x64.zip",
-            "hash": "e9b7d5681000def06f603505a6c093c05bf039f422345106d33af7494f993212"
+            "url": "https://downloads.isc.org/isc/bind9/9.16.34/BIND9.16.34.x64.zip",
+            "hash": "001809cee9c6a23aeb3a81d6c714fe9982bda61183cd083dde339c9d1a73ca08"
         }
     },
     "installer": {

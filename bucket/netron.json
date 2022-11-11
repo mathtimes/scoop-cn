@@ -1,12 +1,12 @@
 {
-    "version": "6.0.6",
+    "version": "6.1.5",
     "description": "Visualizer for deep learning and machine learning models",
     "homepage": "https://netron.app/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/lutzroeder/netron/releases/download/v6.0.6/Netron-Setup-6.0.6.exe#/dl.7z",
-            "hash": "sha512:e6d1e96006e0b2c6b3955aedf334495cb3aafa984b3a70cae93c934bcdbc909a3cfce680cea6e82bd888bd46c4014ac095b866c41130a340fe2c775398a4aba5",
+            "url": "https://ghproxy.com/github.com/lutzroeder/netron/releases/download/v6.1.5/Netron-Setup-6.1.5.exe#/dl.7z",
+            "hash": "sha512:3316d5de6ed894a523e7686cced02b95c25e73abe77bfac88ca5684ce5410dde0e9a435d36b14535b076c565c43b87785cb83d82b5db6d6c071a2d0cfb2c44b9",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$*\" -Force -Recurse"
@@ -26,7 +26,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/lutzroeder/netron/releases/download/v$version/Netron-Setup-$version.exe#/dl.7z",
+                "url": "https://ghproxy.com/github.com/lutzroeder/netron/releases/download/v$version/Netron-Setup-$version.exe#/dl.7z",
                 "hash": {
                     "url": "$baseurl/latest.yml",
                     "regex": "sha512:\\s+$base64"

@@ -8,7 +8,7 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/andy-5/wslgit/releases/download/v1.1.1/wslgit.exe",
+            "url": "https://ghproxy.com/github.com/andy-5/wslgit/releases/download/v1.1.1/wslgit.exe",
             "hash": "1f19d415e0ec78093b57614842df9a655b0300d10be53e9dbcebd9b89aabf8aa"
         }
     },
@@ -17,7 +17,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/andy-5/wslgit/releases/download/v$version/wslgit.exe"
+                "url": "https://ghproxy.com/github.com/andy-5/wslgit/releases/download/v$version/wslgit.exe"
             }
         }
     }

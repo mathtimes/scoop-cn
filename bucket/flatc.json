@@ -1,12 +1,12 @@
 {
-    "version": "2.0.8",
+    "version": "22.10.26",
     "description": "An efficient serialization library for multiple languages",
     "homepage": "https://google.github.io/flatbuffers/index.html",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/google/flatbuffers/releases/download/v2.0.8/Windows.flatc.binary.zip",
-            "hash": "c80cd9fb40366eb0081dcab41bb06bcdfc6276a56722b9c8671a51ac1fee17b2"
+            "url": "https://ghproxy.com/github.com/google/flatbuffers/releases/download/v22.10.26/Windows.flatc.binary.zip",
+            "hash": "3868066aa60e352039038401400277e1665d8f19c49d803e6e5757c78dc075d1"
         }
     },
     "bin": "flatc.exe",
@@ -16,7 +16,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/google/flatbuffers/releases/download/v$version/Windows.flatc.binary.zip"
+                "url": "https://ghproxy.com/github.com/google/flatbuffers/releases/download/v$version/Windows.flatc.binary.zip"
             }
         }
     }

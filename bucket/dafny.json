@@ -1,12 +1,12 @@
 {
-    "version": "3.8.1",
+    "version": "3.9.1",
     "description": "A programming language with a program verifier",
     "homepage": "https://dafny-lang.github.io/dafny/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/dafny-lang/dafny/releases/download/v3.8.1/dafny-3.8.1-x64-win.zip",
-            "hash": "16590b6625ce81266df519849e8d5c7675a794d4f7a608502b053d8bca5bee95",
+            "url": "https://ghproxy.com/github.com/dafny-lang/dafny/releases/download/v3.9.1/dafny-3.9.1-x64-win.zip",
+            "hash": "7f3d478c79e8c8a10122479eb1bb42725bfd360c90428e758ff615d9ea2b849d",
             "extract_dir": "dafny"
         }
     },
@@ -21,7 +21,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/dafny-lang/dafny/releases/download/v$version/dafny-$version-x64-win.zip"
+                "url": "https://ghproxy.com/github.com/dafny-lang/dafny/releases/download/v$version/dafny-$version-x64-win.zip"
             }
         }
     }

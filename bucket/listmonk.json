@@ -5,7 +5,7 @@
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/knadh/listmonk/releases/download/v2.2.0/listmonk_2.2.0_windows_amd64.tar.gz",
+            "url": "https://ghproxy.com/github.com/knadh/listmonk/releases/download/v2.2.0/listmonk_2.2.0_windows_amd64.tar.gz",
             "hash": "b133d3695379d11d9dd2398488b251ccc524b60697268501e85d90b26d896405"
         }
     },
@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/knadh/listmonk/releases/download/v$version/listmonk_$version_windows_amd64.tar.gz"
+                "url": "https://ghproxy.com/github.com/knadh/listmonk/releases/download/v$version/listmonk_$version_windows_amd64.tar.gz"
             }
         },
         "hash": {

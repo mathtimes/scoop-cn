@@ -1,5 +1,5 @@
 {
-    "version": "0.59.1",
+    "version": "0.59.3",
     "description": "Investment portfolio performance calculator",
     "homepage": "https://www.portfolio-performance.info/en/",
     "license": "EPL-1.0",
@@ -11,8 +11,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/buchen/portfolio/releases/download/0.59.1/PortfolioPerformance-0.59.1-win32.win32.x86_64.zip",
-            "hash": "0e0d442c20fd81a633ad6da6df57660b505394ce36d5717d136e4e510f29beec"
+            "url": "https://ghproxy.com/github.com/buchen/portfolio/releases/download/0.59.3/PortfolioPerformance-0.59.3-win32.win32.x86_64.zip",
+            "hash": "fe5f4ee44afa61f581ad11b696ba0e9870d24771815fde630dd1ea1c2ef490e7"
         }
     },
     "extract_dir": "portfolio",
@@ -26,7 +26,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/buchen/portfolio/releases/download/$version/PortfolioPerformance-$version-win32.win32.x86_64.zip"
+                "url": "https://ghproxy.com/github.com/buchen/portfolio/releases/download/$version/PortfolioPerformance-$version-win32.win32.x86_64.zip"
             }
         }
     }

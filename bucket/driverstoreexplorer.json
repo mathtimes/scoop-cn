@@ -3,7 +3,7 @@
     "description": "A GUI tool to manage Windows driver store",
     "homepage": "https://github.com/lostindark/DriverStoreExplorer",
     "license": "GPL-2.0-or-later",
-    "url": "https://download.fastgit.org/lostindark/DriverStoreExplorer/releases/download/v0.11.79/DriverStoreExplorer.v0.11.79.zip",
+    "url": "https://ghproxy.com/github.com/lostindark/DriverStoreExplorer/releases/download/v0.11.79/DriverStoreExplorer.v0.11.79.zip",
     "hash": "6dfcfc7ed5d98664e457f886a8a70403f6472db8d51e1b1bebc89a2facfe7dcb",
     "bin": "Rapr.exe",
     "shortcuts": [
@@ -14,6 +14,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://download.fastgit.org/lostindark/DriverStoreExplorer/releases/download/v$version/DriverStoreExplorer.v$version.zip"
+        "url": "https://ghproxy.com/github.com/lostindark/DriverStoreExplorer/releases/download/v$version/DriverStoreExplorer.v$version.zip"
     }
 }

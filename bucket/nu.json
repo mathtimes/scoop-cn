@@ -1,12 +1,12 @@
 {
-    "version": "0.68.1",
+    "version": "0.71.0",
     "description": "A modern shell written in Rust",
     "homepage": "https://www.nushell.sh",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/nushell/nushell/releases/download/0.68.1/nu-0.68.1-x86_64-pc-windows-msvc.zip",
-            "hash": "f013c2c7b59533d56411f6e4ff195a48e6a1c8fc77836499801ca981f47582b3"
+            "url": "https://ghproxy.com/github.com/nushell/nushell/releases/download/0.71.0/nu-0.71.0-x86_64-pc-windows-msvc.zip",
+            "hash": "c38826f5c6f5ad2a7241244ecff4bfa658cc72cf37fda0b1608d74bcf05ac376"
         }
     },
     "bin": "nu.exe",
@@ -16,7 +16,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/nushell/nushell/releases/download/$version/nu-$version-x86_64-pc-windows-msvc.zip"
+                "url": "https://ghproxy.com/github.com/nushell/nushell/releases/download/$version/nu-$version-x86_64-pc-windows-msvc.zip"
             }
         }
     }

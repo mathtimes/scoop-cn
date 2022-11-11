@@ -5,7 +5,7 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/shssoichiro/oxipng/releases/download/v6.0.1/oxipng-6.0.1-x86_64-pc-windows-msvc.zip",
+            "url": "https://ghproxy.com/github.com/shssoichiro/oxipng/releases/download/v6.0.1/oxipng-6.0.1-x86_64-pc-windows-msvc.zip",
             "hash": "f318afa8f164efd5583b4814a544404a1ee3d16ea79f0b5fe4ff8e49ddfc1c84"
         }
     },
@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/shssoichiro/oxipng/releases/download/v$version/oxipng-$version-x86_64-pc-windows-msvc.zip"
+                "url": "https://ghproxy.com/github.com/shssoichiro/oxipng/releases/download/v$version/oxipng-$version-x86_64-pc-windows-msvc.zip"
             }
         }
     }

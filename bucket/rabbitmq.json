@@ -1,12 +1,12 @@
 {
-    "version": "3.10.7",
+    "version": "3.11.3",
     "description": "Message-broker",
     "homepage": "https://www.rabbitmq.com",
     "license": "MPL-1.1",
     "depends": "erlang",
-    "url": "https://download.fastgit.org/rabbitmq/rabbitmq-server/releases/download/v3.10.7/rabbitmq-server-windows-3.10.7.zip",
-    "hash": "397ed69809e59c00ccf950a2fdfae028f3cb5ff8533efe8c2214441a2e9623c5",
-    "extract_dir": "rabbitmq_server-3.10.7",
+    "url": "https://ghproxy.com/github.com/rabbitmq/rabbitmq-server/releases/download/v3.11.3/rabbitmq-server-windows-3.11.3.zip",
+    "hash": "765c3d7c35f44e9ebd5012a3ec488a30734edaf60134a97890378438a23ad6e9",
+    "extract_dir": "rabbitmq_server-3.11.3",
     "bin": [
         "sbin\\rabbitmqctl.bat",
         "sbin\\rabbitmq-defaults.bat",
@@ -27,7 +27,7 @@
         "regex": "> of RabbitMQ is <strong>([\\d.]+)</"
     },
     "autoupdate": {
-        "url": "https://download.fastgit.org/rabbitmq/rabbitmq-server/releases/download/v$version/rabbitmq-server-windows-$version.zip",
+        "url": "https://ghproxy.com/github.com/rabbitmq/rabbitmq-server/releases/download/v$version/rabbitmq-server-windows-$version.zip",
         "extract_dir": "rabbitmq_server-$version"
     }
 }

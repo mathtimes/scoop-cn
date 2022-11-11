@@ -1,12 +1,12 @@
 {
-    "version": "29136.dcb3f16fbc",
+    "version": "29927.9b4505c6d2",
     "description": "Nightly build of KiCAD, an electronics design automation (EDA) suite.",
     "homepage": "https://kicad-pcb.org",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://kicad-downloads.s3.cern.ch/windows/nightly/kicad-nightly-r29136.dcb3f16fbc-x86_64.exe#/dl.7z",
-            "hash": "e7d74e8d1867b2a880c1285ba2360695ba76426643c1b8aa784e566b64430a76"
+            "url": "https://kicad-downloads.s3.cern.ch/windows/nightly/kicad-nightly-r29927.9b4505c6d2-x86_64.exe#/dl.7z",
+            "hash": "eed9bbec04a9a81e234604e6fe539b2ee19111d352fb75c85b807d61f1906cb3"
         }
     },
     "pre_install": "Remove-Item \"$dir\\`$*\", \"$dir\\Uninst*\" -Recurse",

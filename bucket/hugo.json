@@ -1,12 +1,16 @@
 {
-    "version": "0.102.3",
+    "version": "0.105.0",
     "description": "Speedy and flexible static site generator (without Sass/SCSS support)",
     "homepage": "https://gohugo.io",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/gohugoio/hugo/releases/download/v0.102.3/hugo_0.102.3_windows-64bit.zip",
-            "hash": "56129e064ce95442b74424a169a554d20b67feed612d7f35b45957f3e04b64a2"
+            "url": "https://ghproxy.com/github.com/gohugoio/hugo/releases/download/v0.105.0/hugo_0.105.0_windows-amd64.zip",
+            "hash": "d82360acd0ffb51f0be3087703b60eba03a9a741cabf85fc313587496bb49926"
+        },
+        "arm64": {
+            "url": "https://ghproxy.com/github.com/gohugoio/hugo/releases/download/v0.105.0/hugo_0.105.0_windows-arm64.zip",
+            "hash": "80c9e6f2f8edfa7443b9ef1fb478b29425eb666ad961ea1c7957fe2c24e64fc6"
         }
     },
     "bin": "hugo.exe",
@@ -16,7 +20,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/gohugoio/hugo/releases/download/v$version/hugo_$version_windows-64bit.zip"
+                "url": "https://ghproxy.com/github.com/gohugoio/hugo/releases/download/v$version/hugo_$version_windows-amd64.zip"
+            },
+            "arm64": {
+                "url": "https://ghproxy.com/github.com/gohugoio/hugo/releases/download/v$version/hugo_$version_windows-arm64.zip"
             }
         },
         "hash": {

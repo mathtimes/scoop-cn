@@ -1,5 +1,5 @@
 {
-    "version": "10.9.2",
+    "version": "10.9.4",
     "description": "Community developed fork of MySQL server.",
     "homepage": "https://mariadb.org",
     "license": "GPL-2.0-only",
@@ -13,9 +13,9 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://downloads.mariadb.com/MariaDB/mariadb-10.9.2/winx64-packages/mariadb-10.9.2-winx64.zip",
-            "hash": "ba332c8a5fbf52434580c4cf15ed2fe208defd28f8d306cb2803acbba4036fbb",
-            "extract_dir": "mariadb-10.9.2-winx64"
+            "url": "https://downloads.mariadb.com/MariaDB/mariadb-10.9.4/winx64-packages/mariadb-10.9.4-winx64.zip",
+            "hash": "525881bf67e01307d068c88cfdbdfee645613f74e127937368edd4577af931a7",
+            "extract_dir": "mariadb-10.9.4-winx64"
         }
     },
     "post_install": [

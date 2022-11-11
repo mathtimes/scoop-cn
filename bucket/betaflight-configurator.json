@@ -5,7 +5,7 @@
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/betaflight/betaflight-configurator/releases/download/10.8.0/betaflight-configurator_10.8.0_win64-installer.exe",
+            "url": "https://ghproxy.com/github.com/betaflight/betaflight-configurator/releases/download/10.8.0/betaflight-configurator_10.8.0_win64-installer.exe",
             "hash": "10dabf1193dfd55893aba1a8dd4217bcfdb26583c4d851303543235ac2955df7"
         }
     },
@@ -24,7 +24,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/betaflight/betaflight-configurator/releases/download/$version/betaflight-configurator_$version_win64-installer.exe"
+                "url": "https://ghproxy.com/github.com/betaflight/betaflight-configurator/releases/download/$version/betaflight-configurator_$version_win64-installer.exe"
             }
         }
     }

@@ -5,7 +5,7 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/PintaProject/Pinta/releases/download/2.0.2/Pinta.exe#/Pinta-dl.exe",
+            "url": "https://ghproxy.com/github.com/PintaProject/Pinta/releases/download/2.0.2/Pinta.exe#/Pinta-dl.exe",
             "hash": "66a58a19a0f254a24c90f662114d8b1380e5f8693dc4792f9e216ebe4d11608f"
         }
     },
@@ -22,7 +22,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/PintaProject/Pinta/releases/download/$version/Pinta.exe#/Pinta-dl.exe"
+                "url": "https://ghproxy.com/github.com/PintaProject/Pinta/releases/download/$version/Pinta.exe#/Pinta-dl.exe"
             }
         }
     }

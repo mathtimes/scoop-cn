@@ -8,7 +8,7 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/ahrm/sioyek/releases/download/v1.5.0/sioyek-release-windows-portable.zip",
+            "url": "https://ghproxy.com/github.com/ahrm/sioyek/releases/download/v1.5.0/sioyek-release-windows-portable.zip",
             "hash": "b9c1c02dda4932e488db6aa08417854fba436b492c7261c6cf04ae2af0329f66"
         }
     },
@@ -46,7 +46,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/ahrm/sioyek/releases/download/v$version/sioyek-release-windows-portable.zip"
+                "url": "https://ghproxy.com/github.com/ahrm/sioyek/releases/download/v$version/sioyek-release-windows-portable.zip"
             }
         }
     }

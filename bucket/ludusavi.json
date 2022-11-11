@@ -1,16 +1,16 @@
 {
-    "version": "0.12.1",
+    "version": "0.15.0",
     "description": "PC video game save data backup tool",
     "homepage": "https://github.com/mtkennerly/ludusavi",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/mtkennerly/ludusavi/releases/download/v0.12.1/ludusavi-v0.12.1-win64.zip",
-            "hash": "c86b182d8083a40140eb7717ca1d11c1dfd67147d02f51986103d4a7b0ec8cfc"
+            "url": "https://ghproxy.com/github.com/mtkennerly/ludusavi/releases/download/v0.15.0/ludusavi-v0.15.0-win64.zip",
+            "hash": "16121d8926bb4b234856247737de8bbf06e54bd042c447199c12c1950fcaf26e"
         },
         "32bit": {
-            "url": "https://download.fastgit.org/mtkennerly/ludusavi/releases/download/v0.12.1/ludusavi-v0.12.1-win32.zip",
-            "hash": "1de9363b415506a54e63a3fe52d92aed7ec4a1694fdffa894723dd51a14c497a"
+            "url": "https://ghproxy.com/github.com/mtkennerly/ludusavi/releases/download/v0.15.0/ludusavi-v0.15.0-win32.zip",
+            "hash": "a2afda46f1274434fd762ccfcfa97041ff41fbdfec504d458b0d189f742ce63a"
         }
     },
     "bin": "ludusavi.exe",
@@ -24,10 +24,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/mtkennerly/ludusavi/releases/download/v$version/ludusavi-v$version-win64.zip"
+                "url": "https://ghproxy.com/github.com/mtkennerly/ludusavi/releases/download/v$version/ludusavi-v$version-win64.zip"
             },
             "32bit": {
-                "url": "https://download.fastgit.org/mtkennerly/ludusavi/releases/download/v$version/ludusavi-v$version-win32.zip"
+                "url": "https://ghproxy.com/github.com/mtkennerly/ludusavi/releases/download/v$version/ludusavi-v$version-win32.zip"
             }
         }
     }

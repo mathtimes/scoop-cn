@@ -1,16 +1,16 @@
 {
-    "version": "4.3.0",
+    "version": "4.6.0",
     "description": "Selenium WebDriver for Internet Explorer 11",
     "homepage": "https://selenium.dev",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/SeleniumHQ/selenium/releases/download/selenium-4.3.0/IEDriverServer_x64_4.3.0.zip",
-            "hash": "43e81aae9376d7e7fa6005c5d77f491b9bdf98bdb3d04646cc14d656734a9b5c"
+            "url": "https://ghproxy.com/github.com/SeleniumHQ/selenium/releases/download/selenium-4.6.0/IEDriverServer_x64_4.6.0.zip",
+            "hash": "a685c39575d25fe5767caebaa213c6b8f3919cc2ef6870941ffddd36f8c505b3"
         },
         "32bit": {
-            "url": "https://download.fastgit.org/SeleniumHQ/selenium/releases/download/selenium-4.3.0/IEDriverServer_Win32_4.3.0.zip",
-            "hash": "7bdb45ee43b52dbd85c213a593d7ae3095990aeb6e4a539f7d42a5eb744594b6"
+            "url": "https://ghproxy.com/github.com/SeleniumHQ/selenium/releases/download/selenium-4.6.0/IEDriverServer_Win32_4.6.0.zip",
+            "hash": "a81ae4c44018e98fb9cbdc883989a58dafcbcb821671d4f65b0f346fd81f40da"
         }
     },
     "bin": "IEDriverServer.exe",
@@ -21,10 +21,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/SeleniumHQ/selenium/releases/download/selenium-$version/IEDriverServer_x64_$version.zip"
+                "url": "https://ghproxy.com/github.com/SeleniumHQ/selenium/releases/download/selenium-$version/IEDriverServer_x64_$version.zip"
             },
             "32bit": {
-                "url": "https://download.fastgit.org/SeleniumHQ/selenium/releases/download/selenium-$version/IEDriverServer_Win32_$version.zip"
+                "url": "https://ghproxy.com/github.com/SeleniumHQ/selenium/releases/download/selenium-$version/IEDriverServer_Win32_$version.zip"
             }
         }
     }

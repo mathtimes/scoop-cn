@@ -1,10 +1,10 @@
 {
-    "version": "2.0-beta.9",
+    "version": "2.0-beta.15",
     "description": "The ultimate automation scripting language for Windows.",
     "homepage": "https://www.autohotkey.com/",
     "license": "GPL-2.0-or-later",
-    "url": "https://www.autohotkey.com/download/2.0/AutoHotkey_2.0-beta.9.zip",
-    "hash": "c6d4f267f395d5367d0ffe76cc88e8792e4d252a2e8c5a9aedce7bd001c2d3bc",
+    "url": "https://www.autohotkey.com/download/2.0/AutoHotkey_2.0-beta.15.zip",
+    "hash": "b1f4333b4c11e688c1ee9e8aa3565cf63f73dbd7f21feb480c41aab958eafbe8",
     "architecture": {
         "64bit": {
             "bin": [

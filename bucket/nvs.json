@@ -3,7 +3,7 @@
     "description": "Node Version Switcher - A cross-platform tool for switching between versions and forks of Node.js",
     "homepage": "https://github.com/jasongin/nvs",
     "license": "MIT",
-    "url": "https://download.fastgit.org/jasongin/nvs/releases/download/v1.6.2/nvs-1.6.2.msi",
+    "url": "https://ghproxy.com/github.com/jasongin/nvs/releases/download/v1.6.2/nvs-1.6.2.msi",
     "hash": "1d66c8816c7cd959ffe5f67617b03b87f06e9c5e974a5c07b28dc320e83b2aee",
     "extract_dir": "nvs",
     "env_add_path": ".",
@@ -22,6 +22,6 @@
     },
     "checkver": "github",
     "autoupdate": {
-        "url": "https://download.fastgit.org/jasongin/nvs/releases/download/v$version/nvs-$version.msi"
+        "url": "https://ghproxy.com/github.com/jasongin/nvs/releases/download/v$version/nvs-$version.msi"
     }
 }

@@ -44,11 +44,11 @@ jobs:
         cp -rf Versions/scripts/*     ./scripts
         cp -rf Java/bucket/*          ./bucket
 
-        perl -pi -e 's/github\.com\/(.+)\/releases\/download/download\.fastgit\.org\/$1\/releases\/download/g' ./bucket/*.json
-        perl -pi -e 's/raw\.githubusercontent\.com/raw\.fastgit\.org/g' ./bucket/*.json
+        perl -pi -e 's/github\.com\/(.+)\/releases\/download/ghproxy\.com\/github\.com\/$1\/releases\/download/g' ./bucket/*.json
+        perl -pi -e 's/raw\.githubusercontent\.com/ghproxy\.com\/raw\.githubusercontent\.com/g' ./bucket/*.json
         
         # 7zip
-        perl -pi -e 's/7-zip\.org\/a/experiments\-alicdn\.sparanoid\.net\/7z/g' ./bucket/7zip.json
+        perl -pi -e 's/www\.7-zip\.org\/a/experiments\-alicdn\.sparanoid\.net\/7z/g' ./bucket/7zip.json
 
         # latex
         perl -pi -e 's/miktex\.org\/download\/ctan/mirrors\.aliyun\.com\/CTAN/g' ./bucket/latex.json
@@ -60,13 +60,13 @@ jobs:
         perl -pi -e 's/download\.videolan\.org\/pub/mirrors\.ustc\.edu\.cn\/videolan\-ftp/g' ./bucket/vlc.json
 
         # dbeaver
-        perl -pi -e 's/download\.dbeaver\.com\/community/download\.fastgit\.org\/dbeaver\/dbeaver\/releases\/download/g' ./bucket/dbeaver.json
+        perl -pi -e 's/download\.dbeaver\.com\/community/ghproxy\.com\/github\.com\/dbeaver\/dbeaver\/releases\/download/g' ./bucket/dbeaver.json
 
         rm -rf Main Extras Versions Java
         
         # install.ps1
-        curl -o install.ps1 https://raw.fastgit.org/scoopinstaller/install/master/install.ps1
-        perl -pi -e 's/github\.com/hub\.fastgit\.xyz/g' ./install.ps1
+        curl -o install.ps1 https://ghproxy.com/raw.githubusercontent.com/scoopinstaller/install/master/install.ps1
+        perl -pi -e 's/github\.com/ghproxy\.com\/github\.com/g' ./install.ps1
 
         git config user.name github-actions
         git config user.email github-actions@github.com

@@ -1,16 +1,16 @@
 {
-    "version": "2.26.2",
+    "version": "2.34.0",
     "description": "Data & models versioning for ML projects, make them shareable and reproducible",
     "homepage": "https://dvc.org/",
     "license": "Apache-2.0",
-    "url": "https://download.fastgit.org/iterative/dvc/releases/download/2.26.2/dvc-2.26.2.exe",
-    "hash": "ec91490f78201f4afa4452b1afe2a06f4ac3315591907aef78df9e41d7321e85",
+    "url": "https://ghproxy.com/github.com/iterative/dvc/releases/download/2.34.0/dvc-2.34.0.exe",
+    "hash": "2d7275d06448b028b9d841debc7b4a78b5b31b8c5832936d8cc7e567d9b9f9a7",
     "innosetup": true,
     "bin": "dvc.exe",
     "checkver": {
         "github": "https://github.com/iterative/dvc"
     },
     "autoupdate": {
-        "url": "https://download.fastgit.org/iterative/dvc/releases/download/$version/dvc-$version.exe"
+        "url": "https://ghproxy.com/github.com/iterative/dvc/releases/download/$version/dvc-$version.exe"
     }
 }

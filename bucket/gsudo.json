@@ -1,10 +1,10 @@
 {
-    "version": "1.5.1",
+    "version": "2.0.2",
     "description": "A Sudo for Windows",
     "homepage": "https://github.com/gerardog/gsudo",
     "license": "MIT",
-    "url": "https://download.fastgit.org/gerardog/gsudo/releases/download/v1.5.1/gsudo.v1.5.1.zip",
-    "hash": "2e761130a4a7ac925f13903d3b64d98e7119a090adc90c2601d7162156ed4f52",
+    "url": "https://ghproxy.com/github.com/gerardog/gsudo/releases/download/v2.0.2/gsudo.v2.0.2.zip",
+    "hash": "670345d4b3fbd53a7ec8dbfff9f5f40fdc6f6cbaff689884d089abfdd1f01cad",
     "architecture": {
         "64bit": {
             "extract_dir": "x64"
@@ -23,6 +23,6 @@
     "env_add_path": ".",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://download.fastgit.org/gerardog/gsudo/releases/download/v$version/gsudo.v$version.zip"
+        "url": "https://ghproxy.com/github.com/gerardog/gsudo/releases/download/v$version/gsudo.v$version.zip"
     }
 }

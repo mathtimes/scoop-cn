@@ -1,5 +1,5 @@
 {
-    "version": "2.13.1",
+    "version": "2.14.1",
     "description": "Tool for customizing the Spotify client.",
     "homepage": "https://spicetify.app/",
     "license": "LGPL-2.1-only",
@@ -9,12 +9,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/khanhas/spicetify-cli/releases/download/v2.13.1/spicetify-2.13.1-windows-x64.zip",
-            "hash": "2710857ab3557565afc67b76e0cb1241e9d56f92ea6332f64430bbca15980d6d"
+            "url": "https://ghproxy.com/github.com/khanhas/spicetify-cli/releases/download/v2.14.1/spicetify-2.14.1-windows-x64.zip",
+            "hash": "d10bf45d64d278dfaa6c2fb00e0862e579ccc16dadf4f5654d7698bc33c194f1"
         },
         "32bit": {
-            "url": "https://download.fastgit.org/khanhas/spicetify-cli/releases/download/v2.13.1/spicetify-2.13.1-windows-x32.zip",
-            "hash": "6c80fa990c9c102554a154755ef05fe9c44c4b45a7d15ebf7cc5f90c72389e02"
+            "url": "https://ghproxy.com/github.com/khanhas/spicetify-cli/releases/download/v2.14.1/spicetify-2.14.1-windows-x32.zip",
+            "hash": "0f616befe19540550afd439fdc239ee5070e21913c5b55f5cf7dffce94ffced5"
         }
     },
     "bin": "spicetify.exe",
@@ -24,10 +24,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/khanhas/spicetify-cli/releases/download/v$version/spicetify-$version-windows-x64.zip"
+                "url": "https://ghproxy.com/github.com/khanhas/spicetify-cli/releases/download/v$version/spicetify-$version-windows-x64.zip"
             },
             "32bit": {
-                "url": "https://download.fastgit.org/khanhas/spicetify-cli/releases/download/v$version/spicetify-$version-windows-x32.zip"
+                "url": "https://ghproxy.com/github.com/khanhas/spicetify-cli/releases/download/v$version/spicetify-$version-windows-x32.zip"
             }
         }
     }

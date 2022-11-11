@@ -1,4 +1,4 @@
-# Issue Tracker: https://hub.fastgit.xyz/ScoopInstaller/Install/issues
+# Issue Tracker: https://ghproxy.com/github.com/ScoopInstaller/Install/issues
 # Unlicense License:
 #
 # This is free and unencumbered software released into the public domain.
@@ -53,7 +53,7 @@
 .LINK
     https://scoop.sh
 .LINK
-    https://hub.fastgit.xyz/ScoopInstaller/Scoop/wiki
+    https://ghproxy.com/github.com/ScoopInstaller/Scoop/wiki
 #>
 param(
     [String] $ScoopDir,
@@ -139,7 +139,7 @@ function Test-Prerequisite {
 
     # Detect if RunAsAdministrator, there is no need to run as administrator when installing Scoop.
     if (!$RunAsAdmin -and (Test-IsAdministrator)) {
-        Deny-Install "Running the installer as administrator is disabled by default, see https://hub.fastgit.xyz/ScoopInstaller/Install#for-admin for details."
+        Deny-Install "Running the installer as administrator is disabled by default, see https://ghproxy.com/github.com/ScoopInstaller/Install#for-admin for details."
     }
 
     # Show notification to change execution policy
@@ -251,7 +251,7 @@ function Expand-ZipArchive {
     }
 
     # Workaround to suspend Expand-Archive verbose output,
-    # upstream issue: https://hub.fastgit.xyz/PowerShell/Microsoft.PowerShell.Archive/issues/98
+    # upstream issue: https://ghproxy.com/github.com/PowerShell/Microsoft.PowerShell.Archive/issues/98
     $oldVerbosePreference = $VerbosePreference
     $global:VerbosePreference = 'SilentlyContinue'
     # PowerShell 5+: use Expand-Archive to extract zip files
@@ -437,44 +437,44 @@ function Add-Config {
 }
 
 function Add-DefaultConfig {
-    # If user-level SCOOP env not defined, save to rootPath
+    # If user-level SCOOP env not defined, save to root_path
     if (!(Get-Env 'SCOOP')) {
         if ($SCOOP_DIR -ne "$env:USERPROFILE\scoop") {
-            Write-Verbose "Adding config rootPath: $SCOOP_DIR"
-            Add-Config -Name 'rootPath' -Value $SCOOP_DIR | Out-Null
+            Write-Verbose "Adding config root_path: $SCOOP_DIR"
+            Add-Config -Name 'root_path' -Value $SCOOP_DIR | Out-Null
         }
     }
 
     # Use system SCOOP_GLOBAL, or set system SCOOP_GLOBAL
-    # with $env:SCOOP_GLOBAL if RunAsAdmin, otherwise save to globalPath
+    # with $env:SCOOP_GLOBAL if RunAsAdmin, otherwise save to global_path
     if (!(Get-Env 'SCOOP_GLOBAL' -global)) {
         if ((Test-IsAdministrator) -and $env:SCOOP_GLOBAL) {
             Write-Verbose "Setting System Environment Variable SCOOP_GLOBAL: $env:SCOOP_GLOBAL"
             [Environment]::SetEnvironmentVariable('SCOOP_GLOBAL', $env:SCOOP_GLOBAL, 'Machine')
         } else {
             if ($SCOOP_GLOBAL_DIR -ne "$env:ProgramData\scoop") {
-                Write-Verbose "Adding config globalPath: $SCOOP_GLOBAL_DIR"
-                Add-Config -Name 'globalPath' -Value $SCOOP_GLOBAL_DIR | Out-Null
+                Write-Verbose "Adding config global_path: $SCOOP_GLOBAL_DIR"
+                Add-Config -Name 'global_path' -Value $SCOOP_GLOBAL_DIR | Out-Null
             }
         }
     }
 
     # Use system SCOOP_CACHE, or set system SCOOP_CACHE
-    # with $env:SCOOP_CACHE if RunAsAdmin, otherwise save to cachePath
+    # with $env:SCOOP_CACHE if RunAsAdmin, otherwise save to cache_path
     if (!(Get-Env 'SCOOP_CACHE' -global)) {
         if ((Test-IsAdministrator) -and $env:SCOOP_CACHE) {
             Write-Verbose "Setting System Environment Variable SCOOP_CACHE: $env:SCOOP_CACHE"
             [Environment]::SetEnvironmentVariable('SCOOP_CACHE', $env:SCOOP_CACHE, 'Machine')
         } else {
             if ($SCOOP_CACHE_DIR -ne "$SCOOP_DIR\cache") {
-                Write-Verbose "Adding config cachePath: $SCOOP_CACHE_DIR"
-                Add-Config -Name 'cachePath' -Value $SCOOP_CACHE_DIR | Out-Null
+                Write-Verbose "Adding config cache_path: $SCOOP_CACHE_DIR"
+                Add-Config -Name 'cache_path' -Value $SCOOP_CACHE_DIR | Out-Null
             }
         }
     }
 
-    # save current datatime to lastUpdate
-    Add-Config -Name 'lastUpdate' -Value ([System.DateTime]::Now.ToString('o')) | Out-Null
+    # save current datatime to last_update
+    Add-Config -Name 'last_update' -Value ([System.DateTime]::Now.ToString('o')) | Out-Null
 }
 
 function Install-Scoop {
@@ -572,8 +572,8 @@ $SCOOP_CONFIG_HOME = $env:XDG_CONFIG_HOME, "$env:USERPROFILE\.config" | Select-O
 $SCOOP_CONFIG_FILE = "$SCOOP_CONFIG_HOME\scoop\config.json"
 
 # TODO: Use a specific version of Scoop and the main bucket
-$SCOOP_PACKAGE_REPO = "https://hub.fastgit.xyz/ScoopInstaller/Scoop/archive/master.zip"
-$SCOOP_MAIN_BUCKET_REPO = "https://hub.fastgit.xyz/ScoopInstaller/Main/archive/master.zip"
+$SCOOP_PACKAGE_REPO = "https://ghproxy.com/github.com/ScoopInstaller/Scoop/archive/master.zip"
+$SCOOP_MAIN_BUCKET_REPO = "https://ghproxy.com/github.com/ScoopInstaller/Main/archive/master.zip"
 
 # Quit if anything goes wrong
 $oldErrorActionPreference = $ErrorActionPreference

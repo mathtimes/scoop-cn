@@ -1,12 +1,12 @@
 {
-    "version": "6.0.2",
+    "version": "6.1.19",
     "description": "build of the open source portion of Lens",
     "homepage": "https://github.com/MuhammedKalkan/OpenLens",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/MuhammedKalkan/OpenLens/releases/download/v6.0.2/OpenLens-6.0.2.exe#/dl.7z",
-            "hash": "b5e90d8e55f33d7dec3a40d1e5498b03a1abd2f6f1704fc3a0482375d65383ed",
+            "url": "https://ghproxy.com/github.com/MuhammedKalkan/OpenLens/releases/download/v6.1.19/OpenLens-6.1.19.exe#/dl.7z",
+            "hash": "40058cc026910495e4d21c921497db69b6d8bc6a15ceaa27c99daf8b2cd0c1b2",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall*\" -Force -Recurse"
@@ -23,7 +23,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/MuhammedKalkan/OpenLens/releases/download/v$version/OpenLens-$version.exe#/dl.7z"
+                "url": "https://ghproxy.com/github.com/MuhammedKalkan/OpenLens/releases/download/v$version/OpenLens-$version.exe#/dl.7z"
             }
         }
     }

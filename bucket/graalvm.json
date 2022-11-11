@@ -1,11 +1,11 @@
 {
     "description": "High-performance, embeddable, polyglot Virtual Machine for JVM-langs (Java, Scala, Kotlin), JavaScript/NodeJS, Python, Ruby, R, and LLVM-langs (C, C++, Rust)",
-    "version": "22.2.0",
+    "version": "22.3.0",
     "homepage": "https://www.graalvm.org/",
     "license": "GPL-2.0",
-    "url": "https://download.fastgit.org/graalvm/graalvm-ce-builds/releases/download/vm-22.2.0/graalvm-ce-java17-windows-amd64-22.2.0.zip",
-    "hash": "0930735fafe50f295b3e46c5e860ca3500aa76bdeb02f1af142bedab88a371c8",
-    "extract_dir": "graalvm-ce-java17-22.2.0",
+    "url": "https://ghproxy.com/github.com/graalvm/graalvm-ce-builds/releases/download/vm-22.3.0/graalvm-ce-java19-windows-amd64-22.3.0.zip",
+    "hash": "7ac4e89591bfac5f0651e45d2947cbaf795e43ab39152f65ad2bfdfb4a709482",
+    "extract_dir": "graalvm-ce-java19-22.3.0",
     "env_add_path": "bin",
     "env_set": {
         "JAVA_HOME": "$dir",
@@ -16,8 +16,8 @@
         "regex": "vm-([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://download.fastgit.org/graalvm/graalvm-ce-builds/releases/download/vm-$version/graalvm-ce-java17-windows-amd64-$version.zip",
-        "extract_dir": "graalvm-ce-java17-$version",
+        "url": "https://ghproxy.com/github.com/graalvm/graalvm-ce-builds/releases/download/vm-$version/graalvm-ce-java19-windows-amd64-$version.zip",
+        "extract_dir": "graalvm-ce-java19-$version",
         "hash": {
             "url": "$url.sha256"
         }

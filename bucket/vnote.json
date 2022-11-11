@@ -8,11 +8,11 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/vnotex/vnote/releases/download/v3.15.0/vnote-win-x64-qt5.15.2_v3.15.0.zip",
+            "url": "https://ghproxy.com/github.com/vnotex/vnote/releases/download/v3.15.0/vnote-win-x64-qt5.15.2_v3.15.0.zip",
             "hash": "93319acb6ae367c0dbf1b6e5f17585b2dd875dda9e8dc9dd0498173ca3515a31"
         },
         "32bit": {
-            "url": "https://download.fastgit.org/vnotex/vnote/releases/download/v3.15.0/vnote-win-x86-qt5.15.2_v3.15.0.zip",
+            "url": "https://ghproxy.com/github.com/vnotex/vnote/releases/download/v3.15.0/vnote-win-x86-qt5.15.2_v3.15.0.zip",
             "hash": "967f5aadf7851652851a0ff45059affa7d916fc14fb25b669c47d6a03726db1b"
         }
     },
@@ -48,10 +48,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/vnotex/vnote/releases/download/v$version/vnote-win-x64-qt$matchQt64bit_v$version.zip"
+                "url": "https://ghproxy.com/github.com/vnotex/vnote/releases/download/v$version/vnote-win-x64-qt$matchQt64bit_v$version.zip"
             },
             "32bit": {
-                "url": "https://download.fastgit.org/vnotex/vnote/releases/download/v$version/vnote-win-x86-qt$matchQt32bit_v$version.zip"
+                "url": "https://ghproxy.com/github.com/vnotex/vnote/releases/download/v$version/vnote-win-x86-qt$matchQt32bit_v$version.zip"
             }
         }
     }

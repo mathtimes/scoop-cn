@@ -1,15 +1,15 @@
 {
-    "version": "2.24.0",
+    "version": "2.24.2",
     "description": "SDL (Simple DirectMedia Layer) is a cross-platform development library designed to provide low level access to audio, keyboard, mouse, joystick, and graphics hardware via OpenGL and Direct3D.",
     "homepage": "https://www.libsdl.org",
     "license": "Zlib",
     "url": [
-        "https://download.fastgit.org/libsdl-org/SDL/releases/download/release-2.24.0/SDL2-devel-2.24.0-VC.zip",
-        "https://download.fastgit.org/libsdl-org/SDL/releases/download/release-2.24.0/SDL2-2.24.0.zip"
+        "https://ghproxy.com/github.com/libsdl-org/SDL/releases/download/release-2.24.2/SDL2-devel-2.24.2-VC.zip",
+        "https://ghproxy.com/github.com/libsdl-org/SDL/releases/download/release-2.24.2/SDL2-2.24.2.zip"
     ],
     "hash": [
-        "97c6e2d17c0baebf4c84ede27ec42e211358f3694b9f558ead3a9c542c4a004e",
-        "4b065503d45652d5f65d807fe98c757c73af2968727945b596861995bc3b69c2"
+        "fae7f8f1661fc1fb3ece7b58eca3b2aaeb2ed000a0b7766f859ae12511efd11f",
+        "7fae98ac4e7b39eb2511fc27c2e84b220ac69b5296ff41f833b967c891f9d2ac"
     ],
     "installer": {
         "script": [
@@ -84,8 +84,8 @@
     },
     "autoupdate": {
         "url": [
-            "https://download.fastgit.org/libsdl-org/SDL/releases/download/release-$version/SDL2-devel-$version-VC.zip",
-            "https://download.fastgit.org/libsdl-org/SDL/releases/download/release-$version/SDL2-$version.zip"
+            "https://ghproxy.com/github.com/libsdl-org/SDL/releases/download/release-$version/SDL2-devel-$version-VC.zip",
+            "https://ghproxy.com/github.com/libsdl-org/SDL/releases/download/release-$version/SDL2-$version.zip"
         ]
     }
 }

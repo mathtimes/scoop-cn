@@ -8,7 +8,7 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/gchudov/cuetools.net/releases/download/v2.2.2/CUETools_2.2.2.zip",
+            "url": "https://ghproxy.com/github.com/gchudov/cuetools.net/releases/download/v2.2.2/CUETools_2.2.2.zip",
             "hash": "b56914afc067a7937d8c905f0910f252d18d6bd8172a0a733314a318fa208aa9"
         }
     },
@@ -35,7 +35,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/gchudov/cuetools.net/releases/download/v$version/CUETools_$version.zip"
+                "url": "https://ghproxy.com/github.com/gchudov/cuetools.net/releases/download/v$version/CUETools_$version.zip"
             }
         },
         "extract_dir": "CUETools_$version"

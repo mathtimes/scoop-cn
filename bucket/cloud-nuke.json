@@ -1,16 +1,16 @@
 {
-    "version": "0.19.0",
+    "version": "0.21.0",
     "description": "A tool for cleaning up your cloud accounts by nuking (deleting) all resources within it",
     "homepage": "https://github.com/gruntwork-io/cloud-nuke",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/gruntwork-io/cloud-nuke/releases/download/v0.19.0/cloud-nuke_windows_amd64.exe#/cloud-nuke.exe",
-            "hash": "e7349dbb5f9e9be95ee9c83c4480f938d0db2fe23fb2b38c78a1ca64612fd748"
+            "url": "https://ghproxy.com/github.com/gruntwork-io/cloud-nuke/releases/download/v0.21.0/cloud-nuke_windows_amd64.exe#/cloud-nuke.exe",
+            "hash": "0bfdf8cc72db0ee9aec935c7425ae38fae877d4e4531a542ad08e9fefd97be3e"
         },
         "32bit": {
-            "url": "https://download.fastgit.org/gruntwork-io/cloud-nuke/releases/download/v0.19.0/cloud-nuke_windows_386.exe#/cloud-nuke.exe",
-            "hash": "07fe9e9046fd32bac6f4061240e629119579301dd63b218cd028b0da758647dc"
+            "url": "https://ghproxy.com/github.com/gruntwork-io/cloud-nuke/releases/download/v0.21.0/cloud-nuke_windows_386.exe#/cloud-nuke.exe",
+            "hash": "7e40febf2acf7c7843a102b7188235854169d6f4c3ac3902d9f506e919eaa5a0"
         }
     },
     "bin": "cloud-nuke.exe",
@@ -18,10 +18,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/gruntwork-io/cloud-nuke/releases/download/v$version/cloud-nuke_windows_amd64.exe#/cloud-nuke.exe"
+                "url": "https://ghproxy.com/github.com/gruntwork-io/cloud-nuke/releases/download/v$version/cloud-nuke_windows_amd64.exe#/cloud-nuke.exe"
             },
             "32bit": {
-                "url": "https://download.fastgit.org/gruntwork-io/cloud-nuke/releases/download/v$version/cloud-nuke_windows_386.exe#/cloud-nuke.exe"
+                "url": "https://ghproxy.com/github.com/gruntwork-io/cloud-nuke/releases/download/v$version/cloud-nuke_windows_386.exe#/cloud-nuke.exe"
             }
         },
         "hash": {

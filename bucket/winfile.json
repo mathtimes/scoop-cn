@@ -6,7 +6,7 @@
     "suggest": {
         "vcredist": "extras/vcredist2022"
     },
-    "url": "https://download.fastgit.org/Microsoft/winfile/releases/download/v10.1.4.0/Winfile_v10.1.4.0.zip",
+    "url": "https://ghproxy.com/github.com/Microsoft/winfile/releases/download/v10.1.4.0/Winfile_v10.1.4.0.zip",
     "hash": "dfc94f57ac57dcfbce6455f432fb79a56126e9c01b8567cdd2657da1dda3b520",
     "architecture": {
         "64bit": {
@@ -25,6 +25,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://download.fastgit.org/Microsoft/winfile/releases/download/v$version/Winfile_v$version.zip"
+        "url": "https://ghproxy.com/github.com/Microsoft/winfile/releases/download/v$version/Winfile_v$version.zip"
     }
 }

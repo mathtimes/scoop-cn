@@ -5,7 +5,7 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/xo/usql/releases/download/v0.12.13/usql-0.12.13-windows-amd64.zip",
+            "url": "https://ghproxy.com/github.com/xo/usql/releases/download/v0.12.13/usql-0.12.13-windows-amd64.zip",
             "hash": "a0ba9e939241e1716aa40d094909026a9e6c2c82e90801d38c195554e9b5e628"
         }
     },
@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/xo/usql/releases/download/v$version/usql-$version-windows-amd64.zip"
+                "url": "https://ghproxy.com/github.com/xo/usql/releases/download/v$version/usql-$version-windows-amd64.zip"
             }
         }
     }

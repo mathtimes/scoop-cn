@@ -1,16 +1,16 @@
 {
-    "version": "1.11.3",
+    "version": "1.12.3",
     "description": "Release automation tool for Go projects.",
     "homepage": "https://goreleaser.com",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/goreleaser/goreleaser/releases/download/v1.11.3/goreleaser_Windows_x86_64.zip",
-            "hash": "16c3bf49fc66300a9e26b7bf3e909ea30f578952bef547984dde31fd51d24e13"
+            "url": "https://ghproxy.com/github.com/goreleaser/goreleaser/releases/download/v1.12.3/goreleaser_Windows_x86_64.zip",
+            "hash": "fe2c663bec075cc21d70c1d9f6d8331ca48c7ad8ccb10fb0a6a619a837fe92fb"
         },
         "32bit": {
-            "url": "https://download.fastgit.org/goreleaser/goreleaser/releases/download/v1.11.3/goreleaser_Windows_i386.zip",
-            "hash": "6f065419b896b0645696acd89fcf597933b9d3abdef3b90c43a33c02849d7a69"
+            "url": "https://ghproxy.com/github.com/goreleaser/goreleaser/releases/download/v1.12.3/goreleaser_Windows_i386.zip",
+            "hash": "06a80cac583dc5100725fbba011d173e611519831119ccbd7f28ff8479079ae1"
         }
     },
     "bin": "goreleaser.exe",
@@ -20,10 +20,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/goreleaser/goreleaser/releases/download/v$version/goreleaser_Windows_x86_64.zip"
+                "url": "https://ghproxy.com/github.com/goreleaser/goreleaser/releases/download/v$version/goreleaser_Windows_x86_64.zip"
             },
             "32bit": {
-                "url": "https://download.fastgit.org/goreleaser/goreleaser/releases/download/v$version/goreleaser_Windows_i386.zip"
+                "url": "https://ghproxy.com/github.com/goreleaser/goreleaser/releases/download/v$version/goreleaser_Windows_i386.zip"
             }
         },
         "hash": {

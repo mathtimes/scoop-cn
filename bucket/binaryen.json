@@ -5,7 +5,7 @@
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/WebAssembly/binaryen/releases/download/version_110/binaryen-version_110-x86_64-windows.tar.gz",
+            "url": "https://ghproxy.com/github.com/WebAssembly/binaryen/releases/download/version_110/binaryen-version_110-x86_64-windows.tar.gz",
             "hash": "a118decd2bf0359f4275aad2d41394b4b507c7a53d10f5253d29338d0057b48c"
         }
     },
@@ -23,13 +23,16 @@
         "bin\\wasm-split.exe"
     ],
     "checkver": {
-        "url": "https://github.com/WebAssembly/binaryen/releases",
-        "regex": "binaryen-version_([\\d.]+)-x86_64-windows\\.tar\\.gz"
+        "github": "https://github.com/WebAssembly/binaryen",
+        "regex": "tag/version_(\\d+)"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/WebAssembly/binaryen/releases/download/version_$version/binaryen-version_$version-x86_64-windows.tar.gz"
+                "url": "https://ghproxy.com/github.com/WebAssembly/binaryen/releases/download/version_$version/binaryen-version_$version-x86_64-windows.tar.gz",
+                "hash": {
+                    "url": "$url.sha256"
+                }
             }
         },
         "extract_dir": "binaryen-version_$version"

@@ -1,5 +1,5 @@
 {
-    "version": "1.7.10",
+    "version": "1.7.21",
     "description": "An LLVM backend for the Kotlin compiler, runtime implementation, and native code generation facility using the LLVM toolchain for native binaries runnable without a virtual machine.",
     "homepage": "https://kotlinlang.org",
     "license": "Apache-2.0",
@@ -9,8 +9,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/JetBrains/kotlin/releases/download/v1.7.10/kotlin-native-windows-x86_64-1.7.10.zip#/dl.zip_",
-            "hash": "52c64c754a23da3d554d89beb9cdc322ffcb19b8d6f1e812e849e597d282b99d"
+            "url": "https://ghproxy.com/github.com/JetBrains/kotlin/releases/download/v1.7.21/kotlin-native-windows-x86_64-1.7.21.zip#/dl.zip_",
+            "hash": "5e76301f6c386ea83dc668e171887244908c18da636f7237d5371b56d8fec8da"
         }
     },
     "pre_install": [
@@ -38,7 +38,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/JetBrains/kotlin/releases/download/v$matchHead/kotlin-native-windows-x86_64-$version.zip#/dl.zip_"
+                "url": "https://ghproxy.com/github.com/JetBrains/kotlin/releases/download/v$matchHead/kotlin-native-windows-x86_64-$version.zip#/dl.zip_"
             }
         },
         "hash": {

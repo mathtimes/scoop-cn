@@ -1,16 +1,16 @@
 {
-    "version": "2.0.11",
+    "version": "2.0.13",
     "description": "The command line interface for Railway. Use it to connect your code to Railways infrastructure.",
     "homepage": "https://github.com/railwayapp/cli",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/railwayapp/cli/releases/download/v2.0.11/railway_2.0.11_windows_amd64.tar.gz",
-            "hash": "2e949982f53391e303bb84fc456708e0210493b55429a3c8350edafbc9fcaa4f"
+            "url": "https://ghproxy.com/github.com/railwayapp/cli/releases/download/v2.0.13/railway_2.0.13_windows_amd64.tar.gz",
+            "hash": "914b33f555b79489747df76909c27ab79f9b854572c1727e9a9e8908bfa10145"
         },
         "32bit": {
-            "url": "https://download.fastgit.org/railwayapp/cli/releases/download/v2.0.11/railway_2.0.11_windows_386.tar.gz",
-            "hash": "494c06d61f4ff2f33d09882fd4f64efa4a095f13778d32f2ef062db82409242c"
+            "url": "https://ghproxy.com/github.com/railwayapp/cli/releases/download/v2.0.13/railway_2.0.13_windows_386.tar.gz",
+            "hash": "5f7df2500f15a93505c41cf23680f6806f5f2701a0012e3618015b9f07ba210c"
         }
     },
     "bin": "railway.exe",
@@ -18,10 +18,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/railwayapp/cli/releases/download/v$version/railway_$version_windows_amd64.tar.gz"
+                "url": "https://ghproxy.com/github.com/railwayapp/cli/releases/download/v$version/railway_$version_windows_amd64.tar.gz"
             },
             "32bit": {
-                "url": "https://download.fastgit.org/railwayapp/cli/releases/download/v$version/railway_$version_windows_386.tar.gz"
+                "url": "https://ghproxy.com/github.com/railwayapp/cli/releases/download/v$version/railway_$version_windows_386.tar.gz"
             }
         },
         "hash": {

@@ -8,7 +8,7 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/yatli/fvim/releases/download/v0.3.531+g119a455/fvim-win-x64-v0.3.531+g119a455.zip",
+            "url": "https://ghproxy.com/github.com/yatli/fvim/releases/download/v0.3.531+g119a455/fvim-win-x64-v0.3.531+g119a455.zip",
             "hash": "80a4d6201a3fd74773307c22a99c1f9d9c2d2ba24c868807addc079bbf067454"
         }
     },
@@ -26,7 +26,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/yatli/fvim/releases/download/v$version$matchCommit/fvim-win-x64-v$version$matchCommit.zip"
+                "url": "https://ghproxy.com/github.com/yatli/fvim/releases/download/v$version$matchCommit/fvim-win-x64-v$version$matchCommit.zip"
             }
         }
     }

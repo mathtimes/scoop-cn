@@ -1,16 +1,16 @@
 {
-    "version": "3.8.3",
+    "version": "3.9.3",
     "description": "A Discord and Fosscord web-based client.",
     "homepage": "https://github.com/SpacingBat3/WebCord",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/SpacingBat3/WebCord/releases/download/v3.8.3/WebCord-win32-x64-3.8.3.zip",
-            "hash": "53dac11773d60874a116b250186dd453558dac4956e9eb4b1ecf2dcd873df6ca"
+            "url": "https://ghproxy.com/github.com/SpacingBat3/WebCord/releases/download/v3.9.3/WebCord-win32-x64-3.9.3.zip",
+            "hash": "4cea6e0cf0d97d454da8706e7211a7543979f0f21a0c259ebdb7ee81185aa3a4"
         },
         "32bit": {
-            "url": "https://download.fastgit.org/SpacingBat3/WebCord/releases/download/v3.8.3/WebCord-win32-ia32-3.8.3.zip",
-            "hash": "639ba8cfa734b3874c69333747d99fdf5b4c7b7142e8b60b6ccfa952b3d432a6"
+            "url": "https://ghproxy.com/github.com/SpacingBat3/WebCord/releases/download/v3.9.3/WebCord-win32-ia32-3.9.3.zip",
+            "hash": "af6cf3270562842f942dd57fbf2cac97662f017857d0a2cfb768e5e8ccc338f8"
         }
     },
     "shortcuts": [
@@ -23,10 +23,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/SpacingBat3/WebCord/releases/download/v$version/WebCord-win32-x64-$version.zip"
+                "url": "https://ghproxy.com/github.com/SpacingBat3/WebCord/releases/download/v$version/WebCord-win32-x64-$version.zip"
             },
             "32bit": {
-                "url": "https://download.fastgit.org/SpacingBat3/WebCord/releases/download/v$version/WebCord-win32-ia32-$version.zip"
+                "url": "https://ghproxy.com/github.com/SpacingBat3/WebCord/releases/download/v$version/WebCord-win32-ia32-$version.zip"
             }
         }
     }

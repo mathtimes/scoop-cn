@@ -5,11 +5,11 @@
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/dnGrep/dnGrep/releases/download/v3.0.154.0/dnGREP.3.0.154.x64.msi",
+            "url": "https://ghproxy.com/github.com/dnGrep/dnGrep/releases/download/v3.0.154.0/dnGREP.3.0.154.x64.msi",
             "hash": "deb58fd5fd81651e1f8fb2ce245fd7d47df9482c508cee1cf18f3d90a416a210"
         },
         "32bit": {
-            "url": "https://download.fastgit.org/dnGrep/dnGrep/releases/download/v3.0.154.0/dnGREP.3.0.154.x86.msi",
+            "url": "https://ghproxy.com/github.com/dnGrep/dnGrep/releases/download/v3.0.154.0/dnGREP.3.0.154.x86.msi",
             "hash": "5ea2666d4df1dccd918ac1773cd7f37e20cf67d75273a737db9675b916989084"
         }
     },
@@ -35,14 +35,14 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/dnGrep/dnGrep/releases/download/v$version/dnGREP.$matchHead.x64.msi",
+                "url": "https://ghproxy.com/github.com/dnGrep/dnGrep/releases/download/v$version/dnGREP.$matchHead.x64.msi",
                 "hash": {
                     "url": "https://github.com/dnGrep/dnGrep/releases/v$version",
                     "regex": "x64.msi[<>/\\w\\n: \\(\\)]+SHA256: ($sha256)"
                 }
             },
             "32bit": {
-                "url": "https://download.fastgit.org/dnGrep/dnGrep/releases/download/v$version/dnGREP.$matchHead.x86.msi",
+                "url": "https://ghproxy.com/github.com/dnGrep/dnGrep/releases/download/v$version/dnGREP.$matchHead.x86.msi",
                 "hash": {
                     "url": "https://github.com/dnGrep/dnGrep/releases/v$version",
                     "find": "x86.msi[<>/\\w\\n: \\(\\)]+SHA256: ($sha256)"

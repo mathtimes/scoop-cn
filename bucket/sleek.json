@@ -1,12 +1,12 @@
 {
-    "version": "1.2.1",
+    "version": "1.2.9",
     "description": "Open-source (FOSS) todo manager based on the todo.txt syntax",
     "homepage": "https://github.com/ransome1/sleek",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/ransome1/sleek/releases/download/v1.2.1/sleek-1.2.1-win-Setup.exe#/dl.7z",
-            "hash": "sha512:f25c432e083d35c0e5b1b5c59c78e22bb5afb71778cfa1751abfbdb18ae8f8765d070d13c3b4d612114c0afe64717336a9772342a8c0aabf16b4f9c45ea1c9d1"
+            "url": "https://ghproxy.com/github.com/ransome1/sleek/releases/download/v1.2.9/sleek-1.2.9-win-Setup.exe#/dl.7z",
+            "hash": "sha512:c18957799f4ecc9a60700e6396722acc200c3d001aa778edf2447769eef402ed8ebe898716f8332d63591e9e78edba5675b15d553380970cb19dc5bcd3c56160"
         }
     },
     "pre_install": [
@@ -28,7 +28,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/ransome1/sleek/releases/download/v$version/sleek-$version-win-Setup.exe#/dl.7z"
+                "url": "https://ghproxy.com/github.com/ransome1/sleek/releases/download/v$version/sleek-$version-win-Setup.exe#/dl.7z"
             }
         },
         "hash": {

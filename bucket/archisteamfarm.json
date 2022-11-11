@@ -1,5 +1,5 @@
 {
-    "version": "5.3.0.3",
+    "version": "5.3.2.4",
     "description": "C# Farming Steam cards from multiple accounts simultaneously.",
     "homepage": "https://github.com/JustArchiNET/ArchiSteamFarm",
     "license": "Apache-2.0",
@@ -15,10 +15,11 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/JustArchiNET/ArchiSteamFarm/releases/download/5.3.0.3/ASF-win-x64.zip",
-            "hash": "62b5979e07ce05519a3c50d1d1a4aa9f8463f1c9bb4a95d8044eadf84ed4c33a"
+            "url": "https://ghproxy.com/github.com/JustArchiNET/ArchiSteamFarm/releases/download/5.3.2.4/ASF-win-x64.zip",
+            "hash": "24c46c1cab8c98cf510402ea01d2f757d4b1410e34f7304eaf76b7d68761758d"
         }
     },
+    "bin": "ArchiSteamFarm.exe",
     "shortcuts": [
         [
             "ArchiSteamFarm.exe",
@@ -30,7 +31,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/JustArchiNET/ArchiSteamFarm/releases/download/$version/ASF-win-x64.zip"
+                "url": "https://ghproxy.com/github.com/JustArchiNET/ArchiSteamFarm/releases/download/$version/ASF-win-x64.zip"
             }
         }
     }

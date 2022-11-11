@@ -1,16 +1,16 @@
 {
-    "version": "0.2.31",
+    "version": "0.2.33",
     "description": "Local Github actions runner.",
     "homepage": "https://github.com/nektos/act/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/nektos/act/releases/download/v0.2.31/act_Windows_x86_64.zip",
-            "hash": "721b6fd8c3fb010b6c908c317bd03c473793ca39404b4befbdc7ffcc089ec185"
+            "url": "https://ghproxy.com/github.com/nektos/act/releases/download/v0.2.33/act_Windows_x86_64.zip",
+            "hash": "d9639b77cb2fc81a935a8f5e0c3086ace72638af1a3552618c5084779a462706"
         },
         "32bit": {
-            "url": "https://download.fastgit.org/nektos/act/releases/download/v0.2.31/act_Windows_i386.zip",
-            "hash": "463010d10bf4482da733effa05fdcd601b88a10beb4036cda0a0692eeeef9367"
+            "url": "https://ghproxy.com/github.com/nektos/act/releases/download/v0.2.33/act_Windows_i386.zip",
+            "hash": "51e727652fe4f3fc688e7deb2a7b03ddf128a99fc89f6b4d73ead2058fc80425"
         }
     },
     "bin": "act.exe",
@@ -18,10 +18,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/nektos/act/releases/download/v$version/act_Windows_x86_64.zip"
+                "url": "https://ghproxy.com/github.com/nektos/act/releases/download/v$version/act_Windows_x86_64.zip"
             },
             "32bit": {
-                "url": "https://download.fastgit.org/nektos/act/releases/download/v$version/act_Windows_i386.zip"
+                "url": "https://ghproxy.com/github.com/nektos/act/releases/download/v$version/act_Windows_i386.zip"
             }
         },
         "hash": {

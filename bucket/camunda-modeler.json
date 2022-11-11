@@ -1,16 +1,16 @@
 {
-    "version": "5.3.0",
+    "version": "5.5.0",
     "description": "Made for developers, edit your BPMN process diagrams and DMN decision tables.",
     "homepage": "https://camunda.org/download/modeler/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/camunda/camunda-modeler/releases/download/v5.3.0/camunda-modeler-5.3.0-win-x64.zip",
-            "hash": "f431d7cf2e40c84831539d474d4b5bc02dd9c688997554cfff66b9a67efe0d02"
+            "url": "https://ghproxy.com/github.com/camunda/camunda-modeler/releases/download/v5.5.0/camunda-modeler-5.5.0-win-x64.zip",
+            "hash": "fd6b69c0c8a87bfdcd217a02640737aaaf936c8b4c2a1944d146f7ecba00219c"
         },
         "32bit": {
-            "url": "https://download.fastgit.org/camunda/camunda-modeler/releases/download/v5.3.0/camunda-modeler-5.3.0-win-ia32.zip",
-            "hash": "efc3a9a4a1eccffae62021f70c6e6cef1a711ca33bbc1c5b851d6f82cf40ccee"
+            "url": "https://ghproxy.com/github.com/camunda/camunda-modeler/releases/download/v5.5.0/camunda-modeler-5.5.0-win-ia32.zip",
+            "hash": "8f808cbe125ab4cfd1d47927d09787780c03642b77384fee11312ac1f687b648"
         }
     },
     "bin": "Camunda Modeler.exe",
@@ -26,10 +26,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/camunda/camunda-modeler/releases/download/v$version/camunda-modeler-$version-win-x64.zip"
+                "url": "https://ghproxy.com/github.com/camunda/camunda-modeler/releases/download/v$version/camunda-modeler-$version-win-x64.zip"
             },
             "32bit": {
-                "url": "https://download.fastgit.org/camunda/camunda-modeler/releases/download/v$version/camunda-modeler-$version-win-ia32.zip"
+                "url": "https://ghproxy.com/github.com/camunda/camunda-modeler/releases/download/v$version/camunda-modeler-$version-win-ia32.zip"
             }
         }
     }

@@ -1,13 +1,13 @@
 {
-    "version": "0.1.347",
+    "version": "0.1.358",
     "description": "Collection of tools for analyzing open source packages.",
     "homepage": "https://github.com/microsoft/OSSGadget",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/microsoft/OSSGadget/releases/download/v0.1.347/OSSGadget_win_0.1.347.zip",
-            "hash": "1b3dd802d7897689546a009262e1e653f8b9ac56047e04dced2a1dd7eed2cdfe",
-            "extract_dir": "OSSGadget_win_0.1.347"
+            "url": "https://ghproxy.com/github.com/microsoft/OSSGadget/releases/download/v0.1.358/OSSGadget_win_0.1.358.zip",
+            "hash": "ec817236df02261d1b05fece3a76f10610fd10eb88ab879a1891d95fef560aff",
+            "extract_dir": "OSSGadget_win_0.1.358"
         }
     },
     "bin": [
@@ -28,9 +28,9 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/microsoft/OSSGadget/releases/download/v$version/OSSGadget_win_$version.zip",
+                "url": "https://ghproxy.com/github.com/microsoft/OSSGadget/releases/download/v$version/OSSGadget_win_$version.zip",
                 "hash": {
-                    "url": "https://download.fastgit.org/microsoft/OSSGadget/releases/download/v$version/HASHES.txt"
+                    "url": "https://ghproxy.com/github.com/microsoft/OSSGadget/releases/download/v$version/HASHES.txt"
                 },
                 "extract_dir": "OSSGadget_win_$version"
             }

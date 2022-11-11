@@ -1,12 +1,12 @@
 {
-    "version": "4.2.2",
+    "version": "4.3.1",
     "description": "Language Server Protocol for LaTeX",
     "homepage": "https://texlab.netlify.com",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://download.fastgit.org/latex-lsp/texlab/releases/download/v4.2.2/texlab-x86_64-windows.zip",
-            "hash": "4cfefdfef84322485d0766ff07258056adfa113f8dc0dad642d3b7e0c7eaabcc"
+            "url": "https://ghproxy.com/github.com/latex-lsp/texlab/releases/download/v4.3.1/texlab-x86_64-windows.zip",
+            "hash": "08796766625fa7a469f1b2c698d6977498af474cc7d6f10f715eaafff73ef477"
         }
     },
     "bin": "texlab.exe",
@@ -16,7 +16,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.fastgit.org/latex-lsp/texlab/releases/download/v$version/texlab-x86_64-windows.zip"
+                "url": "https://ghproxy.com/github.com/latex-lsp/texlab/releases/download/v$version/texlab-x86_64-windows.zip"
             }
         }
     }
