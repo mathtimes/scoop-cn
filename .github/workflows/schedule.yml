@@ -30,28 +30,63 @@ jobs:
         path: 'Versions'
     - uses: actions/checkout@v2
       with:
+        repository: 'kodybrown/scoop-nirsoft'
+        fetch-depth: 1
+        path: 'scoop-nirsoft'
+    - uses: actions/checkout@v2
+      with:
+        repository: 'ScoopInstaller/PHP'
+        fetch-depth: 1
+        path: 'PHP'
+    - uses: actions/checkout@v2
+      with:
+        repository: 'matthewjberger/scoop-nerd-fonts'
+        fetch-depth: 1
+        path: 'scoop-nerd-fonts'
+    - uses: actions/checkout@v2
+      with:
+        repository: 'ScoopInstaller/Nonportable'
+        fetch-depth: 1
+        path: 'Nonportable'
+    - uses: actions/checkout@v2
+      with:
         repository: 'ScoopInstaller/Java'
         fetch-depth: 1
         path: 'Java'
+    - uses: actions/checkout@v2
+      with:
+        repository: 'Calinou/scoop-games'
+        fetch-depth: 1
+        path: 'scoop-games'
     - name: Update bucket
       run: |
         mkdir -p bucket scripts
-        cp -rf Main/bucket/*          ./bucket
-        cp -rf Main/scripts/*         ./scripts
-        cp -rf Extras/bucket/*        ./bucket
-        cp -rf Extras/scripts/*       ./scripts
-        cp -rf Versions/bucket/*      ./bucket
-        cp -rf Versions/scripts/*     ./scripts
-        cp -rf Java/bucket/*          ./bucket
+        cp -rf Main/bucket/*               ./bucket
+        cp -rf Main/scripts/*              ./scripts
+        cp -rf Extras/bucket/*             ./bucket
+        cp -rf Extras/scripts/*            ./scripts
+        cp -rf Versions/bucket/*           ./bucket
+        cp -rf Versions/scripts/*          ./scripts
+        cp -rf scoop-nirsoft/bucket/*      ./bucket
+        cp -rf PHP/bucket/*                ./bucket
+        cp -rf scoop-nerd-fonts/bucket/*   ./bucket
+        cp -rf Nonportable/bucket/*        ./bucket
+        cp -rf Nonportable/scripts/*       ./scripts
+        cp -rf Java/bucket/*               ./bucket
+        cp -rf scoop-games/bucket/*        ./bucket
 
+        # GitHub Release
         perl -pi -e 's/github\.com\/(.+)\/releases\/download/ghproxy\.com\/github\.com\/$1\/releases\/download/g' ./bucket/*.json
+
+        # GitHub Raw
         perl -pi -e 's/raw\.githubusercontent\.com/ghproxy\.com\/raw\.githubusercontent\.com/g' ./bucket/*.json
         
         # 7zip
         perl -pi -e 's/www\.7-zip\.org\/a/experiments\-alicdn\.sparanoid\.net\/7z/g' ./bucket/7zip.json
 
-        # latex
+        # latex, miktex
         perl -pi -e 's/miktex\.org\/download\/ctan/mirrors\.aliyun\.com\/CTAN/g' ./bucket/latex.json
+        perl -pi -e 's/miktex\.org\/download\/ctan/mirrors\.aliyun\.com\/CTAN/g' ./bucket/miktex.json
 
         # nodejs
         perl -pi -e 's/nodejs\.org\/dist/npm\.taobao\.org\/mirrors\/node/g' ./bucket/nodejs*.json
@@ -62,10 +97,10 @@ jobs:
         # dbeaver
         perl -pi -e 's/download\.dbeaver\.com\/community/ghproxy\.com\/github\.com\/dbeaver\/dbeaver\/releases\/download/g' ./bucket/dbeaver.json
 
-        rm -rf Main Extras Versions Java
+        rm -rf Main Extras Versions scoop-nirsoft PHP scoop-nerd-fonts Nonportable Java scoop-games
         
         # install.ps1
-        curl -o install.ps1 https://ghproxy.com/raw.githubusercontent.com/scoopinstaller/install/master/install.ps1
+        curl -o install.ps1 https://raw.githubusercontent.com/scoopinstaller/install/master/install.ps1
         perl -pi -e 's/github\.com/ghproxy\.com\/github\.com/g' ./install.ps1
 
         git config user.name github-actions
