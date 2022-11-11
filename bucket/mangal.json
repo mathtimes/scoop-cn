@@ -1,0 +1,30 @@
+{
+    "version": "4.0.3",
+    "description": "The ultimate CLI manga downloader",
+    "homepage": "https://github.com/metafates/mangal",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://ghproxy.com/github.com/metafates/mangal/releases/download/v4.0.3/mangal_4.0.3_Windows_x86_64.zip",
+            "hash": "b59854573f1dd9710486b2fa58d142d2399b17a5f8dbffe7f62328a644d52afe"
+        },
+        "32bit": {
+            "url": "https://ghproxy.com/github.com/metafates/mangal/releases/download/v4.0.3/mangal_4.0.3_Windows_i386.zip",
+            "hash": "6b2cf83c071df07fd344279357d7a013ebbe72b126c05a1cb8b1786c6fd56ed4"
+        }
+    },
+    "bin": "mangal.exe",
+    "checkver": {
+        "github": "https://github.com/metafates/mangal"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://ghproxy.com/github.com/metafates/mangal/releases/download/v$version/mangal_$version_Windows_x86_64.zip"
+            },
+            "32bit": {
+                "url": "https://ghproxy.com/github.com/metafates/mangal/releases/download/v$version/mangal_$version_Windows_i386.zip"
+            }
+        }
+    }
+}
