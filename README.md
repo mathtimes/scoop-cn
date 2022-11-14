@@ -36,13 +36,13 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 打开 PowerShell，输入以下命令下载安装 Scoop：
 
 ```powershell
-irm https://ghproxy.com/raw.githubusercontent.com/duzyn/wood/master/install.ps1 | iex
+irm https://ghproxy.com/raw.githubusercontent.com/duzyn/scoop-cn/master/install.ps1 | iex
 ```
 
 或者使用 [jsdelivr](https://www.jsdelivr.com/) CDN 的地址：
 
 ```powershell
-irm https://cdn.jsdelivr.net/gh/duzyn/wood/install.ps1 | iex
+irm https://cdn.jsdelivr.net/gh/duzyn/scoop-cn/install.ps1 | iex
 ```
 
 ## 最先安装的几个 app
@@ -50,17 +50,17 @@ irm https://cdn.jsdelivr.net/gh/duzyn/wood/install.ps1 | iex
 要下载 app，需要先下载几个 app。这几个 app 用官方应用库下载很慢，所以也使用代理后的地址下载。7-Zip 用来解压下载的压缩包，Git 用来检出应用库，Aria2 用来加速下载（可选）。
 
 ```powershell
-scoop install https://cdn.jsdelivr.net/gh/duzyn/wood/bucket/7zip.json
-scoop install https://cdn.jsdelivr.net/gh/duzyn/wood/bucket/git.json
-scoop install https://cdn.jsdelivr.net/gh/duzyn/wood/bucket/aria2.json
+scoop install https://ghproxy.com/raw.githubusercontent.com/duzyn/scoop-cn/master/bucket/7zip.json
+scoop install https://ghproxy.com/raw.githubusercontent.com/duzyn/scoop-cn/master/bucket/git.json
+scoop install https://ghproxy.com/raw.githubusercontent.com/duzyn/scoop-cn/master/bucket/aria2.json
 ```
 
 或者使用 [jsdelivr](https://www.jsdelivr.com/) CDN 的地址：
 
 ```powershell
-scoop install https://ghproxy.com/raw.githubusercontent.com/duzyn/wood/master/bucket/7zip.json
-scoop install https://ghproxy.com/raw.githubusercontent.com/duzyn/wood/master/bucket/git.json
-scoop install https://ghproxy.com/raw.githubusercontent.com/duzyn/wood/master/bucket/aria2.json
+scoop install https://cdn.jsdelivr.net/gh/duzyn/scoop-cn/bucket/7zip.json
+scoop install https://cdn.jsdelivr.net/gh/duzyn/scoop-cn/bucket/git.json
+scoop install https://cdn.jsdelivr.net/gh/duzyn/scoop-cn/bucket/aria2.json
 ```
 
 ## 替换 Scoop 仓库
@@ -85,13 +85,13 @@ scoop bucket add main https://ghproxy.com/github.com/ScoopInstaller/Main
 添加本应用库。
 
 ```powershell
-scoop bucket add wood https://ghproxy.com/github.com/duzyn/wood
+scoop bucket add scoop-cn https://ghproxy.com/github.com/duzyn/scoop-cn
 ```
 
 ## 安装应用
 
 ```powershell
-scoop install wood/APPNAME
+scoop install scoop-cn/APPNAME
 ```
 
 ## 查看帮助
