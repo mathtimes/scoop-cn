@@ -60,6 +60,7 @@ jobs:
         path: 'scoop-games'
     - name: Update buckets
       run: |
+        rm -r bucket scripts
         mkdir -p bucket scripts
         cp -r Main/bucket/*               ./bucket
         cp -r Main/scripts/*              ./scripts
