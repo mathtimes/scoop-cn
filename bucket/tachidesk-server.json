@@ -10,9 +10,9 @@
         "64bit": {
             "url": [
                 "https://ghproxy.com/github.com/Suwayomi/Tachidesk-Server/releases/download/v0.6.5/Tachidesk-Server-v0.6.5-r1122-windows-x64.zip",
-                "https://github.com/ScoopInstaller/Extras/raw/master/scripts/tachidesk-server/tachidesk.ps1",
-                "https://github.com/ScoopInstaller/Extras/raw/master/scripts/tachidesk-server/tachidesk-electron.ps1",
-                "https://github.com/ScoopInstaller/Extras/raw/master/scripts/tachidesk-server/tachidesk-debug.ps1"
+                "https://ghproxy.com/github.com/ScoopInstaller/Extras/raw/master/scripts/tachidesk-server/tachidesk.ps1",
+                "https://ghproxy.com/github.com/ScoopInstaller/Extras/raw/master/scripts/tachidesk-server/tachidesk-electron.ps1",
+                "https://ghproxy.com/github.com/ScoopInstaller/Extras/raw/master/scripts/tachidesk-server/tachidesk-debug.ps1"
             ],
             "hash": [
                 "f64334b405ca4ef56e7c38e0d1a076d75b4526a0654383346dba39c1ccaebb99",
@@ -25,9 +25,9 @@
         "32bit": {
             "url": [
                 "https://ghproxy.com/github.com/Suwayomi/Tachidesk-Server/releases/download/v0.6.5/Tachidesk-Server-v0.6.5-r1122-windows-x86.zip",
-                "https://github.com/ScoopInstaller/Extras/raw/master/scripts/tachidesk-server/tachidesk.ps1",
-                "https://github.com/ScoopInstaller/Extras/raw/master/scripts/tachidesk-server/tachidesk-electron.ps1",
-                "https://github.com/ScoopInstaller/Extras/raw/master/scripts/tachidesk-server/tachidesk-debug.ps1"
+                "https://ghproxy.com/github.com/ScoopInstaller/Extras/raw/master/scripts/tachidesk-server/tachidesk.ps1",
+                "https://ghproxy.com/github.com/ScoopInstaller/Extras/raw/master/scripts/tachidesk-server/tachidesk-electron.ps1",
+                "https://ghproxy.com/github.com/ScoopInstaller/Extras/raw/master/scripts/tachidesk-server/tachidesk-debug.ps1"
             ],
             "hash": [
                 "07d62e42fca484e0524ae49620fe91eaf085dcca4c56ed9c393c6c3777bca0b8",

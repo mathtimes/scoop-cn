@@ -16,7 +16,7 @@
         "JAVA_HOME": "$dir"
     },
     "checkver": {
-        "url": "https://github.com/ojdkbuild/ojdkbuild/raw/master/README.md",
+        "url": "https://ghproxy.com/github.com/ojdkbuild/ojdkbuild/raw/master/README.md",
         "regex": "download/java-11-openjdk-([\\d.-]+)"
     },
     "autoupdate": {

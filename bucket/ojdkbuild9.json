@@ -20,7 +20,7 @@
         "JAVA_HOME": "$dir"
     },
     "checkver": {
-        "url": "https://github.com/ojdkbuild/ojdkbuild/raw/master/README.md",
+        "url": "https://ghproxy.com/github.com/ojdkbuild/ojdkbuild/raw/master/README.md",
         "regex": "download/(?<short>[\\d.-]+)/java-9-openjdk-([\\d.-]+(?<build>b\\d+))\\."
     },
     "autoupdate": {
