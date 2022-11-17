@@ -105,7 +105,7 @@ jobs:
         perl -pi -e 's/dist\.torproject\.org\/torbrowser\/(.+)\/torbrowser-install-/ghproxy\.com\/github\.com\/TheTorProject\/gettorbrowser\/releases\/download\/win32-$1\/torbrowser-install-/g' ./bucket/tor-browser.json
         
         # install.ps1
-        curl https://raw.githubusercontent.com/scoopinstaller/install/master/install.ps1 | perl -pi -e 's/github\.com/ghproxy\.com\/github\.com/g' > ./install.ps1
+        curl https://raw.githubusercontent.com/scoopinstaller/install/master/install.ps1 | perl -pi -e 's/\"https:\/\/github\.com/\"https:\/\/ghproxy\.com\/github\.com/g' > ./install.ps1
 
         git config user.name github-actions
         git config user.email github-actions@github.com
