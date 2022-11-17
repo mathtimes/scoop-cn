@@ -1,4 +1,4 @@
-# Issue Tracker: https://ghproxy.com/github.com/ScoopInstaller/Install/issues
+# Issue Tracker: https://github.com/ScoopInstaller/Install/issues
 # Unlicense License:
 #
 # This is free and unencumbered software released into the public domain.
@@ -53,7 +53,7 @@
 .LINK
     https://scoop.sh
 .LINK
-    https://ghproxy.com/github.com/ScoopInstaller/Scoop/wiki
+    https://github.com/ScoopInstaller/Scoop/wiki
 #>
 param(
     [String] $ScoopDir,
@@ -139,7 +139,7 @@ function Test-Prerequisite {
 
     # Detect if RunAsAdministrator, there is no need to run as administrator when installing Scoop.
     if (!$RunAsAdmin -and (Test-IsAdministrator)) {
-        Deny-Install "Running the installer as administrator is disabled by default, see https://ghproxy.com/github.com/ScoopInstaller/Install#for-admin for details."
+        Deny-Install "Running the installer as administrator is disabled by default, see https://github.com/ScoopInstaller/Install#for-admin for details."
     }
 
     # Show notification to change execution policy
@@ -251,7 +251,7 @@ function Expand-ZipArchive {
     }
 
     # Workaround to suspend Expand-Archive verbose output,
-    # upstream issue: https://ghproxy.com/github.com/PowerShell/Microsoft.PowerShell.Archive/issues/98
+    # upstream issue: https://github.com/PowerShell/Microsoft.PowerShell.Archive/issues/98
     $oldVerbosePreference = $VerbosePreference
     $global:VerbosePreference = 'SilentlyContinue'
     # PowerShell 5+: use Expand-Archive to extract zip files
