@@ -13,15 +13,7 @@ cp -r Nonportable/bucket/*        ./bucket
 cp -r Nonportable/scripts/*       ./scripts
 cp -r Java/bucket/*               ./bucket
 cp -r scoop-games/bucket/*        ./bucket
-rm -r Main \
-      Extras \
-      Versions \
-      scoop-nirsoft \
-      PHP \
-      scoop-nerd-fonts \
-      Nonportable \
-      Java \
-      scoop-games
+rm -r Main Extras Versions scoop-nirsoft PHP scoop-nerd-fonts Nonportable Java scoop-games
 
 # GitHub Release
 perl -pi -e 's/github\.com\/(.+)\/releases\/download/ghproxy\.com\/github\.com\/$1\/releases\/download/g' ./bucket/*.json
