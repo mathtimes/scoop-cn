@@ -1,13 +1,11 @@
 {
-    "version": "2.2.2",
-    "license": "MIT",
-    "homepage": "https://github.com/ryanoasis/nerd-fonts",
-    "url": "https://ghproxy.com/github.com/ryanoasis/nerd-fonts/releases/download/v2.2.2/ProFont.zip",
-    "hash": "6ca55a1620f7eab6cea96f2dc83b8fb59bc900f4d72ce4bd508411f86c1ebe11",
-    "checkver": "github",
-    "autoupdate": {
-        "url": "https://ghproxy.com/github.com/ryanoasis/nerd-fonts/releases/download/v$version/ProFont.zip"
-    },
+    "version": "2.6",
+    "description": "+Jakarta Sans is a open-source fonts. Designed for Jakarta \"City of collaboration\" program in 2020.",
+    "homepage": "https://github.com/tokotype/PlusJakartaSans",
+    "license": "OFL-1.1",
+    "url": "https://ghproxy.com/github.com/tokotype/PlusJakartaSans/releases/download/2.6/PlusJakartaSans-2.6.zip",
+    "hash": "f1d21a6c99a5e7744574162dafc56e5c0895507fd9250ae04acbb1027733bee3",
+    "extract_dir": "PlusJakartaSans-2.6/static",
     "installer": {
         "script": [
             "$currentBuildNumber = [int] (Get-ItemProperty \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\").CurrentBuildNumber",
@@ -46,7 +44,7 @@
             "$registryRoot = if ($global) { \"HKLM\" } else { \"HKCU\" }",
             "$registryKey = \"${registryRoot}:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts\"",
             "New-Item $fontInstallDir -ItemType Directory -ErrorAction SilentlyContinue | Out-Null",
-            "Get-ChildItem $dir -Filter '*Mono Windows Compatible.*' | ForEach-Object {",
+            "Get-ChildItem $dir -Filter '*.ttf' | ForEach-Object {",
             "    $value = if ($isFontInstallationForAllUsers) { $_.Name } else { \"$fontInstallDir\\$($_.Name)\" }",
             "    New-ItemProperty -Path $registryKey -Name $_.Name.Replace($_.Extension, ' (TrueType)') -Value $value -Force | Out-Null",
             "    Copy-Item $_.FullName -Destination $fontInstallDir",
@@ -58,13 +56,18 @@
             "$fontInstallDir = if ($global) { \"$env:windir\\Fonts\" } else { \"$env:LOCALAPPDATA\\Microsoft\\Windows\\Fonts\" }",
             "$registryRoot = if ($global) { \"HKLM\" } else { \"HKCU\" }",
             "$registryKey = \"${registryRoot}:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts\"",
-            "Get-ChildItem $dir -Filter '*Mono Windows Compatible.*' | ForEach-Object {",
+            "Get-ChildItem $dir -Filter '*.ttf' | ForEach-Object {",
             "    Remove-ItemProperty -Path $registryKey -Name $_.Name.Replace($_.Extension, ' (TrueType)') -Force -ErrorAction SilentlyContinue",
             "    Remove-Item \"$fontInstallDir\\$($_.Name)\" -Force -ErrorAction SilentlyContinue",
             "}",
             "if ($cmd -eq \"uninstall\") {",
-            "    Write-Host \"The '$($app.Replace('-NF', ''))' Font family has been uninstalled and will not be present after restarting your computer.\" -Foreground Magenta",
+            "    Write-Host \"Font 'Plus Jakarta Sans' has been uninstalled and will not be present after restarting your computer.\" -Foreground Magenta",
             "}"
         ]
+    },
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://ghproxy.com/github.com/tokotype/PlusJakartaSans/releases/download/$version/PlusJakartaSans-$version.zip",
+        "extract_dir": "PlusJakartaSans-$version/static"
     }
 }
