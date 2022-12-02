@@ -105,3 +105,7 @@ scoop help
 ## 安全
 
 本应用库使用的是 [GitHub Proxy](https://ghproxy.com/) 和 GitHub Actions。
+
+## 类似项目
+
+[homebrew-cn](https://github.com/duzyn/homebrew-cn)
