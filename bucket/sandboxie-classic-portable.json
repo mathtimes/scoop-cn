@@ -1,0 +1,62 @@
+{
+    "version": "5.63.0",
+    "description": "Sandboxie is a sandbox-based isolation software for 32-bit and 64-bit Windows NT-based operating systems.",
+    "homepage": "https://sandboxie-plus.com/",
+    "license": {
+        "identifier": "GPL-3.0-or-later",
+        "url": "https://ghproxy.com/github.com/sandboxie-plus/Sandboxie/raw/master/LICENSE"
+    },
+    "notes": "Get Sandboxie Plus if you are a first-time user or want the latest features.",
+    "architecture": {
+        "64bit": {
+            "url": "https://ghproxy.com/github.com/sandboxie-plus/Sandboxie/releases/download/v1.8.0/Sandboxie-Classic-x64-v5.63.0.exe#/dl.7z",
+            "hash": "4c75c0417a6229958e85d088d4d1e2102b5e6bb9ecb7310e3cfdd3eeed249ae4"
+        },
+        "32bit": {
+            "url": "https://ghproxy.com/github.com/sandboxie-plus/Sandboxie/releases/download/v1.8.0/Sandboxie-Classic-x86-v5.63.0.exe#/dl.7z",
+            "hash": "efb869ed78502531cda5f84ba8730873db5f91507b4f73d18b369a3b7ebc6a84"
+        }
+    },
+    "post_install": "Remove-Item \"$dir\\`$*\" -Recurse -Force -ErrorAction 'SilentlyContinue'",
+    "shortcuts": [
+        [
+            "Start.exe",
+            "Sandboxie//Run any program sandboxed",
+            "/box:__ask__ run_dialog"
+        ],
+        [
+            "Start.exe",
+            "Sandboxie//Run Web browser sandboxed",
+            "/default_browser"
+        ],
+        [
+            "Start.exe",
+            "Sandboxie//Run Windows Explorer sandboxed",
+            "."
+        ],
+        [
+            "SbieCtrl.exe",
+            "Sandboxie//Sandboxie Control",
+            "/open"
+        ],
+        [
+            "Start.exe",
+            "Sandboxie//Sandboxie Start Menu",
+            "/box:__ask__ start_menu"
+        ]
+    ],
+    "checkver": {
+        "url": "https://api.github.com/repos/sandboxie-plus/Sandboxie/releases",
+        "regex": "releases/download/(?<tag>[vV]?[\\d.]+)/Sandboxie-Classic-x64-v([\\d.]+).exe"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://ghproxy.com/github.com/sandboxie-plus/Sandboxie/releases/download/$matchTag/Sandboxie-Classic-x64-v$version.exe#/dl.7z"
+            },
+            "32bit": {
+                "url": "https://ghproxy.com/github.com/sandboxie-plus/Sandboxie/releases/download/$matchTag/Sandboxie-Classic-x86-v$version.exe#/dl.7z"
+            }
+        }
+    }
+}

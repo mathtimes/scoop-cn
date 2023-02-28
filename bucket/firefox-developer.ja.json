@@ -1,0 +1,56 @@
+{
+    "version": "111.0b6",
+    "description": "Developer builds of Firefox: the popular open source web browser.",
+    "homepage": "https://www.mozilla.org/ja/firefox/developer/",
+    "license": "MPL-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://archive.mozilla.org/pub/devedition/releases/111.0b6/win64/ja/Firefox%20Setup%20111.0b6.exe#/dl.7z",
+            "hash": "sha512:51eed0e869c2f49565ab50696dc06bdf322d9bb2a6dd3d1b02e0fb7645c020043b57b6df6c9154d1e6db54885f56d0842fea03f5d0b1290994e811df04f99366"
+        },
+        "32bit": {
+            "url": "https://archive.mozilla.org/pub/devedition/releases/111.0b6/win32/ja/Firefox%20Setup%20111.0b6.exe#/dl.7z",
+            "hash": "sha512:208339d5f479393ecc390061f9a02ac26608eac0aea871461c2f61f237dd7b74ddbcdedfd074012b63dfdf25a942be33e760e297d605ad042cc3ab970a32cdc6"
+        }
+    },
+    "extract_dir": "core",
+    "bin": [
+        [
+            "firefox.exe",
+            "firefox-dev"
+        ],
+        [
+            "firefox.exe",
+            "firefox-developer"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "firefox.exe",
+            "Firefox Developer Edition"
+        ]
+    ],
+    "checkver": {
+        "url": "https://aus5.mozilla.org/update/6/Firefox/78.0/_/WINNT_x86_64-msvc-x64/ja/aurora/_/_/_/_/update.xml",
+        "xpath": "/updates/update/patch/@URL",
+        "regex": "devedition-([\\db.]+)-"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://archive.mozilla.org/pub/devedition/releases/$version/win64/ja/Firefox%20Setup%20$version.exe#/dl.7z",
+                "hash": {
+                    "url": "https://archive.mozilla.org/pub/devedition/releases/$version/SHA512SUMS",
+                    "regex": "$sha512\\s+win64/ja/$basename"
+                }
+            },
+            "32bit": {
+                "url": "https://archive.mozilla.org/pub/devedition/releases/$version/win32/ja/Firefox%20Setup%20$version.exe#/dl.7z",
+                "hash": {
+                    "url": "https://archive.mozilla.org/pub/devedition/releases/$version/SHA512SUMS",
+                    "regex": "$sha512\\s+win32/ja/$basename"
+                }
+            }
+        }
+    }
+}

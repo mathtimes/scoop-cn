@@ -1,0 +1,27 @@
+{
+    "version": "7884",
+    "description": "Chromium's certificate revocation list",
+    "homepage": "https://www.chromium.org/Home/chromium-security/crlsets/",
+    "license": "BSD-3-Clause",
+    "url": "https://www.google.com/dl/release2/chrome_component/acnomvrxos4gsgx2q7ksznc2npfa_7884/hfnkpimlhhgieaddgfemjhofmfblmnib_7884_all_lupgh4bfl7inthqjmkand7w2ga.crx3",
+    "hash": "1822f64abdc1377046d2608d0ff4ca2fd0e9a2cfacdfad41afaff91f8ba57f7c",
+    "installer": {
+        "script": [
+            "$dest = \"$dir\\CertificateRevocation\"",
+            "Expand-7zipArchive \"$dir\\$fname\" $dest -Removal",
+            "Set-Content \"$dest\\manifest.fingerprint\" \"1.$($manifest.hash)\" -NoNewline"
+        ]
+    },
+    "checkver": {
+        "script": [
+            "$url = 'https://clients2.google.com/service/update2/crx?x=id%3Dhfnkpimlhhgieaddgfemjhofmfblmnib%26v%3D%26uc%26acceptformat%3Dcrx3'",
+            "$cont = Invoke-RestMethod -UseBasicParsing -Method Get -Headers @{'Accept-Encoding'='gzip'} -MaximumRedirection 0 -Uri $url",
+            "$cont = $cont.gupdate.app.updatecheck",
+            "Write-Output ('version:\"' + $cont.version + '\"') ('url:\"' + $cont.codebase + '\"')"
+        ],
+        "regex": "version:\"(\\d+)\"\\surl:\"(?:https?://.+/(?<urlone>.+)/(?<basename>.+)\\.crx3)\""
+    },
+    "autoupdate": {
+        "url": "https://www.google.com/dl/release2/chrome_component/$matchUrlone/$matchBasename.crx3"
+    }
+}

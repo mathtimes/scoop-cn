@@ -1,19 +1,23 @@
 {
-    "version": "2023.02.17",
-    "description": "A youtube-dl fork with additional features and fixes.",
-    "homepage": "https://github.com/yt-dlp/yt-dlp",
+    "version": "2023.02.28.43044",
+    "description": "Daily builds of yt-dlp by github.com/ytdl-patched. Do not request support for these builds.",
+    "homepage": "https://github.com/ytdl-patched/yt-dlp",
     "license": "Unlicense",
     "suggest": {
-        "ffmpeg": "ffmpeg"
+        "ffmpeg": [
+            "scoop-alts/ffmpeg-shared-nightly",
+            "ffmpeg-yt-dlp",
+            "ffmpeg"
+        ]
     },
     "architecture": {
         "64bit": {
-            "url": "https://ghproxy.com/github.com/yt-dlp/yt-dlp/releases/download/2023.02.17/yt-dlp.exe",
-            "hash": "sha512:14d0735aeaf4864fc0734a9621ca1f37a743f3cbe0037b0c389d0c271d2f53deae6fd692a40d7c6c1745e703ac3d6a6a863ec202fe5d9427c5dcc84d143614ea"
+            "url": "https://ghproxy.com/github.com/ytdl-patched/yt-dlp/releases/download/2023.02.28.43044/yt-dlp.exe",
+            "hash": "sha512:06059fb739d49dd8c7a6b60619f71934451f076302101de141ae85cc974ec314f51016fc0d37085dcfa40df148fae3719c80f1330f17459ac1d1a7707f06a550"
         },
         "32bit": {
-            "url": "https://ghproxy.com/github.com/yt-dlp/yt-dlp/releases/download/2023.02.17/yt-dlp_x86.exe#/yt-dlp.exe",
-            "hash": "sha512:001d6a492bf0604201c0911946db065edbf3f04975bd726cb54246e15388adf1dd0c2ee8294e16e36b3cf02db1d9ec99b87ffbdde10dc81688c8d5295a06913a"
+            "url": "https://ghproxy.com/github.com/ytdl-patched/yt-dlp/releases/download/2023.02.28.43044/yt-dlp_x86.exe#/yt-dlp.exe",
+            "hash": "sha512:68d68c0607fb6a3a160c772915933ff5a2bd50a0a754a1460aea8bc2af2a317b054162971523201e57c3f94d963e994e3a66d6ac081110056d5752bdec9dc736"
         }
     },
     "bin": "yt-dlp.exe",
@@ -26,10 +30,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://ghproxy.com/github.com/yt-dlp/yt-dlp/releases/download/$version/yt-dlp.exe"
+                "url": "https://ghproxy.com/github.com/ytdl-patched/yt-dlp/releases/download/$version/yt-dlp.exe"
             },
             "32bit": {
-                "url": "https://ghproxy.com/github.com/yt-dlp/yt-dlp/releases/download/$version/yt-dlp_x86.exe#/yt-dlp.exe"
+                "url": "https://ghproxy.com/github.com/ytdl-patched/yt-dlp/releases/download/$version/yt-dlp_x86.exe#/yt-dlp.exe"
             }
         },
         "hash": {

@@ -1,30 +1,22 @@
 {
     "version": "6.29",
-    "description": "An archiver which provides fast speed and convenient features (last version with no ads)",
-    "homepage": "https://www.bandisoft.com/bandizip/old/6/",
+    "description": "Yet another typical ZIP archiver",
+    "homepage": "http://www.bandisoft.com/bandizip/",
     "license": {
         "identifier": "Freeware",
         "url": "https://en.bandisoft.com/bandizip/eula/"
     },
-    "url": "https://www.bandisoft.com/bandizip/dl.php?old-portable#/BANDIZIP6-PORTABLE.ZIP",
-    "hash": "fb3f9db5e0a93aeca35f975cb54893bbc46eecedecf4d9b1088dbb1c378569b1",
-    "architecture": {
-        "64bit": {
-            "pre_install": [
-                "Rename-Item \"$dir\\Bandizip64.exe\" 'Bandizip.exe'",
-                "Remove-Item \"$dir\\Bandizip32.exe\"",
-                "if (!(Test-Path \"$persist_dir\\Bandizip.ini\")) { New-Item \"$dir\\Bandizip.ini\" -ItemType File | Out-Null }"
-
-            ]
-        },
-        "32bit": {
-            "pre_install": [
-                "Rename-Item \"$dir\\Bandizip32.exe\" 'Bandizip.exe'",
-                "Remove-Item \"$dir\\Bandizip64.exe\"",
-                "if (!(Test-Path \"$persist_dir\\Bandizip.ini\")) { New-Item \"$dir\\Bandizip.ini\" -ItemType File | Out-Null }"
-
-            ]
-        }
+    "url": "https://en.bandisoft.com/bandizip/dl.php?old#/setup.exe",
+    "hash": "37d68f273d0479adec08db3a75bd229c6fad121894ae9bd456fedd8b5f2d2ede",
+    "installer": {
+        "script": [
+            "Start-Process -Wait -Verb RunAs \"$dir\\setup.exe\" -ArgumentList @('/D:\"'+$dir+'\"', '/S')"
+        ]
+    },
+    "uninstaller": {
+        "script": [
+            "Start-Process -Wait \"$dir\\Uninstall.exe\""
+        ]
     },
     "bin": "Bandizip.exe",
     "shortcuts": [
@@ -33,5 +25,12 @@
             "Bandizip"
         ]
     ],
-    "persist": "Bandizip.ini"
+    "persist": "Bandizip.ini",
+    "checkver": {
+        "url": "https://en.bandisoft.com/bandizip/old/6/",
+        "regex": ">Download Bandizip v([\\d.]+)</a>"
+    },
+    "autoupdate": {
+        "url": "https://en.bandisoft.com/bandizip/dl.php?old#/setup.exe"
+    }
 }

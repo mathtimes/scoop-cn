@@ -1,35 +1,23 @@
 {
-    "version": "23.2.5",
-    "description": "Plain-text notepad and todo-list manager with markdown support and Nextcloud / ownCloud integration",
     "homepage": "https://www.qownnotes.org/",
+    "description": "QOwnNotes is a plain-text file notepad and todo-list manager with markdown support and ownCloud / Nextcloud integration.",
     "license": "GPL-2.0-only",
-    "architecture": {
-        "64bit": {
-            "url": "https://ghproxy.com/github.com/pbek/QOwnNotes/releases/download/v23.2.5/QOwnNotes.zip",
-            "hash": "67294f46a1e8d591f228df8771b5d82417cdb001968669de3fb94a297e672c55"
-        }
-    },
-    "bin": [
-        [
-            "QOwnNotesPortable.bat",
-            "QOwnNotes"
-        ]
-    ],
+    "version": "5104",
+    "url": "https://ghproxy.com/github.com/pbek/QOwnNotes/releases/download/windows-b5104/QOwnNotes.zip",
+    "hash": "9de54fc3e04da768d4128b73cfab0f23384d0803237a78aba75034ebc3515a31",
+    "bin": "QOwnNotes.exe",
     "shortcuts": [
         [
-            "QOwnNotesPortable.bat",
-            "QOwnNotes"
+            "QOwnNotes.exe",
+            "QOwnNotes",
+            "--portable"
         ]
     ],
-    "persist": "Data",
     "checkver": {
-        "github": "https://github.com/pbek/QOwnNotes"
+        "url": "https://github.com/pbek/QOwnNotes/releases",
+        "regex": "windows-b(\\d+)"
     },
     "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://ghproxy.com/github.com/pbek/QOwnNotes/releases/download/v$version/QOwnNotes.zip"
-            }
-        }
+        "url": "https://ghproxy.com/github.com/pbek/QOwnNotes/releases/download/windows-b$version/QOwnNotes.zip"
     }
 }

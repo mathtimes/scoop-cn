@@ -1,5 +1,5 @@
 {
-    "version": "0.11.0-dev.1797",
+    "version": "0.11.0-dev.1817+f6c934677",
     "description": "General-purpose programming language designed for robustness, optimality, and maintainability.",
     "homepage": "https://ziglang.org/",
     "license": "MIT",
@@ -8,27 +8,35 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://ziglang.org/builds/zig-windows-x86_64-0.11.0-dev.1797+d3c9bfada.zip",
-            "hash": "cb549e56c30c853da0c5641db51f31a2e8f76b8977942a100e89c483c42987a0",
-            "extract_dir": "zig-windows-x86_64-0.11.0-dev.1797+d3c9bfada"
+            "url": "https://ziglang.org/builds/zig-windows-x86_64-0.11.0-dev.1817+f6c934677.zip",
+            "hash": "da0c16aaf9778ae4f9bf7cbfaf754bda90f7d69e842a8eb65255fe8609aec484",
+            "extract_dir": "zig-windows-x86_64-0.11.0-dev.1817+f6c934677"
         }
     },
-    "bin": "zig.exe",
+    "bin": [
+        "zig.exe",
+        [
+            "zig.exe",
+            "zig-dev",
+            ""
+        ]
+    ],
     "checkver": {
         "url": "https://ziglang.org/download/index.json",
-        "jsonpath": "$.master.version",
-        "regex": "(?<version>[\\w._-]+)\\+(?<commit>[0-9a-f]+)"
+        "jp": "$.master.version"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://ziglang.org/builds/zig-windows-x86_64-$matchVersion+$matchCommit.zip",
-                "extract_dir": "zig-windows-x86_64-$matchVersion+$matchCommit"
+                "hash": {
+                    "mode": "json",
+                    "url": "https://ziglang.org/download/index.json",
+                    "jp": "$.master.x86_64-windows.shasum"
+                },
+                "url": "https://ziglang.org/builds/zig-windows-x86_64-$version.zip",
+                "extract_dir": "zig-windows-x86_64-$version"
             }
-        },
-        "hash": {
-            "url": "https://ziglang.org/download/index.json",
-            "jsonpath": "$.master.x86_64-windows.shasum"
         }
-    }
+    },
+    "post_install": "if (Test-Path \"$(appdir zig)\\current\\zig.exe\") { scoop reset zig }"
 }

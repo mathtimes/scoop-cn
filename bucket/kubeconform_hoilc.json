@@ -1,0 +1,34 @@
+{
+  "version": "0.6.0",
+  "description": "A Kubernetes manifests validator, with support for Custom Resources.",
+  "homepage": "https://github.com/yannh/kubeconform",
+  "license": {
+    "identifier": "Apache-2.0",
+    "url": "https://github.com/yannh/kubeconform/blob/master/LICENSE"
+  },
+  "architecture": {
+    "64bit": {
+      "url": "https://ghproxy.com/https://ghproxy.com/github.com/yannh/kubeconform/releases/download/v0.6.0/kubeconform-windows-amd64.zip",
+      "hash": "fee5e36d233be70cd490d848d1a3ebc706dc9c8cd76cb7faa7ddf8a48dbf9400"
+    },
+    "32bit": {
+      "url": "https://ghproxy.com/https://ghproxy.com/github.com/yannh/kubeconform/releases/download/v0.6.0/kubeconform-windows-386.zip",
+      "hash": "2b8dcc3649ce0da4b16d8e69e40fa6d68a1a9425b27c21d15cd12ba26ed1964a"
+    }
+  },
+  "bin": "kubeconform.exe",
+  "checkver": "github",
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://ghproxy.com/https://ghproxy.com/github.com/yannh/kubeconform/releases/download/v$version/kubeconform-windows-amd64.zip"
+      },
+      "32bit": {
+        "url": "https://ghproxy.com/https://ghproxy.com/github.com/yannh/kubeconform/releases/download/v$version/kubeconform-windows-386.zip"
+      }
+    },
+    "hash": {
+      "url": "$baseurl/CHECKSUMS"
+    }
+  }
+}

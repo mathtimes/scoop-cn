@@ -1,0 +1,22 @@
+{
+    "version": "1.40.1",
+    "architecture": {
+        "32bit": {
+            "url": "https://ghproxy.com/github.com/DelineaXPM/dsv-cli/releases/download/v1.40.1/dsv-win-x86.zip",
+            "bin": [
+                "dsv.exe"
+            ],
+            "hash": "6a27b3773b4f5096434a2889cee5725a88fee484454ce10143a57a9b8f4b9dfa"
+        },
+        "64bit": {
+            "url": "https://ghproxy.com/github.com/DelineaXPM/dsv-cli/releases/download/v1.40.1/dsv-win-x64.zip",
+            "bin": [
+                "dsv.exe"
+            ],
+            "hash": "78c0bc94c7d72d19c55b3b6b025506f53937c44e1df2867989b9d184f72fadf1"
+        }
+    },
+    "homepage": "https://github.com/DelineaXPM/dsv-cli",
+    "license": "Apache-2.0 license",
+    "description": "⚡ A cross-platform swiss army knife tool for DevOps secrets management from Delinea."
+}

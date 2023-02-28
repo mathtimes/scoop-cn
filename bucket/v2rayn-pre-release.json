@@ -1,0 +1,27 @@
+{
+    "version": "6.14",
+    "description": "GUI client based on v2ray core",
+    "homepage": "https://github.com/2dust/v2rayN",
+    "license": "GPL-3.0-only",
+    "url": "https://ghproxy.com/github.com/2dust/v2rayN/releases/download/6.14/v2rayN.7z",
+    "hash": "0c614ef15095b6de41017406890f7d2b76d12da0ce4fb4206f00e5a09e83031e",
+    "extract_dir": "v2rayN",
+    "bin": "v2rayN.exe",
+    "shortcuts": [
+        [
+            "v2rayN.exe",
+            "v2rayN pre"
+        ]
+    ],
+    "persist": [
+        "guiConfigs",
+        "bin"
+    ],
+    "checkver": {
+        "url": "https://github.com/2dust/v2rayN/tags",
+        "regex": "([\\d.]+)</a></h2>"
+    },
+    "autoupdate": {
+        "url": "https://ghproxy.com/github.com/2dust/v2rayN/releases/download/$version/v2rayN.7z"
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "version": "1.2.0",
+    "architecture": {
+        "32bit": {
+            "url": "https://ghproxy.com/github.com/mcornick/mpg/releases/download/v1.2.0/mpg_1.2.0_windows_386.zip",
+            "bin": [
+                "mpg.exe"
+            ],
+            "hash": "c42d4d2752abb1765a3fdaa74b926341d131c9f5a3b0d6e16062c56202a4cd94"
+        },
+        "64bit": {
+            "url": "https://ghproxy.com/github.com/mcornick/mpg/releases/download/v1.2.0/mpg_1.2.0_windows_amd64.zip",
+            "bin": [
+                "mpg.exe"
+            ],
+            "hash": "4685fb4d96ee072b17110853c6706f916e82518564720c5a278e79780ded12f9"
+        }
+    },
+    "homepage": "https://github.com/mcornick/mpg",
+    "license": "MIT",
+    "description": "Mark's Password Generator"
+}

@@ -1,0 +1,22 @@
+{
+    "version": "1.7.38",
+    "architecture": {
+        "32bit": {
+            "url": "https://ghproxy.com/github.com/ddddddO/gtree/releases/download/v1.7.38/gtree_windows_i386.zip",
+            "bin": [
+                "gtree.exe"
+            ],
+            "hash": "7409134c76c95adca26a11a0b0e2f6d801d6846008bd53c28b8199ba7181780a"
+        },
+        "64bit": {
+            "url": "https://ghproxy.com/github.com/ddddddO/gtree/releases/download/v1.7.38/gtree_windows_x86_64.zip",
+            "bin": [
+                "gtree.exe"
+            ],
+            "hash": "cb9f03e904e9c829b88ac8f6e5b20ce17edda259866ce72fa0322d6c8cc0fae9"
+        }
+    },
+    "homepage": "https://github.com/ddddddO/gtree",
+    "license": "BSD-2-Clause",
+    "description": "Output tree🌳 or Make directories(files)📁 from Markdown."
+}
