@@ -60,23 +60,23 @@ jobs:
         path: 'scoop-games'
     - name: Update buckets
       run: |
-        rm -r bucket scripts
+        rm -rf bucket scripts
         mkdir -p bucket scripts
-        cp -r Main/bucket/*               ./bucket
-        cp -r Main/scripts/*              ./scripts
-        cp -r Extras/bucket/*             ./bucket
-        cp -r Extras/scripts/*            ./scripts
-        cp -r Versions/bucket/*           ./bucket
-        cp -r Versions/scripts/*          ./scripts
-        cp -r scoop-nirsoft/bucket/*      ./bucket
-        cp -r ScoopMaster/bucket/*        ./bucket
-        cp -r ScoopMaster/scripts/*       ./scripts
-        cp -r scoop-nerd-fonts/bucket/*   ./bucket
-        cp -r Nonportable/bucket/*        ./bucket
-        cp -r Nonportable/scripts/*       ./scripts
-        cp -r Java/bucket/*               ./bucket
-        cp -r scoop-games/bucket/*        ./bucket
-        rm -r Main Extras Versions scoop-nirsoft ScoopMaster scoop-nerd-fonts Nonportable Java scoop-games
+        \cp -rf Main/bucket/*               ./bucket
+        \cp -rf Main/scripts/*              ./scripts
+        \cp -rf Extras/bucket/*             ./bucket
+        \cp -rf Extras/scripts/*            ./scripts
+        \cp -rf Versions/bucket/*           ./bucket
+        \cp -rf Versions/scripts/*          ./scripts
+        \cp -rf scoop-nirsoft/bucket/*      ./bucket
+        \cp -rf ScoopMaster/bucket/*        ./bucket
+        \cp -rf ScoopMaster/scripts/*       ./scripts
+        \cp -rf scoop-nerd-fonts/bucket/*   ./bucket
+        \cp -rf Nonportable/bucket/*        ./bucket
+        \cp -rf Nonportable/scripts/*       ./scripts
+        \cp -rf Java/bucket/*               ./bucket
+        \cp -rf scoop-games/bucket/*        ./bucket
+        rm -rf Main Extras Versions scoop-nirsoft ScoopMaster scoop-nerd-fonts Nonportable Java scoop-games
 
         # GitHub Release
         perl -pi -e 's/github\.com\/(.+)\/releases\/download/ghproxy\.com\/github\.com\/$1\/releases\/download/g' ./bucket/*.json
