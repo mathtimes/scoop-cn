@@ -1,5 +1,5 @@
 {
-    "version": "4.0-rc6",
+    "version": "rc6",
     "description": "A feature-packed, cross-platform game engine to create 2D and 3D games from a unified interface.",
     "homepage": "https://godotengine.org/",
     "license": "MIT",
@@ -25,17 +25,22 @@
         ]
     ],
     "checkver": {
-        "url": "https://godotengine.org/blog/pre-release/",
-        "regex": "Release candidate: Godot (?<ver>[\\d.]+) RC (?<rc>[\\d.]+)",
-        "replace": "${1}-rc${2}"
+        "script": [
+            "$WebResponse = Invoke-WebRequest('https://downloads.tuxfamily.org/godotengine/4.0/')",
+            "$links = $WebResponse.Links | Select-Object -Skip 1",
+            "$versions = $links | ForEach-Object { $_.href.Replace('/', '') }",
+            "$sortedVersions = $versions | Sort-Object {$_ -NotMatch 'pre-'}, {$_ -Replace '\\d*',''}, {[int]($_ -Replace '\\D*','')}",
+            "Write-Output $sortedVersions[-1]"
+        ],
+        "regex": "(\\S+)"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://downloads.tuxfamily.org/godotengine/$matchVer/rc$matchRc/Godot_v$version_win64.exe.zip"
+                "url": "https://downloads.tuxfamily.org/godotengine/4.0/$version/Godot_v4.0-$version_win64.exe.zip"
             },
             "32bit": {
-                "url": "https://downloads.tuxfamily.org/godotengine/$matchVer/rc$matchRc/Godot_v$version_win32.exe.zip"
+                "url": "https://downloads.tuxfamily.org/godotengine/4.0/$version/Godot_v4.0-$version_win32.exe.zip"
             }
         },
         "hash": {
