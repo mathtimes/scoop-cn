@@ -70,7 +70,6 @@ jobs:
         \cp -rf Versions/scripts/*          ./scripts
         \cp -rf scoop-nirsoft/bucket/*      ./bucket
         \cp -rf ScoopMaster/bucket/*        ./bucket
-        \cp -rf ScoopMaster/scripts/*       ./scripts
         \cp -rf scoop-nerd-fonts/bucket/*   ./bucket
         \cp -rf Nonportable/bucket/*        ./bucket
         \cp -rf Nonportable/scripts/*       ./scripts
