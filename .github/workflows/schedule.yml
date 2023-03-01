@@ -83,6 +83,7 @@ jobs:
         for file in $files; do 
             if [ ${file^^}x = ${current^^}x ]; then 
                 rm $file
+                file=
             fi
             current=$file
         done
