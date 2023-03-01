@@ -78,12 +78,13 @@ jobs:
         rm -rf Main Extras Versions scoop-nirsoft ScoopMaster scoop-nerd-fonts Nonportable Java scoop-games
         
         # remove repeat files
+        rm del_files
         files=`echo ./bucket/* | tr ' ' '\n' | sort -f`
         last=
         for file in $files; do 
             if [ ${file^^}x = ${last^^}x ]; then 
                 rm $file
-                echo ${file}\n >> rmfiles
+                echo ${file}\n >> del_files
             fi
             last=$file
         done
