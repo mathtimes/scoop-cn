@@ -3,7 +3,7 @@ on:
     branches:    
       - 'master'
   schedule:
-  - cron: '0 0 * * *'
+  - cron: '0 4,16 * * *'
 
 jobs:
   excavate:
@@ -76,7 +76,18 @@ jobs:
         \cp -rf Java/bucket/*               ./bucket
         \cp -rf scoop-games/bucket/*        ./bucket
         rm -rf Main Extras Versions scoop-nirsoft ScoopMaster scoop-nerd-fonts Nonportable Java scoop-games
-
+        
+        # remove repeat files
+        files=`echo ./bucket/* | tr ' ' '\n' | sort -f`
+        current=
+        for file in $files; do 
+            if [ ${file^^}x = ${current^^}x ]; then 
+                rm ./bucket/$file
+            fi
+            current=$file
+        done
+        unset files current file
+        
         # GitHub Release
         perl -pi -e 's/github\.com\/(.+)\/releases\/download/ghproxy\.com\/github\.com\/$1\/releases\/download/g' ./bucket/*.json
 
