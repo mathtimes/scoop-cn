@@ -82,7 +82,7 @@ jobs:
         current=
         for file in $files; do 
             if [ ${file^^}x = ${current^^}x ]; then 
-                rm ./bucket/$file
+                rm $file
             fi
             current=$file
         done
