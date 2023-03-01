@@ -79,15 +79,15 @@ jobs:
         
         # remove repeat files
         files=`echo ./bucket/* | tr ' ' '\n' | sort -f`
-        current=
+        last=
         for file in $files; do 
-            if [ ${file^^}x = ${current^^}x ]; then 
+            if [ ${file^^}x = ${last^^}x ]; then 
                 rm $file
-                file=
+                echo ${file}\n >> rmfiles
             fi
-            current=$file
+            last=$file
         done
-        unset files current file
+        unset files last file
         
         # GitHub Release
         perl -pi -e 's/github\.com\/(.+)\/releases\/download/ghproxy\.com\/github\.com\/$1\/releases\/download/g' ./bucket/*.json
