@@ -26,5 +26,6 @@
         "url": "https://ghproxy.com/https://ghproxy.com/github.com/ShinjiruApp/Shinjiru/releases/download/v$version/Shinjiru.v$version.win64.zip"
       }
     }
-  }
+  },
+  "_from": "kkzzhizhou/scoop-apps"
 }

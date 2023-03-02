@@ -24,5 +24,6 @@
         "url": "https://ghproxy.com/https://ghproxy.com/github.com/hackjutsu/Lepton/releases/download/v$version/Lepton-$version-win.7z"
       }
     }
-  }
+  },
+  "_from": "kkzzhizhou/scoop-apps"
 }

@@ -11,5 +11,6 @@
   },
   "autoupdate": {
     "url": "https://ghproxy.com/https://ghproxy.com/github.com/ninja-build/ninja/releases/download/v$version/ninja-win.zip"
-  }
+  },
+  "_from": "kkzzhizhou/scoop-apps"
 }

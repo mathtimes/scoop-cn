@@ -27,5 +27,6 @@
   "checkver": "github",
   "autoupdate": {
     "url": "https://ghproxy.com/https://ghproxy.com/github.com/namazso/OpenHashTab/releases/download/v$version/OpenHashTab_setup_user.exe"
-  }
+  },
+  "_from": "kkzzhizhou/scoop-apps"
 }

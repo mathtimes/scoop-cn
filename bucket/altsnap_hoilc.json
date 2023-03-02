@@ -30,5 +30,6 @@
         "url": "https://ghproxy.com/https://ghproxy.com/github.com/RamonUnch/AltSnap/releases/download/$version/AltSnap$versionbin.zip"
       }
     }
-  }
+  },
+  "_from": "kkzzhizhou/scoop-apps"
 }

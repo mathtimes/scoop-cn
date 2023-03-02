@@ -56,5 +56,6 @@
   },
   "autoupdate": {
     "url": "https://ghproxy.com/https://ghproxy.com/github.com/font-store/NikaFont/releases/download/v$version/nika.v$version.zip"
-  }
+  },
+  "_from": "kkzzhizhou/scoop-apps"
 }

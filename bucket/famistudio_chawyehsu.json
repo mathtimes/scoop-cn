@@ -15,5 +15,6 @@
   "checkver": "github",
   "autoupdate": {
     "url": "https://ghproxy.com/https://ghproxy.com/github.com/BleuBleu/FamiStudio/releases/download/$version/FamiStudio$majorVersion$minorVersion$patchVersion-WinPortableExe.zip"
-  }
+  },
+  "_from": "kkzzhizhou/scoop-apps"
 }

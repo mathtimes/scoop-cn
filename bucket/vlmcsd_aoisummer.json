@@ -38,5 +38,6 @@
   },
   "autoupdate": {
     "url": "https://ghproxy.com/https://ghproxy.com/github.com/Wind4/vlmcsd/releases/download/svn$version/binaries.tar.gz"
-  }
+  },
+  "_from": "kkzzhizhou/scoop-apps"
 }
