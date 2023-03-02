@@ -83,8 +83,8 @@ jobs:
         last=
         for file in $files; do 
             if [ ${file^^}x = ${last^^}x ]; then 
-                rm $file
-                echo ${file}\n >> del_files
+                # rm $file
+                echo $file >> del_files
             fi
             last=$file
         done
