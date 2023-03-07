@@ -4,7 +4,7 @@
     "homepage": "https://revolver.info/",
     "license": "Proprietary",
     "url": "https://download.revolver.info/r8/12/5/win/revolveroffice8125.exe",
-    "hash": "b63e61244a1f0705da053dad1c99fefec503e405a9b075f9227742b53545fb3c",
+    "hash": "4d05685f9210a907a143f0603d935b18ffe14b56d9c476af50c78108e7992d81",
     "innosetup": true,
     "bin": "Revolver Office.exe",
     "shortcuts": [
