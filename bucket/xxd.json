@@ -1,12 +1,12 @@
 {
-    "version": "4415343040",
+    "version": "4419039192",
     "description": "A hexdump utility by Juergen Weigert",
     "homepage": "https://github.com/ckormanyos/xxd",
     "license": "Vim,GPL-2.0-only",
     "architecture": {
         "64bit": {
             "url": "https://nightly.link/ckormanyos/xxd/workflows/xxd/main/xxd-win64-msvc.zip",
-            "hash": "37904a07536628a1bf15f3eadc152bcccaa18c689c0ce3783eaaaa2c1d21182f"
+            "hash": "c72132e98777ae0860ba9083d67f52359f564157fcee8e908753c764debdf08f"
         }
     },
     "bin": "xxd.exe",
