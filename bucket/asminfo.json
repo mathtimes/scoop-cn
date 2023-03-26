@@ -1,7 +1,11 @@
 {
-    "url":  "https://ghproxy.com/github.com/wangzq/scoop-files/raw/master/misc/AssemblyInfo.zip",
-    "version": "2.1.0.0",
-    "bin": [
-        ["AssemblyInformation64.exe", "asminfo", ""]
-    ]
+ "bin": [
+  [
+   "AssemblyInformation64.exe",
+   "asminfo",
+   ""
+  ]
+ ],
+ "url": "https://ghproxy.com/github.com/wangzq/scoop-files/raw/master/misc/AssemblyInfo.zip",
+ "version": "2.1.0.0"
 }
