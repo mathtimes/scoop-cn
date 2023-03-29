@@ -1,0 +1,7 @@
+{
+  "version": "4.02",
+  "url": "http://ftp.vector.co.jp/53/91/2331/keyswap.zip",
+  "bin": [
+    "keyswap/KeySwap.exe"
+  ]
+}
