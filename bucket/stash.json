@@ -1,5 +1,5 @@
 {
-    "version": "0.20.0",
+    "version": "0.20.1",
     "description": "An organizer for your porn.",
     "homepage": "https://stashapp.cc",
     "license": "AGPL-3.0-only",
@@ -9,25 +9,16 @@
             "ffmpeg-nightly"
         ]
     },
-    "url": "https://ghproxy.com/github.com/stashapp/stash/releases/download/v0.20.0/stash-win.exe",
-    "hash": "d8ede74419684ca1e6e1f7a2b83d66947276442e981758814403068ce88440b5",
-    "bin": [
-        [
-            "stash-win.exe",
-            "stash-win",
-            "-c \"$dir\\config\\config.yml\""
-        ],
-        [
-            "stash-win.exe",
-            "stash",
-            "-c \"$dir\\config\\config.yml\""
-        ]
-    ],
-    "persist": "config",
+    "url": "https://ghproxy.com/github.com/stashapp/stash/releases/download/v0.20.1/stash-win.exe",
+    "hash": "sha1:89bdbb7ce461e7d372269750c25d90469876bcec",
+    "bin": "stash-win.exe",
     "checkver": {
         "github": "https://github.com/stashapp/stash"
     },
     "autoupdate": {
-        "url": "https://ghproxy.com/github.com/stashapp/stash/releases/download/v$version/stash-win.exe"
+        "url": "https://ghproxy.com/github.com/stashapp/stash/releases/download/v$version/stash-win.exe",
+        "hash": {
+            "url": "$baseurl/CHECKSUMS_SHA1"
+        }
     }
 }
