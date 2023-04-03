@@ -1,0 +1,46 @@
+{
+    "version": "1680482178",
+    "description": "An open-source remote desktop software, written in Rust.",
+    "homepage": "https://github.com/rustdesk/rustdesk",
+    "license": "AGPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://ghproxy.com/github.com/rustdesk/rustdesk/releases/download/nightly/rustdesk-1.2.0-x86_64-pc-windows-msvc.exe",
+            "hash": "5b456763f642b7e67b6fd5babc50d572b00a0e26eaa092c18ff4fcdccfb8d41b"
+        },
+        "32bit": {
+            "url": "https://ghproxy.com/github.com/rustdesk/rustdesk/releases/download/nightly/rustdesk-1.2.0-i686-pc-windows-msvc-sciter.exe",
+            "hash": "748b2747a13732920a3154e2a75e5a7b2a989e4af765706e754cffb81c0527d2"
+        }
+    },
+    "shortcuts": [
+        [
+            "RustDesk.exe",
+            "RustDesk"
+        ]
+    ],
+    "pre_install": "Get-ChildItem \"$dir\" 'rustdesk-*.exe' | Select-Object -First 1 | Rename-Item -NewName 'RustDesk.exe'",
+    "checkver": {
+        "script": [
+            "try {",
+            "    $api = Invoke-RestMethod 'https://api.github.com/repositories/299354207/releases/tags/nightly'",
+            "    foreach ($name in $api.assets.name) { if ($name -clike '*-x86_64-pc-windows-msvc.exe') { $asset = $name; break } }",
+            "    (Get-Date $api.assets[0].updated_at -UFormat %s), $asset -join ' '",
+            "}",
+            "catch {",
+            "    ''",
+            "}"
+        ],
+        "regex": "\\A(\\d+) rustdesk-(?<release>[\\d.-]+)-x86_64-pc-windows-msvc.exe\\Z"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://ghproxy.com/github.com/rustdesk/rustdesk/releases/download/nightly/rustdesk-$matchRelease-x86_64-pc-windows-msvc.exe"
+            },
+            "32bit": {
+                "url": "https://ghproxy.com/github.com/rustdesk/rustdesk/releases/download/nightly/rustdesk-$matchRelease-i686-pc-windows-msvc-sciter.exe"
+            }
+        }
+    }
+}

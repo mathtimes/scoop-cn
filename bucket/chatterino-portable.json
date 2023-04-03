@@ -1,12 +1,12 @@
 {
-    "version": "4589183233",
+    "version": "4590169353",
     "description": "Chat client for https://twitch.tv",
     "homepage": "https://github.com/Chatterino/chatterino2",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://ghproxy.com/https://ghproxy.com/github.com/Chatterino/chatterino2/releases/download/nightly-build/chatterino-windows-x86-64.zip",
-            "hash": "c80b77c94ce27c6cc4c7b1e093d0f2d49a8e90edd37af6e68f76c37780cb0dc3",
+            "url": "https://ghproxy.com/github.com/Chatterino/chatterino2/releases/download/nightly-build/chatterino-windows-x86-64.zip",
+            "hash": "1fbb5d9780ad5fd4b5d759f62fae0761ac1253eb703ffc870af9a5ff08b65abb",
             "extract_dir": "Chatterino2",
             "pre_install": [
                 "Get-ChildItem \"$dir\\chatterino.exe\" | Rename-Item -NewName { $_.name.Replace('o', 'o-portable') }",
@@ -34,9 +34,8 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://ghproxy.com/https://ghproxy.com/github.com/Chatterino/chatterino2/releases/download/nightly-build/chatterino-windows-x86-64.zip"
+                "url": "https://ghproxy.com/github.com/Chatterino/chatterino2/releases/download/nightly-build/chatterino-windows-x86-64.zip"
             }
         }
-    },
-    "_from": "okibcn/ScoopMaster"
+    }
 }
