@@ -1,5 +1,6 @@
 (2).json
 ./bucket/activemq-artemis.json
+./bucket/air.json
 ./bucket/alpinewsl.json
 ./bucket/autohotkey.json
 ./bucket/baregrep.json
