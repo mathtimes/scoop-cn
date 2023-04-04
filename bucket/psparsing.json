@@ -1,5 +1,5 @@
 {
- "depends": "fsharp.core",
- "url": "https://ghproxy.com/github.com/wangzq/scoop-files/raw/master/psparsing/psparsing.zip",
- "version": "1.0"
+    "url": "https://ghproxy.com/github.com/wangzq/scoop-files/raw/master/psparsing/psparsing.zip",
+    "version": "1.0",
+    "depends": "fsharp.core"
 }
